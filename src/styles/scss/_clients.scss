@@ -1,0 +1,239 @@
+/***
+
+====================================================================
+    Clients Section
+====================================================================
+
+***/
+
+.clients-section {
+  position: relative;
+  padding: 50px 0;
+  .carousel-outer {
+    margin: 0 -44px;
+  }
+  .clients-carousel{
+    padding-bottom: 0;
+  }
+  .anim-icons {
+    .image-1 {
+      position: absolute;
+      top: -220px;
+      left: calc(50% - 647px);
+    }
+  }
+  .sec-title {
+    .text {
+      color: var(--theme-color-dark);
+      font-size: 18px;
+      font-weight: 600;
+      position: relative;
+      text-transform: uppercase;
+      &:before {
+        border-top: 1px solid var(--theme-color4);
+        content: "";
+        position: absolute;
+        left: calc(50% + 116px);
+        width: 39.84%;
+        top: 16px;
+      }
+      &:after {
+        border-top: 1px solid var(--theme-color4);
+        content: "";
+        position: absolute;
+        right: calc(50% + 116px);
+        width: 39.84%;
+        top: 16px;
+      }
+      span {
+        background-color: var(--theme-color2);
+        color: var(--theme-color8);
+        display: inline-block;
+        font-size: 14px;
+        padding: 3px 31px 4px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+// Client Block
+.client-block {
+  .inner-box {
+    &:hover {
+      .image-box {
+        .image {
+          img {
+            opacity: .6;
+          }
+        }
+      }
+    }
+    .image-box {
+      .image {
+        text-align: center;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        img {
+          opacity: 1;
+          width: auto;
+          @include transition(all 300ms ease);
+        }
+      }
+    }
+  }
+}
+
+/***
+
+====================================================================
+    Clients Section Two
+====================================================================
+
+***/
+
+.clients-section-two {
+  position: relative;
+  padding: 130px 0;  
+  .anim-icons{
+    pointer-events: none;
+    .image-1{
+      position: absolute;
+      top: -10px;
+      right: 0;
+      z-index: -1;
+    }
+  }
+  .outer-box {
+    border-top: 1px solid var(--theme-color4);
+    border-left: 1px solid var(--theme-color4);
+  }
+  .sec-title {
+    margin-bottom: 50px;
+    .text {
+      color: var(--theme-color-white);
+      font-size: 20px;
+      font-weight: 700;
+    }
+  }
+}
+
+// Client Block
+.client-block-two {
+  border-right: 1px solid var(--theme-color4);
+  border-bottom: 1px solid var(--theme-color4);
+  .inner-box {
+    padding: 10px;
+    min-height: 174px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover {
+      .image-box {
+        .image {
+          img {
+            filter: invert(1) brightness(1);
+          }
+        }
+      }
+    }
+    .image-box {
+      .image {
+        text-align: center;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        img {
+          opacity: 1;
+          width: auto;
+          @include transition(all 300ms ease);
+        }
+      }
+    }
+  }
+}
+
+
+/***
+
+====================================================================
+    Clients Section Three
+====================================================================
+
+***/
+
+.clients-section-three {
+  position: relative;
+  &.style-two{
+    margin-top: -100px;
+  }
+  .outer-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    z-index: 9;
+    border: 1px solid var(--theme-color4);
+    background-color: #0a0a0a;
+    @include media-breakpoint-down(lg){
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  .sec-title {
+    padding: 35px;
+    min-width: 240px;
+    border-right: 1px solid var(--theme-color4);
+    margin-bottom: 0;
+    @include media-breakpoint-down(lg){
+      border: none;
+    }
+    .text {
+      color: var(--theme-color-white);
+      font-size: 20px;
+      font-weight: 700;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+  .clients-swiper{
+    padding-left: 50px;
+    padding-bottom: 0;
+    transition-timing-function: linear !important;
+    @include media-breakpoint-down(lg){
+      padding-left: 0;
+    }
+  }
+  // Client Block
+  .client-block-three {
+    .inner-box {
+      padding: 10px;
+      min-height: 128px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &:hover {
+        .image-box {
+          .image {
+            img {
+              opacity: .6;
+            }
+          }
+        }
+      }
+      .image-box {
+        .image {
+          text-align: center;
+          margin: 0;
+          display: flex;
+          justify-content: center;
+          img {
+            opacity: 1;
+            width: auto;
+            @include transition(all 300ms ease);
+          }
+        }
+      }
+    }
+  }
+}

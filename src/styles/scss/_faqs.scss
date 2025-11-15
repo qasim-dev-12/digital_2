@@ -1,0 +1,30 @@
+/*** 
+
+====================================================================
+    FAQ's Section
+====================================================================
+
+***/
+
+.faq-section {
+	position: relative;
+	padding: 120px 0 80px;
+    z-index: 99;
+    background-color: var(--theme-color3);
+    .bg-image{
+        z-index: -1;
+    }
+    .image-column{
+        margin-bottom: 50px;
+    }
+    .faq-column{
+        margin-bottom: 50px;
+        .inner-column {
+            position: relative;
+            margin-left: 80px;
+            @include media-breakpoint-down(lg){
+                margin-left: 0;
+            }
+        }
+    }    
+}
