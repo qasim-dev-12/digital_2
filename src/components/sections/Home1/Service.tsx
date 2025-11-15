@@ -50,6 +50,7 @@ function Service() {
             <div className="sec-title">
               <span className="sub-title"><img className="icon-img" src="assets/images/icons/sub-title-shape.png" alt="" />Services</span>
               <h2 className="title title-image anim-text-flip-move">
+                
                 We provide digital <br />services <span className="color1"><img className="shape-image-1" src="assets/images/icons/title-image.png" alt="" /> for you</span>
               </h2>
             </div>
@@ -70,8 +71,8 @@ function Service() {
                             </div>
                           </div>
                           <div className="content-box">
-                            <h4 className="title"><Link href="/page-service-details">Brand Identity Design</Link></h4>
-                            <div className="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</div>
+                            <h4 className="title"><Link href="/page-service-details">PPC Services</Link></h4>
+                            <div className="text">We run high-performing paid campaigns designed to generate instant traffic, quality leads, and measurable ROI.</div>
                           </div>
                         </div>
                       </div>
@@ -90,7 +91,8 @@ function Service() {
                           </div>
                           <div className="content-box">
                             <h4 className="title"><Link href="/page-service-details">Web Design & Development</Link></h4>
-                            <div className="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</div>
+                            <div className="text">We design and develop fast, modern, and responsive websites tailored to your brand and optimized for performance.
+</div>
                           </div>
                         </div>
                       </div>
@@ -109,7 +111,7 @@ function Service() {
                           </div>
                           <div className="content-box">
                             <h4 className="title"><Link href="/page-service-details">Digital Marketing</Link></h4>
-                            <div className="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</div>
+                            <div className="text">We create data-driven strategies that increase brand visibility, improve conversions, and accelerate your business growth.</div>
                           </div>
                         </div>
                       </div>
@@ -127,8 +129,66 @@ function Service() {
                             </div>
                           </div>
                           <div className="content-box">
-                            <h4 className="title"><Link href="/page-service-details">Digital Marketing</Link></h4>
-                            <div className="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</div>
+                            <h4 className="title"><Link href="/page-service-details">Social Media Marketing</Link></h4>
+                            <div className="text">We build engaging content and targeted campaigns that grow your audience and convert followers into loyal customers.</div>
+                          </div>
+                        </div>
+                      </div>
+                    </SwiperSlide>
+                     <SwiperSlide className="swiper-slide">
+                      <div className="service-block anim-fade-move" data-fade-from="left" data-delay="0.45">
+                        <div className="inner-box">
+                          <div className="image-box">
+                            <figure className="image">
+                              <img src="assets/images/resource/service1-3.jpg" alt="Image" />
+                              <img src="assets/images/resource/service1-3.jpg" alt="Image" />
+                            </figure>
+                            <div className="icon-box">
+                              <img className="icon-img" src="assets/images/icons/theme-icon3.png" alt="icon" />
+                            </div>
+                          </div>
+                          <div className="content-box">
+                            <h4 className="title"><Link href="/page-service-details">SEO Services</Link></h4>
+                            <div className="text">We optimize your website to rank higher on search engines, attract organic traffic, and improve long-term visibility..</div>
+                          </div>
+                        </div>
+                      </div>
+                    </SwiperSlide>
+                     <SwiperSlide className="swiper-slide">
+                      <div className="service-block anim-fade-move" data-fade-from="left" data-delay="0.45">
+                        <div className="inner-box">
+                          <div className="image-box">
+                            <figure className="image">
+                              <img src="assets/images/resource/service1-3.jpg" alt="Image" />
+                              <img src="assets/images/resource/service1-3.jpg" alt="Image" />
+                            </figure>
+                            <div className="icon-box">
+                              <img className="icon-img" src="assets/images/icons/theme-icon3.png" alt="icon" />
+                            </div>
+                          </div>
+                          <div className="content-box">
+                            <h4 className="title"><Link href="/page-service-details">Email Marketing</Link></h4>
+                            <div className="text">We craft personalized email sequences that nurture your audience, boost engagement, and increase repeat sales.</div>
+                          </div>
+                        </div>
+                      </div>
+                    </SwiperSlide>
+
+                     <SwiperSlide className="swiper-slide">
+                      <div className="service-block anim-fade-move" data-fade-from="left" data-delay="0.45">
+                        <div className="inner-box">
+                          <div className="image-box">
+                            <figure className="image">
+                              <img src="assets/images/resource/service1-3.jpg" alt="Image" />
+                              <img src="assets/images/resource/service1-3.jpg" alt="Image" />
+                            </figure>
+                            <div className="icon-box">
+                              <img className="icon-img" src="assets/images/icons/theme-icon3.png" alt="icon" />
+                            </div>
+                          </div>
+                          <div className="content-box">
+                            <h4 className="title"><Link href="/page-service-details">Mobile App Development</Link></h4>
+                            <div className="text">We create intuitive, high-quality mobile apps that enhance user experience and bring your ideas to life on iOS and Android.</div>
                           </div>
                         </div>
                       </div>

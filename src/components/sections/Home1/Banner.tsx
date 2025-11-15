@@ -19,8 +19,8 @@ export default function Section1() {
                   <div className="inner-box">
                     <div className="title-box">
                       <h1 className="title tm-split-text split-in-right">
-                        Designing the future,<img className="shape-image-2" src="assets/images/icons/shape-style3.png" alt="" /> <br />
-                        powering <span><img className="shape-image-1" src="assets/images/icons/shape-style2.png" alt="" /> your solutions</span>
+                        TRANSFORM REACH <img className="shape-image-2" src="assets/images/icons/shape-style3.png" alt="" /> <br />
+                           <span><img className="shape-image-1" src="assets/images/icons/shape-style2.png" alt="" /> INTO REVENUE.</span>
                       </h1>
                     </div>
                     <div className="image-box">

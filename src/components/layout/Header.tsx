@@ -20,7 +20,13 @@ const Header: React.FC<HeaderProps> = ({ handleOpen, handleRemove, searchToggle,
                         <div className="logo-box">
                             <div className="logo">
                                 <Link href="/">
-                                    <img src="assets/images/logo-2.png" alt="Logo" />
+                                <img 
+  src="assets/images/ST Logo new.png" 
+  alt="Logo"
+  width="160"
+  height="37"
+/>
+                                   
                                 </Link>
                             </div>
                         </div>

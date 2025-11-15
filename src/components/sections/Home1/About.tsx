@@ -25,8 +25,8 @@ export default function Section2() {
               Who we are
             </span>
             <h2 className="title anim-text-flip-move">
-              We deliver innovative ideas to elevate your digital agency{" "}
-              <span className="color1">and sharpen your brand</span>
+              We create impactful solutions to scale your digital growth {" "}
+              <span className="color1">and elevate the power of your brand</span>
             </h2>
           </div>
           <div className="row">
@@ -34,7 +34,7 @@ export default function Section2() {
               <div className="inner-colmun">
                 <div className="content-box">
                   <div className="text anim-fade-move">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim .
+                    Our approach blends innovation, research, and modern digital practices to help your brand grow stronger, smarter, and more visible in a competitive market.
                   </div>
                   <div className="user-info-box anim-fade-move">
                     <Link href="/page-about" className="theme-btn btn-style-four">
@@ -64,10 +64,10 @@ export default function Section2() {
                       <i className="icon flaticon-scribble"></i>
                     </div>
                     <div className="count-box">
-                      <span className="count-text"><CounterUp end={10} /></span>+
+                      <span className="count-text"><CounterUp end={15} /></span>+
                     </div>
                     <div className="text">
-                      Eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      years transforming brands with strategy.
                     </div>
                   </div>
                 </div>
