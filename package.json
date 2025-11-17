@@ -6,9 +6,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
     "lint": "next lint",
-    "sass": "sass --watch public/scss/style.scss:public/css/style.css"
+    "sass": "sass --watch public/scss/style.scss:public/css/style.css",
+    "start": "NODE_ENV=production node server.js"
   },
   "dependencies": {
     "animate.css": "^4.1.1",

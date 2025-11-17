@@ -30,7 +30,7 @@ export default function Section1() {
                           <Link href="/page-contact"><img src="assets/images/resource/customer1.png" alt="" /></Link>
                         </div>
                         <div className="count-outer">
-                          <div className="count-box"><span className="count-text"><CounterUp end={200} /></span>k</div>
+                          <div className="count-box"><span className="count-text"><CounterUp end={100} /></span>k</div>
                           <div className="count-title">satisfied <br />customers</div>
                         </div>
                       </div>

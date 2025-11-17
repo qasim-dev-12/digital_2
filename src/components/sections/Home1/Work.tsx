@@ -3,35 +3,36 @@ import React, { useEffect, useState } from "react";
 const skills = [
   {
     title: "Google",
-    icon: "https://img.icons8.com/color/512/google-logo.png",
+    icon: "https://img.icons8.com/fluency/96/google-logo.png",
     percent: "Smart search strategies that boost visibility.",
   },
   {
     title: "YouTube",
-    icon: "https://img.icons8.com/color/512/youtube-play.png",
+    icon: "https://img.icons8.com/fluency/96/youtube-play.png",
     percent: "High-impact video content that drives reach.",
   },
   {
     title: "LinkedIn",
-    icon: "https://img.icons8.com/color/512/linkedin.png",
+    icon: "https://img.icons8.com/fluency/96/linkedin-circled.png",
     percent: "Professional branding and targeted lead generation.",
   },
   {
     title: "Facebook",
-    icon: "https://img.icons8.com/color/512/facebook-new.png",
+    icon: "https://img.icons8.com/fluency/96/facebook-new.png",
     percent: "Data-driven campaigns that convert audiences.",
   },
   {
     title: "Instagram",
-    icon: "https://img.icons8.com/fluency/512/instagram-new.png",
+    icon: "https://img.icons8.com/fluency/96/instagram-new.png",
     percent: "Creative visuals that build strong engagement.",
   },
   {
     title: "Tiktok",
-    icon: "https://img.icons8.com/color/512/tiktok--v1.png",
+    icon: "https://img.icons8.com/fluency/96/tiktok.png",
     percent: "Short-form content that captures attention fast.",
   },
 ];
+
 
 
 
@@ -85,8 +86,8 @@ function WorkSection() {
   src={skill.icon}
   alt={skill.title}
   style={{
-    width: "40px",
-    height: "40px",
+    width: "50px",
+    height: "50px",
     objectFit: "contain",
     margin: "0 auto",
     display: "block"
