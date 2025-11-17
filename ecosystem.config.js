@@ -2,7 +2,7 @@ module.exports = {
   apps: [
     {
       name: 'digital', // The process name shown in pm2 list
-      script: 'server.ts', // Your custom Next.js server file
+      script: 'server.js', // Your custom Next.js server file
       exec_mode: 'cluster', // Enables multi-core usage (use "fork" if single instance)
       instances: 'max', // Start one instance per CPU core
       env: {
