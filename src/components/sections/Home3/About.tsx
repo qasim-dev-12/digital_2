@@ -13,8 +13,8 @@ import React from 'react';
                         <div className="outer-box">
                             <div className="sec-title">
                                 <span className="sub-title"><img className="icon-img" src="assets/images/icons/sub-title-shape.png" alt="Image"/>Who we are</span>
-                                <h2 className="title">We are dedicated to creating high-tech web experiences that beautifully unite <span className="color1">creativity and innovation</span></h2>
-                                <div className="text">Proin efficitur, mauris vel condimentum pulvinar, velit orci consectetur ligula, eget egestas magna mi ut arcu. Phasellus nec odio orci. Nunc id massa ante. Suspendisse sit amet neque euismod, convallis quam eget, dignissim massa. Aliquam blandit risus purus, in congue nunc venenatis id.</div>
+                                <h2 className="title">We are dedicated to empowering brands with digital experiences that blend<span className="color1">creativity and innovation</span></h2>
+                                <div className="text">We help brands grow through strategic design, smart technology, and impactful digital marketing. Our team blends creativity with data-driven thinking to deliver solutions that elevate your presence and drive long-term success.</div>
                             </div>
                             <div className="bottom-border"></div>
                             <div className="row">
