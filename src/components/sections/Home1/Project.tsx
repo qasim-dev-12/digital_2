@@ -29,8 +29,8 @@ function ProjectSection() {
                 <div className="image-box">
                   <figure className="image">
                     <Link href="/page-project-details">
-                      <img src="assets/images/resource/project1-1.jpg" alt="Image" />
-                      <img src="assets/images/resource/project1-1.jpg" alt="Image" />
+                      <img src="assets/images/resource/01 Real Estate.png" alt="Image" />
+                      <img src="assets/images/resource/01 Real Estate.png" alt="Image" />
                     </Link>
                   </figure>
                 </div>
@@ -45,8 +45,8 @@ function ProjectSection() {
                 <div className="image-box">
                   <figure className="image">
                     <Link href="/page-project-details">
-                      <img src="assets/images/resource/project1-2.jpg" alt="Image" />
-                      <img src="assets/images/resource/project1-2.jpg" alt="Image" />
+                      <img src="assets/images/resource/02 Automotive.png" alt="Image" />
+                      <img src="assets/images/resource/02 Automotive.png" alt="Image" />
                     </Link>
                   </figure>
                 </div>
@@ -61,8 +61,8 @@ function ProjectSection() {
                 <div className="image-box">
                   <figure className="image">
                     <Link href="/page-project-details">
-                      <img src="assets/images/resource/project1-3.jpg" alt="Image" />
-                      <img src="assets/images/resource/project1-3.jpg" alt="Image" />
+                      <img src="assets/images/resource/03 Healthcare.png" alt="Image" />
+                      <img src="assets/images/resource/03 Healthcare.png" alt="Image" />
                     </Link>
                   </figure>
                 </div>
@@ -77,8 +77,8 @@ function ProjectSection() {
                 <div className="image-box">
                   <figure className="image">
                     <Link href="/page-project-details">
-                      <img src="assets/images/resource/project1-4.jpg" alt="Image" />
-                      <img src="assets/images/resource/project1-4.jpg" alt="Image" />
+                      <img src="assets/images/resource/04 Restaurants.png" alt="Image" />
+                      <img src="assets/images/resource/04 Restaurants.png" alt="Image" />
                     </Link>
                   </figure>
                 </div>
@@ -93,8 +93,8 @@ function ProjectSection() {
                 <div className="image-box">
                   <figure className="image">
                     <Link href="/page-project-details">
-                      <img src="assets/images/resource/project1-1.jpg" alt="Image" />
-                      <img src="assets/images/resource/project1-1.jpg" alt="Image" />
+                      <img src="assets/images/resource/05 E-Commerce.png" alt="Image" />
+                      <img src="assets/images/resource/05 E-Commerce.png" alt="Image" />
                     </Link>
                   </figure>
                 </div>
@@ -109,8 +109,8 @@ function ProjectSection() {
                 <div className="image-box">
                   <figure className="image">
                     <Link href="/page-project-details">
-                      <img src="assets/images/resource/project1-2.jpg" alt="Image" />
-                      <img src="assets/images/resource/project1-2.jpg" alt="Image" />
+                      <img src="assets/images/resource/06 Hospitality.png" alt="Image" />
+                      <img src="assets/images/resource/06 Hospitality.png" alt="Image" />
                     </Link>
                   </figure>
                 </div>
@@ -125,8 +125,8 @@ function ProjectSection() {
                 <div className="image-box">
                   <figure className="image">
                     <Link href="/page-project-details">
-                      <img src="assets/images/resource/project1-3.jpg" alt="Image" />
-                      <img src="assets/images/resource/project1-3.jpg" alt="Image" />
+                      <img src="assets/images/resource/07 Education.png" alt="Image" />
+                      <img src="assets/images/resource/07 Education.png" alt="Image" />
                     </Link>
                   </figure>
                 </div>
@@ -141,8 +141,8 @@ function ProjectSection() {
                 <div className="image-box">
                   <figure className="image">
                     <Link href="/page-project-details">
-                      <img src="assets/images/resource/project1-4.jpg" alt="Image" />
-                      <img src="assets/images/resource/project1-4.jpg" alt="Image" />
+                      <img src="assets/images/resource/08 Beauty.png" alt="Image" />
+                      <img src="assets/images/resource/08 Beauty.png" alt="Image" />
                     </Link>
                   </figure>
                 </div>
@@ -157,8 +157,8 @@ function ProjectSection() {
                 <div className="image-box">
                   <figure className="image">
                     <Link href="/page-project-details">
-                      <img src="assets/images/resource/project1-1.jpg" alt="Image" />
-                      <img src="assets/images/resource/project1-1.jpg" alt="Image" />
+                      <img src="assets/images/resource/09 Construction.png" alt="Image" />
+                      <img src="assets/images/resource/09 Construction.png" alt="Image" />
                     </Link>
                   </figure>
                 </div>
@@ -174,8 +174,8 @@ function ProjectSection() {
                 <div className="image-box">
                   <figure className="image">
                     <Link href="/page-project-details">
-                      <img src="assets/images/resource/project1-2.jpg" alt="Image" />
-                      <img src="assets/images/resource/project1-2.jpg" alt="Image" />
+                      <img src="assets/images/resource/10 Logistics.png" alt="Image" />
+                      <img src="assets/images/resource/10 Logistics.png" alt="Image" />
                     </Link>
                   </figure>
                 </div>
@@ -190,8 +190,8 @@ function ProjectSection() {
                 <div className="image-box">
                   <figure className="image">
                     <Link href="/page-project-details">
-                      <img src="assets/images/resource/project1-3.jpg" alt="Image" />
-                      <img src="assets/images/resource/project1-3.jpg" alt="Image" />
+                      <img src="assets/images/resource/11 Cleaning.png" alt="Image" />
+                      <img src="assets/images/resource/11 Cleaning.png" alt="Image" />
                     </Link>
                   </figure>
                 </div>
@@ -206,8 +206,8 @@ function ProjectSection() {
                 <div className="image-box">
                   <figure className="image">
                     <Link href="/page-project-details">
-                      <img src="assets/images/resource/project1-4.jpg" alt="Image" />
-                      <img src="assets/images/resource/project1-4.jpg" alt="Image" />
+                      <img src="assets/images/resource/12 Technology.png" alt="Image" />
+                      <img src="assets/images/resource/12 Technology.png" alt="Image" />
                     </Link>
                   </figure>
                 </div>
