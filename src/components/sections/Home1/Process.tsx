@@ -54,9 +54,29 @@ const ProcessSection = () => {
                     <div className="icon-box">
                       <img className="icon-img" src={`/${step.icon}`} alt="icon" />
                     </div>
-                    <h4 className="title">
-                      <Link href="/page-project-details">{step.title}</Link>
-                    </h4>
+                   <h4
+  className="title"
+  style={
+    idx === 0
+      ? {
+          display: "-webkit-box",
+          WebkitLineClamp: 2,
+          WebkitBoxOrient: "vertical",
+          overflow: "hidden",
+          textOverflow: "ellipsis",
+          whiteSpace: "normal",
+          maxWidth: "220px",        // <- constrain width (adjust as needed)
+          wordBreak: "break-word",  // allow long words to wrap
+        }
+      : {}
+  }
+>
+  <Link href="/page-project-details" style={{ display: "inline-block", width: "100%" }}>
+    {step.title}
+  </Link>
+</h4>
+
+
                     <div className="text">{step.text}</div>
                     <div className="hover-lines"></div>
                   </div>
