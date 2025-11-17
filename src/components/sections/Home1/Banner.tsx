@@ -24,7 +24,7 @@ export default function Section1() {
                       </h1>
                     </div>
                     <div className="image-box">
-                      <figure className="image-1 anim-fade-move" data-fade-from="right"><img src="assets/images/banner/banner1-1.jpg" alt="Image" /></figure>
+                      <figure className="image-1 anim-fade-move" data-fade-from="right"><img src="assets/images/banner/hero-banner-1.jpg" alt="Image" /></figure>
                       <div className="customer-info anim-fade-move" data-fade-from="right" data-delay="0.05">
                         <div className="image-box">
                           <Link href="/page-contact"><img src="assets/images/resource/customer1.png" alt="" /></Link>
