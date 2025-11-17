@@ -4,32 +4,32 @@ const skills = [
   {
     title: "Google",
     icon: "/assets/images/icons/google new.png",
-    percent: "Smart search strategies that boost visibility.",
+    percent: "Search. Rank. Grow.",
   },
   {
     title: "YouTube",
     icon: "/assets/images/icons/youtube new.png",
-    percent: "High-impact video content that drives reach.",
+    percent: "Engage Through Video.",
   },
   {
     title: "LinkedIn",
     icon: "/assets/images/icons/linkedin new.png",
-    percent: "Professional branding and targeted lead generation.",
+    percent: "Connect. Influence. Lead.",
   },
   {
     title: "Facebook",
     icon: "/assets/images/icons/facebook new.png",
-    percent: "Data-driven campaigns that convert audiences.",
+    percent: "Reach. Target. Convert.",
   },
   {
     title: "Instagram",
     icon: "/assets/images/icons/insta new.png",
-    percent: "Creative visuals that build strong engagement.",
+    percent: "Create. Inspire. Engage.",
   },
   {
     title: "Tiktok",
     icon: "/assets/images/icons/tiktok new.png",
-    percent: "Short-form content that captures attention fast.",
+    percent: "Attention. Impact. Viral.",
   },
 ];
 

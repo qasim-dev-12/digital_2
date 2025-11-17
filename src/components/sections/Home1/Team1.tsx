@@ -3,23 +3,23 @@ import React, { useState } from 'react';
 const awards = [
   {
     serial: "01",
-    title: "Awwwards Interior <br />Excellence",
-    year: "2018",
-  },
-  {
-    serial: "02",
-    title: "FWA, <br />Site of the Day",
-    year: "2019",
-  },
-  {
-    serial: "03",
-    title: "Creative Agencies <br />Worldwide",
+    title: "Boosted Brand X to 10M+ impressions",
     year: "2020",
   },
   {
-    serial: "04",
-    title: "Awesome <br />business models",
+    serial: "02",
+    title: " Delivered 300% ROI for real estate client",
+    year: "2021",
+  },
+  {
+    serial: "03",
+    title: "Helped a clinic generate 1,200+ leads",
     year: "2022",
+  },
+  {
+    serial: "04",
+    title: " Viral campaigns across 6 industries",
+    year: "2023",
   },
 ];
 
@@ -48,12 +48,12 @@ function TeamSection() {
                   <img className="icon-img" src="assets/images/icons/sub-title-shape.png" alt="Image" /> Achievements
                 </span>
                 <h2 className="title wow fadeInUp">
-                  Company Awards <span className="theme-color1">Achievements</span>
+                  Client Success   <span className="theme-color1">Highlights</span>
                 </h2>
               </div>
               <div className="text-box">
                 <div className="text">
-                  Duis aute lorem ipsum is simply free text available in the market reprehen.
+                  From impressions to lead generation, these highlights reflect the value we consistently deliver to our clients.
                 </div>
                 <figure className="image1 tm-gsap-img-parallax">
                   <img src="assets/images/resource/award2-3.png" alt="Image" />
@@ -79,12 +79,21 @@ function TeamSection() {
                       <div className="content-box">
                         <div className="title-box">
                           <div className="serial-no">{award.serial}</div>
-                          <h4
-                            className="title"
-                            dangerouslySetInnerHTML={{ __html: award.title }}
-                          />
+                         <h4
+  className="title"
+  style={{
+     maxWidth: "300px", 
+    display: "-webkit-box",
+    WebkitLineClamp: 2,
+    WebkitBoxOrient: "vertical",
+    overflow: "hidden",
+    textOverflow: "ellipsis",
+    whiteSpace: "normal",
+  }}
+  dangerouslySetInnerHTML={{ __html: award.title }}
+/>
                         </div>
-                        <div className="award-date">{award.year}</div>
+                        <div className="award-date ml-2">{award.year}</div>
                         <div className="icon"><i className="fa-solid fa-plus"></i></div>
                       </div>
                     </div>

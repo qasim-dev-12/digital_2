@@ -105,7 +105,7 @@ function Testimonial() {
                                 <i className="icon fa fa-star"></i>
                               </div>
                               <p className="text">“Stay Top Media completely transformed our online presence. Their strategy helped us generate consistent leads and the communication was always smooth and professional.”
- — Arjun Mehta, Founder, BlueStone Realty</p>
+ — Arjun Mehta, Founder, BlueStone Realty”</p>
                               <div className="info-box">
                                 <div className="user-thumb">
                                   <img className="user" src="assets/images/resource/testi1-1.jpg" alt="image" />
@@ -145,7 +145,7 @@ function Testimonial() {
                                 <i className="icon fa fa-star"></i>
                               </div>
                               <p className="text">“The team understood our brand instantly and delivered creatives that exceeded expectations. Their marketing approach brought an immediate boost in engagement.”
- — Sophie Laurent, Marketing Director, Maison Luxe Paris</p>
+ — Sophie Laurent, Marketing Director, Maison Luxe Paris”</p>
                               <div className="info-box">
                                 <div className="user-thumb">
                                   <img className="user" src="assets/images/resource/testi1-1.jpg" alt="image" />
