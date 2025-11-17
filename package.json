@@ -8,7 +8,7 @@
     "build": "next build",
     "lint": "next lint",
     "sass": "sass --watch public/scss/style.scss:public/css/style.css",
-    "start": "NODE_ENV=production node server.js"
+    "start": "NODE_ENV=production node server.ts"
   },
   "dependencies": {
     "animate.css": "^4.1.1",
