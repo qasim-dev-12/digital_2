@@ -1,13 +1,39 @@
 import React, { useEffect, useState } from "react";
 
 const skills = [
-  { title: "Google", icon: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg", percent: "Smart search strategies that boost visibility." },
-  { title: "YouTube", icon: "https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png", percent: "High-impact video content that drives reach." },
-  { title: "LinkedIn", icon: "https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg", percent: "Professional branding and targeted lead generation." },
-  { title: "Facebook", icon: "https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png", percent: "Data-driven campaigns that convert audiences." },
-  { title: "Instagram", icon: "https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg", percent: "Creative visuals that build strong engagement" },
-  { title: "Tiktok", icon: "https://upload.wikimedia.org/wikipedia/en/6/69/TikTok_logo.svg", percent: "Short-form content that captures attention fast." },
+  {
+    title: "Google",
+    icon: "https://img.icons8.com/color/512/google-logo.png",
+    percent: "Smart search strategies that boost visibility.",
+  },
+  {
+    title: "YouTube",
+    icon: "https://img.icons8.com/color/512/youtube-play.png",
+    percent: "High-impact video content that drives reach.",
+  },
+  {
+    title: "LinkedIn",
+    icon: "https://img.icons8.com/color/512/linkedin.png",
+    percent: "Professional branding and targeted lead generation.",
+  },
+  {
+    title: "Facebook",
+    icon: "https://img.icons8.com/color/512/facebook-new.png",
+    percent: "Data-driven campaigns that convert audiences.",
+  },
+  {
+    title: "Instagram",
+    icon: "https://img.icons8.com/fluency/512/instagram-new.png",
+    percent: "Creative visuals that build strong engagement.",
+  },
+  {
+    title: "Tiktok",
+    icon: "https://img.icons8.com/color/512/tiktok--v1.png",
+    percent: "Short-form content that captures attention fast.",
+  },
 ];
+
+
 
 
 function WorkSection() {
@@ -67,8 +93,9 @@ function WorkSection() {
   }}
 />
                       </span>
-                      <span className="count">{skill.percent}</span>
-                      <h4 className="title">{skill.title}</h4>
+                     <span className="text-xl">{skill.percent}</span>
+
+                      {/* <h4 className="title">{skill.title}</h4> */}
                     </div>
                   </div>
                 </div>
