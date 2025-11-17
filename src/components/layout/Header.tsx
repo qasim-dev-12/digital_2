@@ -101,7 +101,7 @@ const Header: React.FC<HeaderProps> = ({ handleOpen, handleRemove, searchToggle,
                 <div className="inner-container">
                     <div className="logo">
                         <Link href="/">
-                            <img src="assets/images/logo-2.png" alt="Logo" />
+                            <img src="assets/images/ST Logo new1.png" alt="Logo" />
                         </Link>
                     </div>
                     <div className="nav-outer">

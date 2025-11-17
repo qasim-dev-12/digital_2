@@ -22,7 +22,7 @@ const Header2: React.FC<HeaderProps> = ({ handleOpen, handleRemove, searchToggle
                         <div className="main-box">
                             <div className="logo-box">
                                 <div className="logo">
-                                    <Link href="/"><img src="assets/images/logo-2.png" alt="Logo" /></Link>
+                                    <Link href="/"><img src="assets/images/ST Logo new1.png" alt="Logo" /></Link>
                                 </div>
                             </div>
                             <div className="nav-outer">

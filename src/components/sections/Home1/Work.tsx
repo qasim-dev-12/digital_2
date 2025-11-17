@@ -86,15 +86,25 @@ function WorkSection() {
   src={skill.icon}
   alt={skill.title}
   style={{
-    width: "50px",
-    height: "50px",
+    width: "70px",
+    height: "70px",
     objectFit: "contain",
     margin: "0 auto",
     display: "block"
   }}
 />
                       </span>
-                     <span className="text-xl">{skill.percent}</span>
+                     <span className="text-xl">
+  {skill.percent
+    .replace(/\./g, "")      // removes all dots
+    .split(" ")
+    .map((word, i) => (
+      <React.Fragment key={i}>
+        {word}
+        <br />
+      </React.Fragment>
+    ))}
+</span>
 
                       {/* <h4 className="title">{skill.title}</h4> */}
                     </div>

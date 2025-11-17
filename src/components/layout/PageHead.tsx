@@ -8,7 +8,7 @@ interface PageHeadProps {
 const PageHead: React.FC<PageHeadProps> = ({ headTitle }) => {
   return (
     <Head>
-      <title>{headTitle ?? 'Digitaal | React Next Js Template'}</title>
+      <title>{headTitle ?? 'Stay Top Media | Advertising & Marketing'}</title>
       <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/x-icon" />
     </Head>
   );

@@ -45,7 +45,7 @@ function Banner() {
                   <div className="image-box">
                     <div className="inner-box" style={{backgroundImage: 'url(assets/images/banner/banner5-1.jpg)'}}>
                       <figure className="image">
-                        <span className="text-stroke">Digitaal</span>
+                        <span className="text-stroke">StayTop</span>
                       </figure>
                     </div>
                   </div>
