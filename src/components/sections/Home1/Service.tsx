@@ -63,8 +63,8 @@ function Service() {
                         <div className="inner-box">
                           <div className="image-box">
                             <figure className="image">
-                              <img src="assets/images/resource/service1-1.jpg" alt="Image" />
-                              <img src="assets/images/resource/service1-1.jpg" alt="Image" />
+                              <img src="assets/images/resource/01 Digital Marketing.png" alt="Image" />
+                              <img src="assets/images/resource/01 Digital Marketing.png" alt="Image" />
                             </figure>
                             <div className="icon-box">
                               <img className="icon-img" src="assets/images/icons/theme-icon1.png" alt="icon" />
@@ -82,8 +82,8 @@ function Service() {
                         <div className="inner-box">
                           <div className="image-box">
                             <figure className="image">
-                              <img src="assets/images/resource/service1-2.jpg" alt="Image" />
-                              <img src="assets/images/resource/service1-2.jpg" alt="Image" />
+                              <img src="assets/images/resource/02 Social Media Marketing.png" alt="Image" />
+                              <img src="assets/images/resource/02 Social Media Marketing.png" alt="Image" />
                             </figure>
                             <div className="icon-box">
                               <img className="icon-img" src="assets/images/icons/theme-icon2.png" alt="icon" />
@@ -102,8 +102,8 @@ function Service() {
                         <div className="inner-box">
                           <div className="image-box">
                             <figure className="image">
-                              <img src="assets/images/resource/service1-3.jpg" alt="Image" />
-                              <img src="assets/images/resource/service1-3.jpg" alt="Image" />
+                              <img src="assets/images/resource/03 SEO Services.png" alt="Image" />
+                              <img src="assets/images/resource/03 SEO Services.png" alt="Image" />
                             </figure>
                             <div className="icon-box">
                               <img className="icon-img" src="assets/images/icons/theme-icon3.png" alt="icon" />
@@ -121,8 +121,8 @@ function Service() {
                         <div className="inner-box">
                           <div className="image-box">
                             <figure className="image">
-                              <img src="assets/images/resource/service1-3.jpg" alt="Image" />
-                              <img src="assets/images/resource/service1-3.jpg" alt="Image" />
+                              <img src="assets/images/resource/04 PPC Services.png" alt="Image" />
+                              <img src="assets/images/resource/04 PPC Services.png" alt="Image" />
                             </figure>
                             <div className="icon-box">
                               <img className="icon-img" src="assets/images/icons/theme-icon3.png" alt="icon" />
@@ -140,8 +140,8 @@ function Service() {
                         <div className="inner-box">
                           <div className="image-box">
                             <figure className="image">
-                              <img src="assets/images/resource/service1-3.jpg" alt="Image" />
-                              <img src="assets/images/resource/service1-3.jpg" alt="Image" />
+                              <img src="assets/images/resource/05 Email Marketing.png" alt="Image" />
+                              <img src="assets/images/resource/05 Email Marketing.png" alt="Image" />
                             </figure>
                             <div className="icon-box">
                               <img className="icon-img" src="assets/images/icons/theme-icon3.png" alt="icon" />
@@ -159,8 +159,8 @@ function Service() {
                         <div className="inner-box">
                           <div className="image-box">
                             <figure className="image">
-                              <img src="assets/images/resource/service1-3.jpg" alt="Image" />
-                              <img src="assets/images/resource/service1-3.jpg" alt="Image" />
+                              <img src="assets/images/resource/06 Web Development.png" alt="Image" />
+                              <img src="assets/images/resource/06 Web Development.png" alt="Image" />
                             </figure>
                             <div className="icon-box">
                               <img className="icon-img" src="assets/images/icons/theme-icon3.png" alt="icon" />
@@ -179,8 +179,8 @@ function Service() {
                         <div className="inner-box">
                           <div className="image-box">
                             <figure className="image">
-                              <img src="assets/images/resource/service1-3.jpg" alt="Image" />
-                              <img src="assets/images/resource/service1-3.jpg" alt="Image" />
+                              <img src="assets/images/resource/07 Mobile App Development.png" alt="Image" />
+                              <img src="assets/images/resource/07 Mobile App Development.png" alt="Image" />
                             </figure>
                             <div className="icon-box">
                               <img className="icon-img" src="assets/images/icons/theme-icon3.png" alt="icon" />
