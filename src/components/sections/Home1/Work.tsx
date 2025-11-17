@@ -3,32 +3,32 @@ import React, { useEffect, useState } from "react";
 const skills = [
   {
     title: "Google",
-    icon: "https://img.icons8.com/fluency/96/google-logo.png",
+    icon: "/assets/images/icons/google new.png",
     percent: "Smart search strategies that boost visibility.",
   },
   {
     title: "YouTube",
-    icon: "https://img.icons8.com/fluency/96/youtube-play.png",
+    icon: "/assets/images/icons/youtube new.png",
     percent: "High-impact video content that drives reach.",
   },
   {
     title: "LinkedIn",
-    icon: "https://img.icons8.com/fluency/96/linkedin-circled.png",
+    icon: "/assets/images/icons/linkedin new.png",
     percent: "Professional branding and targeted lead generation.",
   },
   {
     title: "Facebook",
-    icon: "https://img.icons8.com/fluency/96/facebook-new.png",
+    icon: "/assets/images/icons/facebook new.png",
     percent: "Data-driven campaigns that convert audiences.",
   },
   {
     title: "Instagram",
-    icon: "https://img.icons8.com/fluency/96/instagram-new.png",
+    icon: "/assets/images/icons/insta new.png",
     percent: "Creative visuals that build strong engagement.",
   },
   {
     title: "Tiktok",
-    icon: "https://img.icons8.com/fluency/96/tiktok.png",
+    icon: "/assets/images/icons/tiktok new.png",
     percent: "Short-form content that captures attention fast.",
   },
 ];

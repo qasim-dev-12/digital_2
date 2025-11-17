@@ -18,7 +18,7 @@ function ProjectSection() {
               </div>
               <div className="col-lg-5 offset-lg-1">
                 <div className="left-content">
-                  <div className="text anim-text-flip-move">Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+                  <div className="text anim-text-flip-move">We work with top industries across the UAE, offering tailored digital marketing strategies that boost visibility, engagement, and long-term growth.</div>
                 </div>
               </div>
             </div>
@@ -88,57 +88,55 @@ function ProjectSection() {
                 </div>
               </div>
             </div>
-              <div className="project-block scroll-text anim-fade-move col-lg-6 offset-lg-1 col-md-6" data-fade-from="bottom" data-delay="0.45">
+              <div className="project-block scroll-text anim-fade-move col-lg-6 col-md-6" data-fade-from="top">
               <div className="inner-box scroll-anim-top">
                 <div className="image-box">
                   <figure className="image">
                     <Link href="/page-project-details">
-                      <img src="assets/images/resource/project1-4.jpg" alt="Image" />
-                      <img src="assets/images/resource/project1-4.jpg" alt="Image" />
+                      <img src="assets/images/resource/project1-1.jpg" alt="Image" />
+                      <img src="assets/images/resource/project1-1.jpg" alt="Image" />
                     </Link>
                   </figure>
                 </div>
                 <div className="content-box">
-                  <h4 className="title"><Link href="/page-project-details">E-Commerce & Online Stores
-</Link></h4>
-                  <div className="text">Design - 2021</div>
+                  <h4 className="title"><Link href="/page-project-details">E-Commerce & Online Stores</Link></h4>
+                  {/* <div className="text">Design - 2016</div> */}
                 </div>
               </div>
             </div>
-              <div className="project-block scroll-text anim-fade-move col-lg-6 offset-lg-1 col-md-6" data-fade-from="bottom" data-delay="0.45">
+            <div className="project-block scroll-text anim-fade-move col-lg-5 offset-lg-1 col-md-6" data-fade-from="bottom" data-delay="0.25">
               <div className="inner-box scroll-anim-top">
                 <div className="image-box">
                   <figure className="image">
                     <Link href="/page-project-details">
-                      <img src="assets/images/resource/project1-4.jpg" alt="Image" />
-                      <img src="assets/images/resource/project1-4.jpg" alt="Image" />
+                      <img src="assets/images/resource/project1-2.jpg" alt="Image" />
+                      <img src="assets/images/resource/project1-2.jpg" alt="Image" />
                     </Link>
                   </figure>
                 </div>
                 <div className="content-box">
-                  <h4 className="title"><Link href="/page-project-details">Hospitality & Tourism
-</Link></h4>
-                  <div className="text">Design - 2021</div>
+                  <h4 className="title"><Link href="/page-project-details">Hospitality & Tourism</Link></h4>
+                  <div className="text">Design - 2019</div>
                 </div>
               </div>
             </div>
-              <div className="project-block scroll-text anim-fade-move col-lg-6 offset-lg-1 col-md-6" data-fade-from="bottom" data-delay="0.45">
+            <div className="project-block scroll-text anim-fade-move col-lg-5 col-md-6" data-fade-from="top">
               <div className="inner-box scroll-anim-top">
                 <div className="image-box">
                   <figure className="image">
                     <Link href="/page-project-details">
-                      <img src="assets/images/resource/project1-4.jpg" alt="Image" />
-                      <img src="assets/images/resource/project1-4.jpg" alt="Image" />
+                      <img src="assets/images/resource/project1-3.jpg" alt="Image" />
+                      <img src="assets/images/resource/project1-3.jpg" alt="Image" />
                     </Link>
                   </figure>
                 </div>
                 <div className="content-box">
                   <h4 className="title"><Link href="/page-project-details">Education & Training Institutes</Link></h4>
-                  <div className="text">Design - 2021</div>
+                  <div className="text">Design - 2020</div>
                 </div>
               </div>
             </div>
-              <div className="project-block scroll-text anim-fade-move col-lg-6 offset-lg-1 col-md-6" data-fade-from="bottom" data-delay="0.45">
+            <div className="project-block scroll-text anim-fade-move col-lg-6 offset-lg-1 col-md-6" data-fade-from="bottom" data-delay="0.45">
               <div className="inner-box scroll-anim-top">
                 <div className="image-box">
                   <figure className="image">
@@ -149,61 +147,61 @@ function ProjectSection() {
                   </figure>
                 </div>
                 <div className="content-box">
-                  <h4 className="title"><Link href="/page-project-details">Beauty, Salon & Personal Care</Link></h4>
+                  <h4 className="title"><Link href="/page-project-details"> Beauty, Salon & Personal Care</Link></h4>
                   <div className="text">Design - 2021</div>
                 </div>
               </div>
             </div>
-              <div className="project-block scroll-text anim-fade-move col-lg-6 offset-lg-1 col-md-6" data-fade-from="bottom" data-delay="0.45">
+             <div className="project-block scroll-text anim-fade-move col-lg-6 col-md-6" data-fade-from="top">
               <div className="inner-box scroll-anim-top">
                 <div className="image-box">
                   <figure className="image">
                     <Link href="/page-project-details">
-                      <img src="assets/images/resource/project1-4.jpg" alt="Image" />
-                      <img src="assets/images/resource/project1-4.jpg" alt="Image" />
+                      <img src="assets/images/resource/project1-1.jpg" alt="Image" />
+                      <img src="assets/images/resource/project1-1.jpg" alt="Image" />
                     </Link>
                   </figure>
                 </div>
                 <div className="content-box">
-                  <h4 className="title"><Link href="/page-project-details">Construction & Contracting</Link></h4>
-                  <div className="text">Design - 2021</div>
-                </div>
-              </div>
-            </div>
-              <div className="project-block scroll-text anim-fade-move col-lg-6 offset-lg-1 col-md-6" data-fade-from="bottom" data-delay="0.45">
-              <div className="inner-box scroll-anim-top">
-                <div className="image-box">
-                  <figure className="image">
-                    <Link href="/page-project-details">
-                      <img src="assets/images/resource/project1-4.jpg" alt="Image" />
-                      <img src="assets/images/resource/project1-4.jpg" alt="Image" />
-                    </Link>
-                  </figure>
-                </div>
-                <div className="content-box">
-                  <h4 className="title"><Link href="/page-project-details">Logistics & Transport
+                  <h4 className="title"><Link href="/page-project-details">Construction & Contracting
 </Link></h4>
-                  <div className="text">Design - 2021</div>
+                  {/* <div className="text">Design - 2016</div> */}
                 </div>
               </div>
             </div>
-              <div className="project-block scroll-text anim-fade-move col-lg-6 offset-lg-1 col-md-6" data-fade-from="bottom" data-delay="0.45">
+            <div className="project-block scroll-text anim-fade-move col-lg-5 offset-lg-1 col-md-6" data-fade-from="bottom" data-delay="0.25">
               <div className="inner-box scroll-anim-top">
                 <div className="image-box">
                   <figure className="image">
                     <Link href="/page-project-details">
-                      <img src="assets/images/resource/project1-4.jpg" alt="Image" />
-                      <img src="assets/images/resource/project1-4.jpg" alt="Image" />
+                      <img src="assets/images/resource/project1-2.jpg" alt="Image" />
+                      <img src="assets/images/resource/project1-2.jpg" alt="Image" />
+                    </Link>
+                  </figure>
+                </div>
+                <div className="content-box">
+                  <h4 className="title"><Link href="/page-project-details">Logistics & Transport</Link></h4>
+                  {/* <div className="text">Design - 2019</div> */}
+                </div>
+              </div>
+            </div>
+            <div className="project-block scroll-text anim-fade-move col-lg-5 col-md-6" data-fade-from="top">
+              <div className="inner-box scroll-anim-top">
+                <div className="image-box">
+                  <figure className="image">
+                    <Link href="/page-project-details">
+                      <img src="assets/images/resource/project1-3.jpg" alt="Image" />
+                      <img src="assets/images/resource/project1-3.jpg" alt="Image" />
                     </Link>
                   </figure>
                 </div>
                 <div className="content-box">
                   <h4 className="title"><Link href="/page-project-details">Cleaning & Home Services</Link></h4>
-                  <div className="text">Design - 2021</div>
+                  {/* <div className="text">Design - 2020</div> */}
                 </div>
               </div>
             </div>
-              <div className="project-block scroll-text anim-fade-move col-lg-6 offset-lg-1 col-md-6" data-fade-from="bottom" data-delay="0.45">
+            <div className="project-block scroll-text anim-fade-move col-lg-6 offset-lg-1 col-md-6" data-fade-from="bottom" data-delay="0.45">
               <div className="inner-box scroll-anim-top">
                 <div className="image-box">
                   <figure className="image">
@@ -214,8 +212,8 @@ function ProjectSection() {
                   </figure>
                 </div>
                 <div className="content-box">
-                  <h4 className="title"><Link href="/page-project-details"> Technology & IT Services</Link></h4>
-                  <div className="text">Design - 2021</div>
+                  <h4 className="title"><Link href="/page-project-details">Technology & IT Services</Link></h4>
+                  {/* <div className="text">Design - 2021</div> */}
                 </div>
               </div>
             </div>
