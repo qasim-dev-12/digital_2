@@ -4,6 +4,7 @@ import React from 'react';
     return (
         <>
             <section className="about-section-five">
+     
                 <div className="anim-icons">
                 <div className="image-1 round-shape-anim tm-gsap-img-parallax"><img src="assets/images/icons/shape-style29.png" alt="Image"/></div>
                 <div className="image-2 tm-gsap-img-parallax"><img src="assets/images/icons/shape-style30.png" alt="Image"/></div>

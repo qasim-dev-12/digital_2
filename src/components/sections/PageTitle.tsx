@@ -9,7 +9,7 @@ const PageTitle: React.FC<PageTitleProps> = ({ pageName }) => {
   return (
     <section
       className="page-title"
-      style={{ backgroundImage: 'url(assets/images/background/page-title.jpg)' }}
+      style={{ backgroundImage: 'url(assets/images/background/about-banner.png)' }}
     >
       <div className="auto-container">
         <div className="title-outer text-center">

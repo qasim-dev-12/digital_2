@@ -18,16 +18,16 @@ const Service: React.FC<ServiceProps> = ({ className }) => {
   };
 
   const services = [
-    { title: 'Brand Identity', category: '2D & 3D Animation', icon: 'theme-icon16.png', delay: 0.2 },
-    { title: 'Web Design', category: 'Art Direction', icon: 'theme-icon17.png', delay: 0.4 },
-    { title: 'Digital Platform', category: 'Product Development', icon: 'theme-icon18.png', delay: 0.6 },
+    { title: 'Strategic Brand Identity', category: 'Positioning | Messaging | Creative Direction', icon: 'theme-icon16.png', delay: 0.2,text:'We develop powerful brand identities built on clarity, consistency, and strategy—helping your business stand out and stay memorable.' },
+    { title: 'High-Impact Web Design', category: 'UI/UX | Responsive Design | Conversion-Focused', icon: 'theme-icon17.png', delay: 0.4,text:' We design fast, modern, and intuitive websites that deliver smooth user experiences and turn visitors into customers.' },
+    { title: 'Digital Platform Development', category: 'Web Apps | Tools | Custom Solutions', icon: 'theme-icon18.png', delay: 0.6,text:' We build scalable digital platforms tailored to your goals—combining functionality, performance, and seamless user interaction.' },
   ];
 
   return (
     <section className={`services-section-four ${className || ''}`}>
       <div className="scroll-text">
         <div className="title-stroke-text text1 fadeInUpBig">
-          <span>Our </span>features
+          <span>Our </span>Strengths
         </div>
       </div>
       <div className="outer-box">
@@ -52,7 +52,7 @@ const Service: React.FC<ServiceProps> = ({ className }) => {
                       <img className="icon-img" src={`assets/images/icons/${item.icon}`} alt="Icon" />
                     </div>
                     <div className="text">
-                      Proin efficitur, mauris vel condimentum pulvinar, velit orci consectetur
+                      {item.text}
                     </div>
                     <Link className="btn-link" href="/page-service-details">
                       <i className="icon fa-solid fa-arrow-down-right"></i>
