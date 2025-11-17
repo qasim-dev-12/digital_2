@@ -36,8 +36,8 @@ import React from 'react';
                                                 </svg>
                                             </div>
                                             <div className="content-box">
-                                                <h5 className="title">Established for</h5>
-                                                <p className="text">Proin efficitur, mauris veld  condimentum</p>
+                                                <h5 className="title">Mission</h5>
+                                                <p className="text">To empower businesses with innovative digital solutions that inspire growth, enhance visibility, and build meaningful customer connections.</p>
                                             </div>																
                                         </div>
                                     </div>					
@@ -61,8 +61,8 @@ import React from 'react';
                                                 </svg>
                                             </div>
                                             <div className="content-box">
-                                                <h5 className="title">Ingenuity</h5>
-                                                <p className="text">Proin efficitur, mauris veld  condimentum</p>
+                                                <h5 className="title">Vision</h5>
+                                                <p className="text">To be a leading creative and digital agency recognized for transforming brands and shaping the future of digital experiences across the UAE and beyond.</p>
                                             </div>																
                                         </div>
                                     </div>					
@@ -76,8 +76,8 @@ import React from 'react';
                                                 </svg>
                                             </div>
                                             <div className="content-box">
-                                                <h5 className="title">Low-cost</h5>
-                                                <p className="text">Proin efficitur, mauris veld  condimentum</p>
+                                                <h5 className="title">Our Values</h5>
+                                                <p className="text">We believe in creativity, transparency, and consistent excellence—delivering work that reflects integrity, passion, and measurable impact.</p>
                                             </div>																
                                         </div>
                                     </div>					

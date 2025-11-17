@@ -19,7 +19,7 @@ const Service: React.FC<ServiceProps> = ({ className }) => {
 
   const services = [
     { title: 'Strategic Brand Identity', category: 'Positioning | Messaging | Creative Direction', icon: 'theme-icon16.png', delay: 0.2,text:'We develop powerful brand identities built on clarity, consistency, and strategy—helping your business stand out and stay memorable.' },
-    { title: 'High-Impact Web Design', category: 'UI/UX | Responsive Design | Conversion-Focused', icon: 'theme-icon17.png', delay: 0.4,text:' We design fast, modern, and intuitive websites that deliver smooth user experiences and turn visitors into customers.' },
+    { title: 'High-Impact Web Design', category: 'UI/UX | Responsive | Conversion-Focused', icon: 'theme-icon17.png', delay: 0.4,text:' We design fast, modern, and intuitive websites that deliver smooth user experiences and turn visitors into customers.' },
     { title: 'Digital Platform Development', category: 'Web Apps | Tools | Custom Solutions', icon: 'theme-icon18.png', delay: 0.6,text:' We build scalable digital platforms tailored to your goals—combining functionality, performance, and seamless user interaction.' },
   ];
 
