@@ -4,7 +4,7 @@
   "description": "This is a sample project",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev",  
     "build": "next build",
     "lint": "next lint",
     "sass": "sass --watch public/scss/style.scss:public/css/style.css",
