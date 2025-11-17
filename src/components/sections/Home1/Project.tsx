@@ -52,7 +52,7 @@ function ProjectSection() {
                 </div>
                 <div className="content-box">
                   <h4 className="title"><Link href="/page-project-details">Automotive & Car Care</Link></h4>
-                  <div className="text">Design - 2019</div>
+                  {/* <div className="text">Design - 2019</div> */}
                 </div>
               </div>
             </div>
@@ -68,7 +68,7 @@ function ProjectSection() {
                 </div>
                 <div className="content-box">
                   <h4 className="title"><Link href="/page-project-details">Healthcare & Clinics</Link></h4>
-                  <div className="text">Design - 2020</div>
+                  {/* <div className="text">Design - 2020</div> */}
                 </div>
               </div>
             </div>
@@ -84,7 +84,7 @@ function ProjectSection() {
                 </div>
                 <div className="content-box">
                   <h4 className="title"><Link href="/page-project-details">Restaurants, Cafés & F&B Brands</Link></h4>
-                  <div className="text">Design - 2021</div>
+                  {/* <div className="text">Design - 2021</div> */}
                 </div>
               </div>
             </div>
@@ -116,7 +116,7 @@ function ProjectSection() {
                 </div>
                 <div className="content-box">
                   <h4 className="title"><Link href="/page-project-details">Hospitality & Tourism</Link></h4>
-                  <div className="text">Design - 2019</div>
+                  {/* <div className="text">Design - 2019</div> */}
                 </div>
               </div>
             </div>
@@ -132,7 +132,7 @@ function ProjectSection() {
                 </div>
                 <div className="content-box">
                   <h4 className="title"><Link href="/page-project-details">Education & Training Institutes</Link></h4>
-                  <div className="text">Design - 2020</div>
+                  {/* <div className="text">Design - 2020</div> */}
                 </div>
               </div>
             </div>
@@ -148,7 +148,7 @@ function ProjectSection() {
                 </div>
                 <div className="content-box">
                   <h4 className="title"><Link href="/page-project-details"> Beauty, Salon & Personal Care</Link></h4>
-                  <div className="text">Design - 2021</div>
+                  {/* <div className="text">Design - 2021</div> */}
                 </div>
               </div>
             </div>
