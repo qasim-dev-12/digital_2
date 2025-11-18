@@ -5,7 +5,16 @@ interface AccordionItem {
   question: string;
   answer: string;
 }
+interface FaqItem {
+  q: string;
+  a: string;
+}
 
+interface AccordionProps {
+  service?: {
+    faqs?: FaqItem[];
+  } | null;
+}
 const items: AccordionItem[] = [
   {
     key: 1,
@@ -29,7 +38,7 @@ const items: AccordionItem[] = [
   },
 ];
 
-const Accordion: React.FC<{ service?: any }> = ({service}) => {
+const Accordion: React.FC<AccordionProps> = ({service}) => {
   console.log("Accordion service prop:", service);
   const [activeKey, setActiveKey] = useState<number | null>(1);
 

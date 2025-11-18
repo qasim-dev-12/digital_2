@@ -3,6 +3,34 @@ import React from 'react';
 import Accordion from '../elements/Accordion';
 import { useRouter } from 'next/router'
 import services from '../../data/sevicesData';
+interface FaqItem {
+  q: string;
+  a: string;
+}
+
+interface Keypoint {
+  label: string;
+  text?: string;
+}
+
+interface Service {
+  slug?: string;
+  title?: string;
+  overview?: string;
+  serviceCenter?: string;
+  description1?: string;
+  description2?: string;
+  image1Description?: string;
+  image2Description?: string;
+  img_1?: string;
+  img_2?: string;
+  keypoints?: Keypoint[];
+  faqs?: FaqItem[];
+}
+
+interface ServiceDetailsProps {
+  service?: Service | null;
+}
 
 const serviceListData = [
 	{
@@ -32,7 +60,7 @@ const serviceListData = [
     
 ];
 
-const ServiceDetails = ({service}) => {
+const ServiceDetails: React.FC<ServiceDetailsProps>  = ({service}) => {
 	
 
 	
