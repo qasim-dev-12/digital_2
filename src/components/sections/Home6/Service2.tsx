@@ -1,11 +1,15 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
+import services from '../../../data/sevicesData';
+import { useRouter } from 'next/router'
 
 function Service2() {
+   const router = useRouter()
   const [activeIndex, setActiveIndex] = useState(1); 
 
   const services = [
     {
+       slug: "digital-marketing",
       number: "01",
       title: "Digital Marketing",
       image: "assets/images/resource/01 Digital.png",
@@ -19,6 +23,7 @@ function Service2() {
       ],
     },
     {
+      slug: "social-media-marketing", 
       number: "02",
       title: "Social Media Marketing",
       image: "assets/images/resource/02 Social Media.png",
@@ -31,6 +36,7 @@ function Service2() {
       ],
     },
     {
+       slug: "ppc-services", 
       number: "03",
       title: "PPC Services",
       image: "assets/images/resource/03 PPC.png",
@@ -43,6 +49,7 @@ function Service2() {
       ],
     },
     {
+        slug: "seo-services", 
       number: "04",
       title: "SEO Services",
       image: "assets/images/resource/04 SEO.png",
@@ -55,6 +62,7 @@ function Service2() {
       ],
     },
     {
+        slug: "email-marketing", 
       number: "05",
       title: "Email Marketing",
       image: "assets/images/resource/05 Email.png",
@@ -67,6 +75,7 @@ function Service2() {
       ],
     },
     {
+        slug: "web-development", 
       number: "06",
       title: "Web Development",
       image: "assets/images/resource/06 Web.png",
@@ -79,6 +88,7 @@ function Service2() {
       ],
     },
     {
+        slug: "mobile-app-development",
       number: "07",
       title: "Mobile App Development",
       image: "assets/images/resource/07 Mobile.png",
@@ -140,9 +150,15 @@ We provide end-to-end digital solutions designed to help businesses grow, scale,
                         </figure>
                         <div className="icon-box">
                           <div className="inner">
-                            <Link href="/page-service-details">
+                            {/* <Link href="/page-service-details">
                               <i className="icon flaticon-right-down"></i>
-                            </Link>
+                            </Link> */}
+                            {/* <Link href={`/page-service-details/${service.slug}`}>
+  <i className="icon flaticon-right-down"></i>
+</Link> */}
+<Link href={`/page-services/${service.slug}`}>
+  <i aria-label={`Open ${service.title} details`}><i className="icon flaticon-right-down" /></i>
+</Link>
                           </div>
                         </div>
                       </div>

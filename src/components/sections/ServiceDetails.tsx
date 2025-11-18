@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import React from 'react';
 import Accordion from '../elements/Accordion';
+import { useRouter } from 'next/router'
+import services from '../../data/sevicesData';
 
 const serviceListData = [
 	{
@@ -30,7 +32,11 @@ const serviceListData = [
     
 ];
 
-const ServiceDetails = () => {
+const ServiceDetails = ({service}) => {
+	
+
+	
+
     return (
 		<section className="services-details pt-120 pb-90">
 			<div className="container">
@@ -40,8 +46,10 @@ const ServiceDetails = () => {
 							<div className="sidebar-widget service-sidebar-single">
 								<div className="sidebar-service-list">										
 									<ul>
-										{serviceListData.map((eachitem, servicelist) => (
-											<li key={servicelist}><Link className={(servicelist === 0) ? 'current': ''} href={eachitem.linkurl}><i className="fas fa-angle-right" /><span>{eachitem.title}</span></Link></li>
+										{service?.keypoints?.map((eachitem, servicelist) => (
+											// <li key={servicelist}><Link className={(servicelist === 0) ? 'current': ''} href={eachitem.linkurl}><i className="fas fa-angle-right" /><span>{eachitem.title}</span></Link></li>
+																						<li key={servicelist}><Link className={(servicelist === 0) ? 'current': ''} href={eachitem.label}><i className="fas fa-angle-right" /><span>{eachitem.label}</span></Link></li>
+
 										))}
 									</ul>
 								</div>
@@ -69,37 +77,31 @@ const ServiceDetails = () => {
 						<div className="services-details__content position-relative overflow-hidden px-3">
 							<img className="w-100" src="assets/images/resource/service-details.jpg" alt="" />
 							<h3 className="mt-4">Service Overview</h3>
-							<p className="text">Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui
-								dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta
-								sunt explicabo. Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit
-								amet finibus eros. Lorem Ipsum is simply dummy text of the printing and typesetting
-								industry. Lorem Ipsum has been the ndustry standard dummy text ever since the 1500s,
-								when an unknown printer took a galley of type and scrambled it to make </p>
-							<p className="text">When an unknown printer took a galley of type and scrambled it to make a type
-								specimen book. It has survived not only five centuries, but also the leap into
-								electronic typesetting, remaining essentially unchanged Lorem ipsum dolor sit amet
-								consec tetur adipis icing elit </p>
+							<p className="text">{service?.overview} </p>
+							
 							<div className="content mt-40">
 								<div className="text">
-									<h3>Service Center</h3>
-									<p className="text">Lorem ipsum is simply free text used by copytyping refreshing. Neque porro
-										est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto
-										beatae vitae dicta sunt explicabo.</p>
-									<blockquote className="blockquote-one">Lorem ipsum dolor sit amet, consectetur
-										notted adipisicing elit sed do eiusmod remaining essentially unchanged Lorem
-										ipsum dolor sit amet consec tetur</blockquote>
+									<h3>{service?.serviceCenter}</h3>
+									<p className="text">{service?.description1}</p>
+									<blockquote className="blockquote-one">{service?.description2}</blockquote>
 								</div>
 								<div className="feature-list mt-4">
 									<div className="row clearfix">
 										<div className="col-lg-6 col-md-6 col-sm-12 column">
-											<img className="mb-3 w-100" src="assets/images/resource/service-d1.jpg" alt="images" />
-											<p className="text">Lorem ipsum dolor sit amet consec adipis elit Dolor repellat pariatur
-												temporibus doloribus hic conse quatur copy typing refreshing</p>
+											<img
+  className="mb-3 w-100"
+  src={service?.img_1 || 'Service image 1'}
+  alt={service?.title || 'Service image 2'}
+/>
+											<p className="text">{service?.image1Description}</p>
 										</div>
 										<div className="col-lg-6 col-md-6 col-sm-12 column">
-											<img className="mb-3 w-100" src="assets/images/resource/service-d2.jpg" alt="images" />
-											<p className="text">Lorem ipsum dolor sit amet consec adipis elit Dolor repellat pariatur
-												temporibus doloribus hic conse quatur copy typing refreshing</p>
+											<img
+  className="mb-3 w-100"
+  src={service?.img_2 || '/assets/images/resource/digital-side2.png'}
+  alt={service?.title || 'Service image 1'}
+/>
+											<p className="text">{service?.image2Description}</p>
 										</div>
 									</div>
 								</div>
@@ -107,7 +109,7 @@ const ServiceDetails = () => {
 							<div className="innerpage mt-25">
 								<h3>Frequently Asked Question</h3>
 								<p className="text">Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-								<Accordion />
+								<Accordion service={service} />
 							</div>
 						</div>
 					</div>

@@ -3,13 +3,19 @@ import React from 'react';
 
 interface PageTitleProps {
   pageName: string;
+  service?: {
+    img_Main?: string;
+  };
 }
 
-const PageTitle: React.FC<PageTitleProps> = ({ pageName }) => {
+const PageTitle: React.FC<PageTitleProps> = ({ service,pageName }) => {
   return (
     <section
       className="page-title"
-      style={{ backgroundImage: 'url(assets/images/background/about-banner.png)' }}
+    style={{
+    backgroundImage: `url(${service?.img_Main ?? "/assets/images/background/default-fallback.jpg"})`,
+  }}
+      // style={{ backgroundImage: 'url(assets/images/background/about-banner.png)' }}
     >
       <div className="auto-container">
         <div className="title-outer text-center">

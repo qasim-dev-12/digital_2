@@ -29,7 +29,8 @@ const items: AccordionItem[] = [
   },
 ];
 
-const Accordion: React.FC = () => {
+const Accordion: React.FC = ({service}) => {
+  console.log("Accordion service prop:", service);
   const [activeKey, setActiveKey] = useState<number | null>(1);
 
   const handleToggle = (key: number) => {
@@ -38,23 +39,25 @@ const Accordion: React.FC = () => {
 
   return (
     <ul className="accordion-box mt-30 wow fadeInRight">
-      {items.map(item => (
-        <li
-          key={item.key}
-          className={`accordion block ${activeKey === item.key ? 'active-block' : ''}`}
-          onClick={() => handleToggle(item.key)}
-        >
-          <div className={`acc-btn ${activeKey === item.key ? 'active' : ''}`}>
-            {item.question}
-            <div className="icon fa fa-plus" />
-          </div>
-          <div className={`acc-content ${activeKey === item.key ? 'current' : ''}`}>
-            <div className="content">
-              <div className="text">{item.answer}</div>
-            </div>
-          </div>
-        </li>
-      ))}
+     {service?.faqs?.map((item, index) => (
+  <li
+    key={index}
+    className={`accordion block ${activeKey === index ? 'active-block' : ''}`}
+    onClick={() => handleToggle(index)}
+  >
+    <div className={`acc-btn ${activeKey === index ? 'active' : ''}`}>
+      {item.q}
+      <div className="icon fa fa-plus" />
+    </div>
+
+    <div className={`acc-content ${activeKey === index ? 'current' : ''}`}>
+      <div className="content">
+        <div className="text">{item.a}</div>
+      </div>
+    </div>
+  </li>
+))}
+
     </ul>
   );
 };
