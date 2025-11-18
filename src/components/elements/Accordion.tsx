@@ -29,7 +29,7 @@ const items: AccordionItem[] = [
   },
 ];
 
-const Accordion: React.FC = ({service}) => {
+const Accordion: React.FC<{ service?: any }> = ({service}) => {
   console.log("Accordion service prop:", service);
   const [activeKey, setActiveKey] = useState<number | null>(1);
 
