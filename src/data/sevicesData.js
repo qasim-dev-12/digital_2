@@ -41,6 +41,7 @@ serviceCenter:'How We Deliver Growth',
 
     },
     {
+        serviceCenter:'How We Deliver Growth',
       slug: "social-media-marketing", 
       number: "02",
       title: "Social Media Marketing",
@@ -100,6 +101,7 @@ faqs: [
 
     },
     {
+        serviceCenter:'How We Deliver Growth',
        slug: "ppc-services", 
       number: "03",
       title: "PPC Services",

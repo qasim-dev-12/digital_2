@@ -24,6 +24,7 @@ interface Service {
   image2Description?: string;
   img_1?: string;
   img_2?: string;
+  img_Main?: string;
   keypoints?: Keypoint[];
   faqs?: FaqItem[];
 }
@@ -103,7 +104,8 @@ const ServiceDetails: React.FC<ServiceDetailsProps>  = ({service}) => {
 					</div>
 					<div className="col-xl-8 col-lg-8">
 						<div className="services-details__content position-relative overflow-hidden px-3">
-							<img className="w-100" src="assets/images/resource/service-details.jpg" alt="" />
+							
+							<img className="w-100" src={service?.img_Main || 'Service image 1'} alt="" />
 							<h3 className="mt-4">Service Overview</h3>
 							<p className="text">{service?.overview} </p>
 							

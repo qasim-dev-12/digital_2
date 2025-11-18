@@ -46,10 +46,12 @@ const NavLinks = () => {
             <li><Link href="/page-404">Page 404</Link></li>
             </ul>
         </li>                  
-        <li className="dropdown"><Link href="#">Services</Link>
+        <li className="dropdown"><Link href="/page-services">Services</Link>
             <ul>
-            <li><Link href="/page-services">Services List</Link></li>
-            <li><Link href="/page-service-details">Service Details</Link></li>
+            <li><Link href="/page-services/digital-marketing">Digital Marketing</Link></li>
+            <li><Link href="/page-services/social-media-marketing">Social Media Marketing</Link></li>
+            <li><Link href="/page-services/ppc-services">PPC</Link></li>
+            {/* <li><Link href="/page-service-details">Service Details</Link></li> */}
             </ul>
         </li>
         <li className="dropdown"><Link href="#">Projects</Link>
