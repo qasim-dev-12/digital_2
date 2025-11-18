@@ -7,7 +7,7 @@ function ServicesGridPage() {
 
     return (
         <>
-            <Layout HeaderStyle="two">
+            <Layout>
                 <PageTitle pageName="Service Grid" />
                 <Service2 />
             </Layout>

@@ -6,7 +6,7 @@ const NavLinks = () => {
 
     <ul className="navigation">
         <li className="current dropdown"><Link href="/">Home</Link>
-            {/* <ul>
+            <ul>
             <li><Link href="/">Home page 01</Link></li>
             <li><Link href="/index-2">Home page 02</Link></li>
             <li><Link href="/index-3">Home page 03</Link></li>
@@ -14,7 +14,7 @@ const NavLinks = () => {
             <li><Link href="/index-5">Home page 05</Link></li>
             <li><Link href="/index-6">Home page 06</Link></li>
             <li><Link href="/index-7">Home page 07</Link></li>                      
-            </ul> */}
+            </ul>
         </li>
         <li className="dropdown"><Link href="#">Pages</Link>
             <ul>
