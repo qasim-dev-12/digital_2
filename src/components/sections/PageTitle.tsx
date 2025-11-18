@@ -17,7 +17,7 @@ const PageTitle: React.FC<PageTitleProps> = ({ service,pageName }) => {
   }}
       // style={{ backgroundImage: 'url(assets/images/background/about-banner.png)' }}
     >
-      <div className="auto-container">
+      <div>
         <div className="title-outer text-center">
           <h1 className="title">{pageName}</h1>
           <ul className="page-breadcrumb">

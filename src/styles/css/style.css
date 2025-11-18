@@ -21517,7 +21517,7 @@ Page Title
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 275px 0 175px;
+  padding: 175px 0 75px;
 }
 .page-title:before {
   position: absolute;
