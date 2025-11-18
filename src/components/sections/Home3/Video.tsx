@@ -8,9 +8,9 @@ function Video() {
             <section className="video-section-two">
                 <div className="container">
                     <div className="video-outer">
-                        <div className="bg bg-image" style={{ backgroundImage: "url(assets/images/background/bg-video2.jpg)" }}></div>
+                        <div className="bg bg-image" style={{ backgroundImage: "url(assets/images/background/about thumb.png)" }}></div>
                         <div className="content">
-                            <div className="stylish-text"><img src="assets/images/resource/stylish-title.svg" alt="Image"/></div>
+                            <div className="stylish-text"><img src="assets/images/background/about thumb.png" alt="Image"/></div>
                             <a onClick={() => setOpen(true)} className="play-now">
                                 <i className="icon fa-solid fa-play"></i>
                                 <span className="ripple"></span>

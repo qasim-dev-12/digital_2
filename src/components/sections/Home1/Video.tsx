@@ -7,7 +7,7 @@ function VideoSection() {
     return (
         <>
       <section className="video-section">
-        <div className="bg bg-image" style={{ backgroundImage: 'url(assets/images/background/bg-video4.jpg)' }}></div>
+        <div className="bg bg-image" style={{ backgroundImage: 'url(assets/images/background/bg-video-home.png)' }}></div>
         <div className="container">
           <div className="video-outer">
             <a onClick={() => setOpen(true)} className="play-now" data-fancybox="gallery" data-caption="">

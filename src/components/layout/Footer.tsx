@@ -22,8 +22,9 @@ function Footer (){
                   <h1 className="title">Let’s Talk</h1>
                   <div className="widget-content">
                     <div className="text">
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing <br className="d-none d-xl-block" />
-                      elit sed diam nonummy.
+                     
+                      We’re here to help you grow faster with smart digital strategies  <br className="d-none d-xl-block" />
+                    and creative solutions built for your business.
                     </div>
                     <div className="social-widget">
                       <ul className="social-icon-list1">
