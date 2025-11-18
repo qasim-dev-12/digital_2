@@ -171,13 +171,56 @@ img_Main: '/assets/images/resource/ppc-main-image.png',
         { label: "Content optimization", text: "Monthly ranking reports" },
       ],
        keypoints: [
-  { label: "High-Intent Organic Traffic" },
-  { label: "On-Page Optimization for Maximum Visibility" },
-  { label: "Technical SEO for Strong Foundations" },
-  { label: "Optimized Landing Pages for Conversions" },
-  { label: "Smart Budget Allocation & Bid Strategy" },
-  { label: "Clear, Transparent Reporting" },
-],
+    { label: "High-Intent Organic Traffic" },
+    { label: "On-Page Optimization for Maximum Visibility" },
+    { label: "Technical SEO for Strong Foundations" },
+    { label: "Authority-Building Backlinks" },
+    { label: "Content Strategy That Drives Conversions" },
+    { label: "Monthly Reporting & Ranking Improvements" }
+  ],
+    overview: `Search Engine Optimization (SEO) is the long-term growth engine for your business. 
+By ranking higher on Google, you attract consistent and high-quality traffic without paying for every click.
+Our SEO approach focuses on visibility, authority, and conversions. We optimize your website structure, create strategic content, enhance technical performance, 
+and build powerful backlinks — all working together to improve rankings and revenue. 
+With a data-driven approach, we ensure your brand dominates relevant search results across the UAE.`,
+serviceCenter: "How We Deliver Growth",
+  description1: `Our team begins with a comprehensive SEO audit that highlights gaps in content, structure, technical performance, and keyword opportunities. 
+Using industry-leading tools, we build a strategy tailored to your target market and business goals — ensuring long-term visibility and sustainable traffic.`,
+
+  description2: `We then implement a full-stack SEO plan that includes on-page optimization, technical improvements, content creation, and authority-building backlinks. 
+With continuous monitoring and adjustments, we ensure your rankings grow steadily and your brand becomes the trusted choice in your industry.`,
+  image1Title: "SEO Strategy & Audit",
+  image1Description: `We conduct a comprehensive SEO audit to uncover opportunities and build a strategy that drives measurable results.`,
+
+  image2Title: "Content & Backlink Execution",
+  image2Description: `Our team creates high-performing content and builds authoritative backlinks that increase rankings and organic traffic.`,
+    img_Main: "/assets/images/resource/seo-main-image.png",
+  img_1: "/assets/images/resource/seo-side-image1.png",
+  img_2: "/assets/images/resource/seo-side-image2.png",
+   faqs: [
+    {
+      q: "How long does SEO take to show results?",
+      a: "SEO typically shows measurable improvements within 8–12 weeks, with major growth appearing over 3–6 months."
+    },
+    {
+      q: "Do you guarantee first-page rankings?",
+      a: "No ethical agency can guarantee it, but we consistently deliver strong ranking improvements through data-driven SEO."
+    },
+    {
+      q: "What tools do you use for SEO?",
+      a: "Google Search Console, Ahrefs, SEMrush, Screaming Frog, SurferSEO, and advanced analytics tools."
+    },
+    {
+      q: "Will you create content as part of the SEO plan?",
+      a: "Yes — we deliver SEO-optimized blogs, landing pages, and website content tailored to ranking opportunities."
+    },
+    {
+      q: "Is technical SEO included in the service?",
+      a: "Absolutely. We optimize website speed, mobile responsiveness, indexing, site architecture, and performance issues."
+    }
+  ]
+
+
     },
     {
         slug: "email-marketing", 
