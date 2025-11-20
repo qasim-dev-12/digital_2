@@ -2,7 +2,8 @@ import React from 'react';
 import Link from 'next/link';
 import ProgressBar5 from '../elements/ProgressBar5';
 
-const TeamDetails = () => {
+const TeamDetails = ({industry}) => {
+    console.log("Industry in TeamDetailsssss:", industry.image);
 	return (
 		<>
             <section className="team-details pt-120">
@@ -13,7 +14,7 @@ const TeamDetails = () => {
                             <div className="col-xl-5 col-lg-6">
                                 <div className="team-details__top-left">
                                     <div className="team-details__top-img">
-                                        <img src="assets/images/resource/team.jpg" alt="Image" />
+                                        <img src={industry.image} alt="Image" />
                                         <div className="team-details__big-text">12 years of experience</div>
                                     </div>
                                 </div>
