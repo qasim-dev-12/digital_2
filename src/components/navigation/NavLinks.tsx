@@ -6,7 +6,7 @@ const NavLinks = () => {
 
     <ul className="navigation">
         <li className="current dropdown"><Link href="/">Home</Link>
-            <ul>
+            {/* <ul>
             <li><Link href="/">Home page 01</Link></li>
             <li><Link href="/index-2">Home page 02</Link></li>
             <li><Link href="/index-3">Home page 03</Link></li>
@@ -14,9 +14,18 @@ const NavLinks = () => {
             <li><Link href="/index-5">Home page 05</Link></li>
             <li><Link href="/index-6">Home page 06</Link></li>
             <li><Link href="/index-7">Home page 07</Link></li>                      
-            </ul>
+            </ul> */}
         </li>
-        <li className="dropdown"><Link href="#">Pages</Link>
+         <li><Link href="/page-about">About</Link></li>
+          <li><Link href="/page-pricing">Pricing</Link></li>
+          <li><Link href="/page-testimonial">Testimonial</Link></li>
+            <li className="dropdown"><Link href="#">Blog</Link>
+                <ul>
+                <li><Link href="/news-grid">News Grid</Link></li>
+                <li><Link href="/news-details">News Details</Link></li>
+                </ul>
+            </li> 
+        {/* <li className="dropdown"><Link href="#">Pages</Link>
             <ul>
             <li><Link href="/page-about">About</Link></li>
             <li><Link href="/page-pricing">Pricing</Link></li>
@@ -45,7 +54,7 @@ const NavLinks = () => {
             </li> 
             <li><Link href="/page-404">Page 404</Link></li>
             </ul>
-        </li>                  
+        </li>                   */}
         <li className="dropdown"><Link href="/page-services">Services</Link>
             <ul>
             <li><Link href="/page-services/digital-marketing">Digital Marketing</Link></li>
@@ -54,13 +63,30 @@ const NavLinks = () => {
             {/* <li><Link href="/page-service-details">Service Details</Link></li> */}
             </ul>
         </li>
-        <li className="dropdown"><Link href="#">Projects</Link>
+        {/* <li className="dropdown"><Link href="#">Projects</Link>
             <ul>
             <li><Link href="/page-project">Projects</Link></li>
             <li><Link href="page-project-details">Project Details</Link></li>
             </ul>
-        </li>                                   
-        <li><Link href="/page-contact">Contact</Link></li>
+        </li> */}
+         <li className="dropdown"><Link href="#">Industries</Link>
+            <ul>
+            <li><Link href="/page-project">Real Estate & Property Developers</Link></li>
+<li><Link href="/page-project">Automotive & Car Care</Link></li>
+<li><Link href="/page-project">Healthcare & Clinics</Link></li>
+<li><Link href="/page-project">Restaurants, Cafés & F&B Brands</Link></li>
+<li><Link href="/page-project">E-Commerce & Online Stores</Link></li>
+<li><Link href="/page-project">Hospitality & Tourism</Link></li>
+<li><Link href="/page-project">Education & Training Institutes</Link></li>
+<li><Link href="/page-project">Beauty, Salon & Personal Care</Link></li>
+<li><Link href="/page-project">Construction & Contracting</Link></li>
+<li><Link href="/page-project">Logistics & Transport</Link></li>
+<li><Link href="/page-project">Cleaning & Home Services</Link></li>
+<li><Link href="/page-project">Technology & IT Services</Link></li>
+
+            </ul>
+        </li>                                    
+        {/* <li><Link href="/page-contact">Contact</Link></li> */}
     </ul>
 
     );
