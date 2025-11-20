@@ -34,6 +34,29 @@ serviceCenter:'How We Deliver Growth',
   img_Main: '/assets/images/resource/main-image.png',
   img_1: '/assets/images/resource/digital-side1.png',
   img_2: '/assets/images/resource/digital-side2.png',
+  faqs: [
+  {
+    q: "How long does it take to see results from digital marketing?",
+    a: "Most businesses start seeing improvements in traffic and engagement within 2–4 weeks, while long-term ROI and conversions grow steadily over 3–6 months, depending on strategy and budget."
+  },
+  {
+    q: "Which platforms do you include in your digital marketing services?",
+    a: "We cover Google, Meta (Facebook/Instagram), TikTok, YouTube, LinkedIn, email platforms, and display advertising networks—fully customized to your business needs."
+  },
+  {
+    q: "How do you measure campaign performance?",
+    a: "We track KPIs such as clicks, leads, conversions, cost per result, revenue impact, engagement rate, and long-term customer retention through real-time dashboards."
+  },
+  {
+    q: "Can digital marketing work for small businesses?",
+    a: "Absolutely. We tailor strategies based on budget and industry. Even small, highly targeted campaigns can generate strong leads and brand awareness."
+  },
+  {
+    q: "Do you offer monthly maintenance and optimization?",
+    a: "Yes. We provide ongoing campaign management, A/B testing, creative updates, keyword optimization, and weekly/monthly performance reports."
+  }
+]
+
 
 
 

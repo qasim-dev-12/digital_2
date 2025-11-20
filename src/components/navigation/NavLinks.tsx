@@ -96,7 +96,7 @@ const NavLinks = () => {
 
             </ul>
         </li>                                    
-        {/* <li><Link href="/page-contact">Contact</Link></li> */}
+        <li><Link href="/page-contact">Contact</Link></li>
     </ul>
 
     );

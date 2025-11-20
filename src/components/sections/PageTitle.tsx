@@ -5,6 +5,7 @@ interface PageTitleProps {
   pageName: string;
   service?: {
     img_Main?: string;
+    title?: string;
   };
 }
 
@@ -19,13 +20,13 @@ const PageTitle: React.FC<PageTitleProps> = ({ service,pageName }) => {
     >
       <div>
         <div className="title-outer text-center">
-          <h1 className="title">{pageName}</h1>
-          <ul className="page-breadcrumb">
+          <h1 className="title">{service?.title}</h1>
+          {/* <ul className="page-breadcrumb">
             <li>
               <Link href="/">Home</Link>
             </li>
             <li>{pageName}</li>
-          </ul>
+          </ul> */}
         </div>
       </div>
     </section>

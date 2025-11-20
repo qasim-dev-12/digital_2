@@ -74,10 +74,10 @@ const ServiceDetails: React.FC<ServiceDetailsProps>  = ({service}) => {
 						<div className="service-sidebar">
 							<div className="sidebar-widget service-sidebar-single">
 								<div className="sidebar-service-list">										
-									<ul>
+									<ul >
 										{service?.keypoints?.map((eachitem, servicelist) => (
 											// <li key={servicelist}><Link className={(servicelist === 0) ? 'current': ''} href={eachitem.linkurl}><i className="fas fa-angle-right" /><span>{eachitem.title}</span></Link></li>
-																						<li key={servicelist}><Link className={(servicelist === 0) ? 'current': ''} href={eachitem.label}><i className="fas fa-angle-right" /><span>{eachitem.label}</span></Link></li>
+																						<li key={servicelist}><Link className={(servicelist === 0) ? 'current': ''} href={eachitem.label}><i className="fas fa-angle-right" /><span  style={{ fontSize: "14px", lineHeight: "10px" }}>{eachitem.label}</span></Link></li>
 
 										))}
 									</ul>
@@ -138,7 +138,6 @@ const ServiceDetails: React.FC<ServiceDetailsProps>  = ({service}) => {
 							</div>
 							<div className="innerpage mt-25">
 								<h3>Frequently Asked Question</h3>
-								<p className="text">Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
 								<Accordion service={service} />
 							</div>
 						</div>
