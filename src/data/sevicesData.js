@@ -354,10 +354,9 @@ Whether you need a corporate site, e-commerce platform, landing page, or custom 
       a: "Yes — we provide optional monthly maintenance, updates, security checks, and content support."
     }
   ]
-}
-,
+},
     {
-  slug: "mobile-services",
+  slug: "mobile-app-development",
   number: "07",
   title: "Mobile App Development",
   image: "assets/images/resource/07 Mobile.png",
