@@ -16,15 +16,21 @@ const NavLinks = () => {
             <li><Link href="/index-7">Home page 07</Link></li>                      
             </ul> */}
         </li>
-         <li><Link href="/page-about">About</Link></li>
-          <li><Link href="/page-pricing">Pricing</Link></li>
-          <li><Link href="/page-testimonial">Testimonial</Link></li>
+
+         <li className="dropdown"><Link href="#">About</Link>
+            <ul>
+            <li><Link href="/page-testimonial">Testimonial</Link></li>
             <li className="dropdown"><Link href="#">Blog</Link>
                 <ul>
                 <li><Link href="/news-grid">News Grid</Link></li>
                 <li><Link href="/news-details">News Details</Link></li>
                 </ul>
             </li> 
+            </ul>
+        </li>
+         {/* <li><Link href="/page-about">About</Link></li> */}
+          <li><Link href="/page-pricing">Pricing</Link></li>
+         
         {/* <li className="dropdown"><Link href="#">Pages</Link>
             <ul>
             <li><Link href="/page-about">About</Link></li>
@@ -60,6 +66,7 @@ const NavLinks = () => {
             <li><Link href="/page-services/digital-marketing">Digital Marketing</Link></li>
             <li><Link href="/page-services/social-media-marketing">Social Media Marketing</Link></li>
             <li><Link href="/page-services/ppc-services">PPC</Link></li>
+             <li><Link href="/page-services/seo-services">SEO</Link></li>
             {/* <li><Link href="/page-service-details">Service Details</Link></li> */}
             </ul>
         </li>
