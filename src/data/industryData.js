@@ -308,11 +308,11 @@ Our approach is designed for car care centers, detailing studios, repair garages
   title: "Hospitality & Tourism",
   slug: "hospitality-tourism",
 
-  image: "assets/images/resource/hospitality-thumb.png",
+  image: "/assets/images/resource/hospitality-main.png",
 
   // Two images (870 × 485)
-  img_1: "assets/images/resource/hospitality-1.png",
-  img_2: "assets/images/resource/hospitality-2.png",
+  img_1: "/assets/images/resource/hospital-1.png",
+  img_2: "/assets/images/resource/hospital-2.png",
 
   industryInfo: {
     industryFocus: "Hotels, Resorts, Travel Agencies & Tourism Brands",
@@ -357,35 +357,346 @@ Our approach is designed for car care centers, detailing studios, repair garages
 }
 ,
   {
-    title: "Education & Training Institutes",
-    slug: "education-training-institutes",
-      image: "assets/images/resource/email-side-image-1.png",
+  title: "Education & Training Institutes",
+  slug: "education-training-institutes",
+
+  image: "/assets/images/resource/edu-main.png",
+
+  // Side images
+  img_1: "/assets/images/resource/edu-side-1.png",
+  img_2: "/assets/images/resource/edu-side-2.png",
+
+  // Structured industry info block
+  industryInfo: {
+    industryFocus: "Education, Coaching Centers, Training Institutes & E-Learning",
+    serviceCategory: "Digital Marketing, Enrollment Generation & Brand Positioning",
+    region: "UAE – Dubai, Abu Dhabi, Sharjah",
+    objective: "Increase Admissions, Build Credibility & Boost Student Engagement"
   },
-  {
-    title: "Beauty, Salon & Personal Care",
-    slug: "beauty-salon-personal-care",
-      image: "assets/images/resource/email-side-image-1.png",
+
+  // Main content sections
+  aboutTitle: "How We Grow Education & Training Brands",
+
+  overview: `Education is a trust-based decision. Students and parents want credibility, proven results, expert trainers, and a strong learning environment before enrolling — which means your digital presence must communicate authority instantly.`,
+
+  overview1: `Our approach is built for schools, universities, coaching academies, vocational centers, certification programs, and e-learning platforms. Through academic storytelling, engaging visuals, and performance-driven campaigns, we attract serious learners who are actively searching for the right course or institute. Whether you're launching a new program, certification, or academic pathway, we create a digital ecosystem that increases inquiries, boosts admissions, and strengthens your brand reputation in the UAE education market.`,
+
+  description_below_img: `To complete the enrollment cycle, we build targeted student acquisition funnels using Meta and Google campaigns optimized for course inquiries, demo class bookings, open-house registrations, and direct admissions. Every lead is nurtured through automated CRM workflows, instant WhatsApp replies, academic brochures, and personalized follow-ups — ensuring more inquiries convert into actual enrollments.`,
+
+  // Workflow
+  workflow: [
+    {
+      step: 1,
+      title: "Market Research & Audience Mapping",
+      text: "We analyze age groups, learning goals, demand trends, competitor offerings, and parent/student behavior to shape a strong enrollment strategy."
+    },
+    {
+      step: 2,
+      title: "High-Quality Academic Content Production",
+      text: "Campus tours, classroom visuals, trainer introduction videos, testimonial stories, and professional academic photography designed for trust-building."
+    }
+  ],
+
+  // Key advantages block
+  benefitsBlock: {
+    title: "Key Advantages We Offer Education Brands",
+    fullText: `Our system helps education providers increase inquiry volume, improve conversion rates, and build long-term academic trust. By combining academic credibility with modern marketing, we ensure your brand attracts qualified learners who are ready to take action.`,
+    points: [
+      " High-Intent Student Inquiries",
+      " Strong Academic Storytelling",
+      " Higher Enrollment Conversion Rates",
+      " Expert Understanding of UAE’s Education Market"
+    ]
   },
+
+  serviceCenter: "How We Grow Education & Training Brands"
+}
+,
   {
-    title: "Construction & Contracting",
-    slug: "construction-contracting",
-      image: "assets/images/resource/email-side-image-1.png",
+  title: "Beauty, Salon & Personal Care",
+  slug: "beauty-salon-personal-care",
+
+  // Main banner
+  image: "/assets/images/resource/beauty-main.png",
+
+  // Side images (you can replace with final uploads)
+  img_1: "/assets/images/resource/beauty-side-1.png",
+  img_2: "/assets/images/resource/beauty-side-2.png",
+
+  // Structured industry info block
+  industryInfo: {
+    industryFocus: "Beauty, Salons, Spas & Personal Care Services",
+    serviceCategory: "Digital Marketing, Branding & Appointment Generation",
+    region: "UAE – Dubai, Abu Dhabi, Sharjah",
+    objective: "Increase Bookings, Build Brand Reputation & Retain Repeat Clients"
   },
-  {
-    title: "Logistics & Transport",
-    slug: "logistics-transport",
-      image: "assets/images/resource/email-side-image-1.png",
+
+  // Main content
+  aboutTitle: "How We Grow Beauty & Personal Care Brands",
+
+  overview: `The beauty industry runs on emotion, trust, and visual appeal. Potential clients decide within seconds whether your brand looks professional, reliable, and worth booking — which means your digital presence must instantly convey quality, expertise, hygiene, and transformation.`,
+
+  overview1: `Our approach is tailored for salons, spas, beauty clinics, nail bars, grooming studios, and personal care brands. Through premium visuals, authentic storytelling, and targeted ad strategies, we highlight your treatments, transformations, and customer experience. Whether your focus is makeup, hair styling, skincare, nails, grooming, massage, or bridal services, we build a digital ecosystem that strengthens brand confidence and increases appointments. Using cinematic visuals, client testimonials, and conversion-driven funnels, we guide customers from interest to booking — smoothly and consistently.`,
+
+  description_below_img: `To complete the customer journey, we build acquisition funnels using Meta and Google ads optimized for appointments, walk-ins, seasonal offers, and package promotions. Every inquiry is nurtured through automated WhatsApp reminders, booking confirmations, follow-up messages, loyalty offers, and remarketing campaigns designed to bring clients back regularly.`,
+
+  // Workflow
+  workflow: [
+    {
+      step: 1,
+      title: "Market Insight & Client Behavior Research",
+      text: "We analyze competitor positioning, trending treatments, client demographics, peak-hour data, and pricing strategies to craft an effective marketing plan."
+    },
+    {
+      step: 2,
+      title: "High-Quality Beauty & Salon Content",
+      text: "Transformation reels, before–after visuals, service highlights, product-focused content, interior ambience shots, and team professionalism — all crafted to drive trust and bookings."
+    }
+  ],
+
+  // Benefits
+  benefitsBlock: {
+    title: "Key Advantages We Offer Beauty Brands",
+    fullText: `We help beauty businesses grow by combining premium visuals, precise targeting, and emotional branding that makes clients trust your service instantly. Our strategies improve appointment flow, build loyalty, and elevate your brand’s reputation in the competitive UAE beauty market.`,
+    points: [
+      " High-Intent Appointment Leads",
+      " Powerful Before–After Visual Storytelling",
+      " Stronger Loyalty & Repeat Bookings",
+      " Deep Understanding of UAE’s Beauty Market"
+    ]
   },
-  {
-    title: "Cleaning & Home Services",
-    slug: "cleaning-home-services",
-      image: "assets/images/resource/email-side-image-1.png",
+
+  serviceCenter: "How We Grow Beauty & Personal Care Brands"
+}
+,
+ {
+  title: "Construction & Contracting",
+  slug: "construction-contracting",
+
+  // Main Banner
+  image: "/assets/images/resource/const-main.png",
+
+  // Side images (placeholders — replace when you upload final visuals)
+  img_1: "/assets/images/resource/const-side-1.png",
+  img_2: "/assets/images/resource/const-side-2.png",
+
+  // Industry Information Block
+  industryInfo: {
+    industryFocus: "Construction Companies, Contractors, Civil Engineering & Fit-Out Firms",
+    serviceCategory: "Digital Marketing, Lead Generation & Project Branding",
+    region: "UAE – Dubai, Abu Dhabi, Sharjah",
+    objective: "Generate B2B Leads, Build Authority & Win More Projects"
   },
+
+  // Main content sections
+  aboutTitle: "How We Grow Construction & Contracting Brands",
+
+  overview: `The construction industry relies heavily on credibility, capability, and reputation. When companies evaluate contractors, they search for proven experience, high-quality project execution, and a trustworthy brand image — which means your digital presence must communicate professionalism, scale, and reliability from the very first impression.`,
+
+  overview1: `Our approach is built specifically for general contractors, civil engineering firms, fit-out companies, renovation specialists, and infrastructure developers. By showcasing your portfolio, technical expertise, safety standards, and past accomplishments through clean visuals and sharp messaging, we position your brand as an authority. Through targeted B2B campaigns, project-focused storytelling, and reputation-building strategies, we help you attract serious decision-makers, win more bids, and grow confidently in the UAE market.`,
+
+  description_below_img: `To complete your project acquisition cycle, we create targeted lead-generation funnels using Meta and Google campaigns optimized for B2B contractor inquiries, renovation requests, fit-out opportunities, and corporate facility upgrades. Every inquiry is nurtured through professional follow-ups, project showcases, digital brochures, and trust-building communication — helping your company convert more leads into high-value projects.`,
+
+  // Workflow
+  workflow: [
+    {
+      step: 1,
+      title: "Industry Research & Capability Mapping",
+      text: "We analyze market demand, competitor strengths, project categories, and decision-maker motivations to build a precise, high-impact marketing strategy."
+    },
+    {
+      step: 2,
+      title: "High-Quality Visual & Project Content",
+      text: "Site photography, engineer highlights, equipment visuals, project documentation, before–after renovations, and technical walk-throughs that strengthen your brand credibility."
+    }
+  ],
+
+  // Benefits Block
+  benefitsBlock: {
+    title: "Key Advantages We Offer Construction Brands",
+    fullText: `We help construction and contracting firms grow through powerful branding, targeted B2B lead generation, and trust-focused content that convinces decision-makers to choose your company. Our strategies are tailored to the UAE construction landscape, ensuring your brand stands out in a competitive market.`,
+    points: [
+      " High-Intent B2B Project Leads",
+      " Professional Construction Visual Storytelling",
+      " Higher Project Conversion Rates",
+      " Expert Understanding of UAE Construction Sector"
+    ]
+  },
+
+  serviceCenter: "How We Grow Construction & Contracting Brands"
+}
+ ,
   {
-    title: "Technology & IT Services",
-    slug: "technology-it-services",
-      image: "assets/images/resource/email-side-image-1.png",
-  }
+  title: "Logistics & Transport",
+  slug: "logistics-transport",
+
+  // Main Banner Image
+  image: "/assets/images/resource/logistics-main.png",
+
+  // Side Images (placeholders — replace when final images are ready)
+  img_1: "/assets/images/resource/logistics-side1.png",
+  img_2: "/assets/images/resource/logistics-side-2.png",
+
+  // Industry Information Block
+  industryInfo: {
+    industryFocus: "Logistics, Transport, Delivery, Warehousing & Supply Chain",
+    serviceCategory: "Digital Marketing, B2B Lead Generation & Branding",
+    region: "UAE – Dubai, Abu Dhabi, Sharjah",
+    objective: "Increase B2B Contracts, Improve Brand Reputation & Drive Consistent Inquiries"
+  },
+
+  // Main content sections
+  aboutTitle: "How We Grow Logistics & Transport Brands",
+
+  overview: `The logistics industry depends on speed, reliability, efficiency, and trust. Businesses choose logistics partners based on proven capability, timely delivery, strong communication, and consistent performance — which means your digital presence must instantly communicate professionalism and dependability.`,
+
+  overview1: `Our approach is built for freight companies, transport fleets, delivery providers, warehouse operators, courier firms, cold-chain logistics, and 3PL service providers. We highlight your operational strengths — fleet size, coverage, on-time delivery performance, technology, and expertise — using clear visuals, strong messaging, and B2B-focused funnels. Whether you're targeting long-term corporate contracts or scaling your delivery operations, we create a digital ecosystem that attracts businesses searching for reliable logistics partners. Through operational content, targeted campaigns, and trust-driven storytelling, we convert inquiries into lasting B2B partnerships.`,
+
+  description_below_img: `To complete the acquisition cycle, we build B2B lead-generation funnels using Meta and Google ads optimized for corporate logistics inquiries, delivery partnerships, warehouse leasing requests, and transport contracts. Every lead is nurtured through credibility-focused communication, operational showcases, case studies, and efficiency metrics — helping your company convert more inquiries into long-term clients.`,
+
+  // Workflow
+  workflow: [
+    {
+      step: 1,
+      title: "Industry Analysis & Opportunity Mapping",
+      text: "We identify target sectors, B2B opportunities, competitor benchmarks, logistics needs, and service gaps across the UAE market."
+    },
+    {
+      step: 2,
+      title: "High-Quality Operational Content",
+      text: "Fleet visuals, warehouse tours, scanning operations, packaging workflows, staff efficiency highlights, safety standards, and service showcases designed for trust-building."
+    }
+  ],
+
+  // Benefits Block
+  benefitsBlock: {
+    title: "Key Advantages We Offer Logistics Brands",
+    fullText: `We help logistics and transport companies grow by combining clear operational communication, high-intent B2B lead generation, and trust-building content that aligns with UAE business expectations. Our strategies improve contract quality, strengthen reputation, and create sustainable business growth.`,
+    points: [
+      " High-Intent B2B Logistics Leads",
+      " Clear Operational Storytelling",
+      " Higher Contract Conversion Rates",
+      " Strong Understanding of UAE Supply Chain Market"
+    ]
+  },
+
+  serviceCenter: "How We Grow Logistics & Transport Brands"
+}
+,
+ {
+  title: "Cleaning & Home Services",
+  slug: "cleaning-home-services",
+
+  // Main Banner Image
+  image: "/assets/images/resource/11-cleaning-top.png",
+
+  // Side Images (replace with final visuals later)
+  img_1: "/assets/images/resource/cleaning-1.png",
+  img_2: "/assets/images/resource/cleaning-2.png",
+
+  // Industry Information Block
+  industryInfo: {
+    industryFocus: "Cleaning Services, Home Care, Maid Services & Facility Maintenance",
+    serviceCategory: "Digital Marketing, Lead Generation & Booking Optimization",
+    region: "UAE – Dubai, Abu Dhabi, Sharjah",
+    objective: "Increase Daily Bookings, Boost Trust & Improve Repeat Customers"
+  },
+
+  // Main content
+  aboutTitle: "How We Grow Cleaning & Home Service Brands",
+
+  overview: `The cleaning industry relies on trust, reliability, and customer satisfaction. Clients want to know that your team is professional, consistent, and safe before booking a home service — which means your digital presence must instantly communicate quality, hygiene, and dependability.`,
+
+  overview1: `Our marketing approach is designed for cleaning companies, maid services, deep-clean specialists, sofa and mattress cleaners, pest control providers, and facility maintenance firms. We highlight your service quality, trained staff, eco-friendly products, and before–after transformations using clean visuals, strong messaging, and conversion-focused ad strategies. Whether you're offering hourly cleaning, deep cleaning, recurring packages, or move-in/move-out services, we build a digital ecosystem that increases bookings and strengthens long-term customer loyalty. Through targeted advertising, automated reminders, and WhatsApp-based booking systems, we help you grow consistently every month.`,
+
+  description_below_img: `To complete the booking cycle, we build acquisition funnels using Meta and Google ads optimized for fast bookings, same-day services, deep cleaning requests, and recurring cleaning packages. Each new inquiry is nurtured through automated WhatsApp reminders, customer feedback flows, loyalty offers, and CRM-driven engagement — boosting both conversions and repeat bookings.`,
+
+  // Workflow
+  workflow: [
+    {
+      step: 1,
+      title: "Market Demand Mapping & Competitor Analysis",
+      text: "We analyze customer demand, pricing trends, peak booking hours, competitor strengths, and target demographics to build a winning growth strategy."
+    },
+    {
+      step: 2,
+      title: "High-Quality Service Showcasing",
+      text: "Staff professionalism, equipment hygiene, before–after results, home environment cleanliness, and step-by-step service visuals that build trust and increase bookings."
+    }
+  ],
+
+  // Benefits Block
+  benefitsBlock: {
+    title: "Key Advantages We Offer Cleaning Brands",
+    fullText: `We help cleaning and home service companies grow through trust-building visuals, high-intent targeting, and automated booking systems tailored specifically for UAE customer behavior. Our strategies deliver consistent booking growth and stronger long-term client relationships.`,
+    points: [
+      " High-Intent Daily Cleaning Leads",
+      " Strong Trust & Hygiene Storytelling",
+      " Higher Repeat Booking Rates",
+      " Expert Understanding of UAE Cleaning Market"
+    ]
+  },
+
+  serviceCenter: "How We Grow Cleaning & Home Services Brands"
+}
+,
+  {
+  title: "Technology & IT Services",
+  slug: "technology-it-services",
+
+  // Main Banner Image
+  image: "/assets/images/resource/tech-main.png",
+
+  // Side Images (replace with actual visuals)
+  img_1: "/assets/images/resource/tech-side1.png",
+  img_2: "/assets/images/resource/tech-side2.png",
+
+  // Industry Information Block
+  industryInfo: {
+    industryFocus: "Technology, IT Services, SaaS, Cloud Solutions & Cybersecurity",
+    serviceCategory: "Digital Marketing, B2B Lead Generation & Brand Positioning",
+    region: "UAE – Dubai, Abu Dhabi, Sharjah",
+    objective: "Acquire B2B Clients, Build Authority & Increase Product/Service Adoption"
+  },
+
+  // Main content sections
+  aboutTitle: "How We Grow Technology & IT Brands",
+
+  overview: `Technology decisions are logical, research-driven, and based heavily on credibility, performance, and long-term reliability. Businesses want to partner with IT companies that demonstrate innovation, expertise, and strong problem-solving — which means your digital presence must instantly communicate trust and value.`,
+
+  overview1: `Our approach is built specifically for SaaS companies, IT consultancies, cybersecurity providers, cloud solution firms, software developers, MSPs, and enterprise tech brands. We highlight your solutions through explainer videos, visual branding, UI showcases, and technical storytelling. Whether you offer software products, IT support, security systems, cloud infrastructure, or automation solutions, we create a digital ecosystem designed to increase inquiries, build authority, and boost product/service adoption.`,
+
+  description_below_img: `To complete your B2B acquisition cycle, we build lead generation funnels using Meta and Google campaigns optimized for corporate IT inquiries, software demos, security audits, cloud migration requests, and SaaS trials. Each prospect is nurtured through case studies, technical insights, whitepapers, and credibility-driven communication — helping your brand convert more leads into high-value clients.`,
+
+  // Workflow
+  workflow: [
+    {
+      step: 1,
+      title: "Technical Analysis & Market Mapping",
+      text: "We study your product features, target industries, pain points, competitor positioning, and market demand to build a strategic growth roadmap."
+    },
+    {
+      step: 2,
+      title: "High-Quality Tech Content Production",
+      text: "UI mockups, app dashboards, explainer videos, developer stories, infrastructure visuals, and technical demonstrations that simplify complex solutions and strengthen authority."
+    }
+  ],
+
+  // Benefits Block
+  benefitsBlock: {
+    title: "Key Advantages We Offer Technology Brands",
+    fullText: `We help technology companies grow through clear technical communication, strong branding, and high-intent B2B lead generation. Our strategies are designed to attract serious decision-makers and accelerate adoption of your software or IT services across the UAE market.`,
+    points: [
+      " High-Intent B2B IT Leads",
+      " Clear & Powerful Tech Storytelling",
+      " Higher Demo/Consultation Conversion Rates",
+      " Deep Understanding of UAE’s Tech Industry"
+    ]
+  },
+
+  serviceCenter: "How We Grow Technology & IT Services Brands"
+}
+
 ];
 
 export default industries;
