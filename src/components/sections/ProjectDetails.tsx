@@ -23,21 +23,38 @@ const swiperOptions = {
     1350: { slidesPerView: 2 },
   }
 };
-interface ProjectDetailsProps {
-    industry: {
-        title?: string;
-        image?: string;
-        industryInfo?: {
-            industryFocus?: string;
-            serviceCategory?: string;
-            region?: string;
-            objective?: string;
-        };
-        aboutTitle?: string;
-        overview?: string;
-        overview1?: string;
-        overview2?: string;
-    };
+export interface IndustryInfo {
+  industryFocus?: string;
+  serviceCategory?: string;
+  region?: string;
+  objective?: string;
+}
+
+export interface Industry {
+  title?: string;
+  slug?: string;
+  image?: string;
+  img_Main?: string;
+  img_1?: string;
+  img_2?: string;
+
+  industryInfo?: IndustryInfo;
+
+  aboutTitle?: string;
+  overview?: string;
+  overview1?: string;
+  overview2?: string;
+
+  // optional gallery - URLs
+  gallery?: string[];
+
+  // optional workflow / extras
+  workflow?: Array<{ step?: number; title?: string; text?: string }>;
+}
+
+export interface ProjectDetailsProps {
+  // make industry optional to avoid TS errors before router is ready
+  industry?: Industry | null;
 }
 
 const ProjectDetails: React.FC<ProjectDetailsProps> = ({industry}) => {
