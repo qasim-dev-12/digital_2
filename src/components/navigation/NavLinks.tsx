@@ -79,7 +79,7 @@ const NavLinks = () => {
             <li><Link href="page-project-details">Project Details</Link></li>
             </ul>
         </li> */}
-         <li className="dropdown"><Link href="/page-team">Industries</Link>
+         <li className="dropdown"><Link href="/industries">Industries</Link>
             <ul>
             <li><Link href="/page-project">Real Estate & Property Developers</Link></li>
 <li><Link href="/page-project">Automotive & Car Care</Link></li>
