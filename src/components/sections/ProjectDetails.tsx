@@ -66,6 +66,7 @@ const ProjectDetails: React.FC<ProjectDetailsProps> = ({industry}) => {
   return (
   <>
   <section className="project-details pt-120 pb-120">
+    
     <div className="container">
       <div className="project-details__top">
         <div className="project-details__img"><img src={industry?.image} alt="Image" /></div>
