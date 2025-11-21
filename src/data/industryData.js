@@ -80,14 +80,17 @@ description_below_img: `To complete the growth cycle, we build Targeted Lead Gen
   // Full content sections
   aboutTitle: "How We Grow Automotive & Car Care Brands",
 
-  overview: `The automotive segment is highly competitive — customers compare service quality, pricing, expertise, and trust before booking. That’s why your marketing must showcase credibility, technical expertise, and premium service quality instantly.`,
+  overview: `The automotive segment is highly competitive — customers compare service quality, pricing, expertise, and trust before booking. That’s why your marketing must showcase credibility, technical expertise, and premium service quality instantly.
+Our approach is designed for car care centers, detailing studios, repair garages, auto spas, ceramic coating specialists, tinting providers, and modification workshops.
+ We highlight the transformation, craftsmanship, and technical excellence of your services using cinematic visuals, powerful storytelling, and performance-driven ad funnels.`,
 
-  overview1: `Our approach is designed for car care centers, detailing studios, repair garages, auto spas, ceramic coating specialists, tinting providers, and modification workshops. We highlight the transformation, craftsmanship, and technical excellence of your services using cinematic visuals, powerful storytelling, and performance-driven ad funnels.`,
+  overview1: `From premium service highlights to before-after results, we turn your workshop into a brand customers trust. With targeted ads, clear service value propositions, and optimized booking funnels, we help convert interested car owners into confirmed appointments quickly and consistently.`,
 
   overview2: `From premium service highlights to before–after results, we turn your workshop into a brand customers trust. With targeted ads, clear service value propositions, and optimized booking funnels, we help convert interested car owners into confirmed appointments quickly and consistently.`,
 
   // Below-image description
-  description_below_img: `We create ad funnels tailored to specific service intents — ceramic coating, full detailing, tinting, AC repair, oil service, or PPF installation. Your campaigns reach car owners actively searching for premium automotive services. Through automated lead nurturing via WhatsApp, booking reminders, and CRM workflows, we help increase conversion rates and reduce appointment drop-offs.`,
+  description_below_img: `We create ad funnels tailored to specific intents — ceramic coating, full detailing, tinting, AC repair, oil service, or PPF installation.
+ Your campaigns reach car owners actively searching for premium services, increasing real booking potential.Instant WhatsApp replies, booking reminders, service follow-up messages, and CRM-based lead nurturing — all designed to reduce drop-offs and increase confirmed appointments.`,
 
   // Workflow steps
   workflow: [
@@ -132,7 +135,7 @@ description_below_img: `To complete the growth cycle, we build Targeted Lead Gen
   title: "Healthcare & Clinics Industry",
   slug: "healthcare-clinics",
 
-  image: '/assets/images/resource/health-thumb.png',
+  image: '/assets/images/resource/health-main-1.png',
 
   img_1: '/assets/images/resource/health-1.png',
   img_2: '/assets/images/resource/health-2.png',
@@ -181,13 +184,15 @@ description_below_img: `To complete the growth cycle, we build Targeted Lead Gen
 ,
  {
   title: "Restaurants, Cafés & F&B Brands",
-  slug: "restaurants-cafes-fnb-brands",
-
-  image: "assets/images/resource/email-side-image-1.png",
+  slug: "restaurants-cafes-fb-brands",
+// C:\wisevision\staytop_digital\digitaal-next-client-files\file\public\assets\images\resource\
+  image: '/assets/images/resource/restaurants-top.png',
 
   // Two images (870 × 485)
-  img_1: "assets/images/resource/fnb-1.png",
-  img_2: "assets/images/resource/fnb-2.png",
+//   C:\wisevision\staytop_digital\digitaal-next-client-files\file\public\assets\images\resource\
+// C:\wisevision\staytop_digital\digitaal-next-client-files\file\public\assets\images\resource\
+  img_1: "/assets/images/resource/restaurants-side1.png",
+  img_2: "/assets/images/resource/restaurants-side.png",
 
   // Industry Information Block
   industryInfo: {
@@ -241,13 +246,13 @@ description_below_img: `To complete the growth cycle, we build Targeted Lead Gen
 ,
   {
   title: "E-Commerce & Online Stores",
-  slug: "ecommerce-online-stores",
+  slug: "e-commerce-online-stores",
 
-  image: "assets/images/resource/email-side-image-1.png",
+  image: "/assets/images/resource/ecommerce-main.png",
 
   // Two images (870 × 485)
-  img_1: "assets/images/resource/ecom-1.png",
-  img_2: "assets/images/resource/ecom-2.png",
+  img_1: "/assets/images/resource/ecom-side1.png",
+  img_2: "/assets/images/resource/ecom-side-2.png",
 
   // Industry Information Block
   industryInfo: {
@@ -267,7 +272,7 @@ description_below_img: `To complete the growth cycle, we build Targeted Lead Gen
   overview1: `We help you stand out with persuasive product visuals, seamless user experience, and platform-specific messaging that increases both first-time purchases and repeat sales. From dynamic catalog ads to automated retention workflows, we ensure your brand stays top-of-mind and your store becomes a revenue engine that grows consistently — not just temporarily.`,
 
   // Below Images Description
-  description_below_img: `Meta, Google & TikTok ads optimized for sales events like add-to-cart, checkout, and purchase. CRO improvements, faster UX, A/B testing, optimized product pages, and simplified checkout flows increase conversions. Automated email funnels, WhatsApp broadcasts, remarketing, and catalog ads drive repeat purchases and long-term customer loyalty.`,
+  description_below_img: `Meta, Google & TikTok ads optimized for conversion events like add-to-cart, checkout, purchase, and subscription.UI/UX improvements, A/B testing, optimized product pages, persuasive copy, faster load times, and simplified checkout flows.Automated email flows, WhatsApp broadcasts, remarketing funnels, dynamic catalog ads, and personalized product recommendations.`,
 
   // Workflow Steps Only (as per your structure)
   workflow: [
