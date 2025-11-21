@@ -81,18 +81,18 @@ const NavLinks = () => {
         </li> */}
          <li className="dropdown"><Link href="/industries">Industries</Link>
             <ul>
-            <li><Link href="/page-project">Real Estate & Property Developers</Link></li>
-<li><Link href="/page-project">Automotive & Car Care</Link></li>
-<li><Link href="/page-project">Healthcare & Clinics</Link></li>
-<li><Link href="/page-project">Restaurants, Cafés & F&B Brands</Link></li>
-<li><Link href="/page-project">E-Commerce & Online Stores</Link></li>
-<li><Link href="/page-project">Hospitality & Tourism</Link></li>
-<li><Link href="/page-project">Education & Training Institutes</Link></li>
-<li><Link href="/page-project">Beauty, Salon & Personal Care</Link></li>
-<li><Link href="/page-project">Construction & Contracting</Link></li>
-<li><Link href="/page-project">Logistics & Transport</Link></li>
-<li><Link href="/page-project">Cleaning & Home Services</Link></li>
-<li><Link href="/page-project">Technology & IT Services</Link></li>
+            <li><Link href="/industries/real-estate">Real Estate </Link></li>
+<li><Link href="/industries/automotive-car-care">Automotive</Link></li>
+<li><Link href="/industries/healthcare-clinics">Healthcare</Link></li>
+<li><Link href="/industries/restaurants-cafes-fb-brands">Restaurants</Link></li>
+<li><Link href="/industries/e-commerce-online-stores">E-Commerce</Link></li>
+<li><Link href="/industries/hospitality-tourism">Hospitality</Link></li>
+<li><Link href="/industries/education-training-institutes">Education</Link></li>
+<li><Link href="/industries/beauty-salon-personal-care">Beauty Care</Link></li>
+<li><Link href="/industries/construction-contracting">Construction</Link></li>
+<li><Link href="/industries/logistics-transport">Logistics</Link></li>
+<li><Link href="/industries/cleaning-home-services"> Home Services</Link></li>
+<li><Link href="/industries/technology-it-services">Technology</Link></li>
 
             </ul>
         </li>                                    
