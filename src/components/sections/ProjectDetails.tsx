@@ -30,7 +30,7 @@ interface ProjectDetailsProps {
     };
 }
 
-const ProjectDetails = ({industry}) => {
+const ProjectDetails: React.FC<ProjectDetailsProps> = ({industry}) => {
   console.log("Industry in ProjectDetails:", industry);
   return (
   <>
