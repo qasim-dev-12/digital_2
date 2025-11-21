@@ -27,6 +27,16 @@ interface ProjectDetailsProps {
     industry: {
         title?: string;
         image?: string;
+        industryInfo?: {
+            industryFocus?: string;
+            serviceCategory?: string;
+            region?: string;
+            objective?: string;
+        };
+        aboutTitle?: string;
+        overview?: string;
+        overview1?: string;
+        overview2?: string;
     };
 }
 
