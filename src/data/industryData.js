@@ -3,14 +3,14 @@ const industries = [
   title: "Real Estate & Property Developers",
   slug: "real-estate",
   // original small thumbnail (kept for backward compatibility)
-  image: '/assets/images/resource/main-image.png',
+  image: '/assets/images/resource/down-1.png',
 
   // Top banner/main hero image (local file you uploaded)
   img_Main: '/mnt/data/291b396a-73f6-4193-aaeb-67925da06b4a.png',
 
   // Two secondary images (local files you uploaded) — suggested size: 870 x 485 each
-  img_1: '/mnt/data/368c0596-ae73-44f9-80ef-0f402042e280.png',
-  img_2: '/assets/images/resource/seo-side-image2.png', // keep one fallback; replace if you upload second image
+  img_1: '/assets/images/resource/down-2.png',
+  img_2: '/assets/images/resource/down-3.png', // keep one fallback; replace if you upload second image
 
   // Structured industry info block
   industryInfo: {
@@ -25,13 +25,14 @@ const industries = [
   // Three-part content (as requested)
   overview: `In real estate, every decision is emotional, financial, and deeply personal — which means your marketing must build trust instantly. Our approach is crafted specifically for property developers, real estate agents, and consultancies who want to attract qualified, high-intent buyers instead of cold leads.`,
 
-  overview1: `We highlight the value, lifestyle, and investment potential of your projects through compelling visuals, strategic positioning, and platform-optimized messaging.`,
+  overview1: `We highlight the value, lifestyle, and investment potential of your projects through compelling visuals, strategic positioning, and platform-optimized messaging.Whether you’re promoting luxury villas, off-plan communities, or commercial developments, we build a complete digital ecosystem that elevates your brand. Using cinematic property showcases, precise targeting, and conversion-focused funnels, we create personalized buyer journeys that guide prospects from awareness to booking — seamlessly and efficiently.`,
 
-  overview2: `Whether you’re promoting luxury villas, off-plan communities, or commercial developments, we build a complete digital ecosystem that elevates your brand. Using cinematic property showcases, precise targeting, and conversion-focused funnels, we create personalized buyer journeys that guide prospects from awareness to booking — seamlessly and efficiently.`,
-
-  description1: `We study buyer psychology, competitor projects, pricing benchmarks, and local demand trends to shape a high-impact marketing strategy tailored to your project and target buyer segments. Our discovery phase informs messaging, creative direction, and the channels that will deliver the highest-value leads.`,
   
-  description2: `To complete the growth cycle, we build targeted lead-generation funnels using Meta and Google Ads optimized for ready-to-invest buyers — whether they're searching for luxury, off-plan, or rental-yield properties. Every lead is nurtured through automated CRM workflows, instant WhatsApp replies, and persuasive follow-up sequences that increase site visits, walk-ins, and bookings. This end-to-end framework ensures sustainable, measurable growth for your real estate brand.`,
+
+ 
+  
+description_below_img: `To complete the growth cycle, we build Targeted Lead Generation Funnels using Meta and Google ads optimized for ready-to-invest buyers — whether they're looking for luxury, off-plan, or rental-yield properties. Every lead is then nurtured through automated CRM workflows, instant WhatsApp replies, and persuasive follow-up sequences that increase site visits, walk-ins, and bookings. This end-to-end framework ensures your real estate brand grows sustainably with measurable results.`,
+
 
   // Workflow steps (ordered)
   workflow: [
@@ -45,17 +46,10 @@ const industries = [
       title: "High-Quality Creative Production",
       text: "Drone shoots, walkthrough-style visuals, 3D renders, lifestyle imagery, and premium ad creatives that present your property in its best light."
     },
-    {
-      step: 3,
-      title: "Targeted Lead Generation Funnels",
-      text: "Meta and Google Ads campaigns optimized for purchase intent, coupled with conversion-first landing pages and lead capture flows."
-    },
-    {
-      step: 4,
-      title: "Lead Nurture & Conversion",
-      text: "Automated CRM workflows, instant WhatsApp replies, and follow-up sequences that turn leads into site visits and bookings."
-    }
+   
+   
   ],
+ 
 
   // Images block info
   imagesDescription: {
@@ -67,12 +61,17 @@ const industries = [
   },
 
   // Key advantages
-  advantages: [
-    "Hyper-Qualified Leads Only",
-    "Strong Visual Storytelling",
-    "Faster Buyer Conversions",
-    "Dubai-Focused Expertise"
-  ],
+ benefitsBlock: {
+    title:'Key Advantages We Offer Developers',
+  fullText: `To help real estate brands grow faster in the UAE market, we focus on generating high-intent leads, stronger visuals, and faster conversions. Our strategies follow real buyer behavior — how investors search, compare, and make decisions — ensuring every campaign attracts serious prospects ready to take action.`,
+
+  points: [
+    " Hyper-Qualified Leads Only",
+    " Strong Visual Storytelling",
+    " Faster Buyer Conversions",
+    " Dubai-Focused Expertise"
+  ]
+},
 
   // Utility: link to original image assets you shared (Drive)
   imagesLink: "https://drive.google.com/drive/folders/1gu8jqbDT8heEQ2XNZ63isq41Vb6Zb3hi?usp=sharing",

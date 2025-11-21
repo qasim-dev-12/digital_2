@@ -44,7 +44,11 @@ export interface Industry {
   overview?: string;
   overview1?: string;
   overview2?: string;
-
+  description_below_img?: string;
+  benefitsBlock?:{ title?: string; 
+    fullText?: string;
+    points?: string[]
+  };
   // optional gallery - URLs
   gallery?: string[];
 
@@ -64,7 +68,7 @@ const ProjectDetails: React.FC<ProjectDetailsProps> = ({industry}) => {
   <section className="project-details pt-120 pb-120">
     <div className="container">
       <div className="project-details__top">
-        <div className="project-details__img"><img src="assets/images/resource/project-details.jpg" alt="Image" /></div>
+        <div className="project-details__img"><img src={industry?.image} alt="Image" /></div>
         <div className="project-details__details-box">
           <ul className="list-unstyled project-details__details-list">
             <li>
@@ -91,53 +95,71 @@ const ProjectDetails: React.FC<ProjectDetailsProps> = ({industry}) => {
         <p className="text">
      {industry?.overview}
         </p>
-        <p className="text mb-5">
+        <p className="text">
         {industry?.overview1}
         </p>
-        <p className="text mb-5">
-        {industry?.overview2}
-        </p>
+        {industry?.workflow && industry.workflow.length > 0 && (
+  <div className="workflow-section mt-40">
+    <h3 className="title mb-4">Our Workflow</h3>
+
+    <div className="workflow-list">
+      {industry.workflow.map((w, idx) => (
+        <div className="workflow-item mb-4" key={idx}>
+          <h4 className="workflow-step-title">
+            <span className="workflow-step-number">{w.step ?? idx + 1}.</span>{" "}
+            {w.title}
+          </h4>
+          <p className="text">{w.text}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+)}
+       
         <div className="swiper project-image-slider">
           <Swiper {...swiperOptions} className="swiper-wrapper mb-50">
             <SwiperSlide className="swiper-slide">
               <div className="image">
-                <img src="assets/images/resource/project2-1.jpg" alt="Image" />
+                <img src={industry?.img_1} alt="Image" />
               </div>
             </SwiperSlide>
             <SwiperSlide className="swiper-slide">
               <div className="image">
-                <img src="assets/images/resource/project2-2.jpg" alt="Image" />
+                <img src={industry?.img_2} alt="Image" />
               </div>
             </SwiperSlide>
-            <SwiperSlide className="swiper-slide">
+            {/* <SwiperSlide className="swiper-slide">
               <div className="image">
-                <img src="assets/images/resource/project2-3.jpg" alt="Image" />
+                <img src={industry?.img_2} alt="Image" />
               </div>
-            </SwiperSlide>
+            </SwiperSlide> */}
           </Swiper>
         </div>
         <p className="text mb-5">
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi archi beatae vitae dicta sunt explicabo. Nemo enim
-          ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
-          adipisci velit, sed quia non numqua
+          {industry?.description_below_img}
         </p>
         <div className="row">
           <div className="col-lg-5">
-            <h2 className="project-title-big-title">Interesting Facts In Development</h2>
+            <h2 className="project-title-big-title">{industry?.benefitsBlock?.title}</h2>
           </div>
           <div className="col-lg-7">
             <p className="text">
-              Must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the
-              truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter
+         {industry?.benefitsBlock?.fullText}
             </p>
             <div className="feature-list">
               <ul>
-                <li><i className="icon fa-solid fa-circle-check"></i> Efficient Sprint Planning</li>
-                <li><i className="icon fa-solid fa-circle-check"></i> Efficient Sprint Planning</li>
+{industry?.benefitsBlock?.points?.map((point, index) => (
+  index < Math.ceil((industry.benefitsBlock?.points?.length || 0) / 2) && (
+    <li key={index}><i className="icon fa-solid fa-circle-check"></i> {point}</li>
+  )
+))}
               </ul>
               <ul>
-                <li><i className="icon fa-solid fa-circle-check"></i> Iterative Delivery Approach</li>
-                <li><i className="icon fa-solid fa-circle-check"></i> Problem-solving</li>
+               {industry?.benefitsBlock?.points?.map((point, index) => (
+  index >= Math.ceil((industry.benefitsBlock?.points?.length || 0) / 2) && (
+    <li key={index}><i className="icon fa-solid fa-circle-check"></i> {point}</li>
+  )
+))}
               </ul>
             </div>
           </div>
