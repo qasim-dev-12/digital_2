@@ -125,7 +125,7 @@ faqs: [
     },
     {
         serviceCenter:'How We Deliver Growth',
-       slug: "ppc-services", 
+       slug: "google-ads", 
       number: "03",
       title: "PPC Services",
       image: "assets/images/resource/03 PPC.png",

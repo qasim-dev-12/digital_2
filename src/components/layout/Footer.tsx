@@ -87,8 +87,8 @@ function Footer (){
                       <h5 className="widget-title">Address</h5>
                       <div className="widget-content">
                         <div className="text">
-                          4140 Parker Rd. Allentown, <br className="d-none d-lg-block" />
-                          New Mexico 31134
+                          Dubai , United Arab Emirates <br className="d-none d-lg-block" />
+                         
                         </div>
                       </div>
                     </div>
@@ -112,7 +112,7 @@ function Footer (){
           <div className="container">
             <div className="inner-container justify-content-center">
               <p className="copyright-text">
-                © {new Date().getFullYear()} All rights reserved by Digitaal.com
+                © {new Date().getFullYear()} All rights reserved by staytop.ae
               </p>
             </div>
           </div>

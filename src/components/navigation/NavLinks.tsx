@@ -65,7 +65,7 @@ const NavLinks = () => {
             <ul>
             <li><Link href="/page-services/digital-marketing">Digital Marketing</Link></li>
             <li><Link href="/page-services/social-media-marketing">Social Media Marketing</Link></li>
-            <li><Link href="/page-services/ppc-services">PPC</Link></li>
+            <li><Link href="/page-services/google-ads">Google Ads</Link></li>
              <li><Link href="/page-services/seo-services">SEO</Link></li>
              <li><Link href="/page-services/email-marketing">Email Marketing</Link></li>
                <li><Link href="/page-services/web-development">Web Development</Link></li>
