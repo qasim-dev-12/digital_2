@@ -71,7 +71,7 @@ function Service() {
                             </div>
                           </div>
                           <div className="content-box">
-                            <h4 className="title"><Link href="/page-service-details">PPC Services</Link></h4>
+                            <h4 className="title"><Link href="/page-services/google-ads">Google Ads Services</Link></h4>
                             <div className="text">We run high-performing paid campaigns designed to generate instant traffic, quality leads, and measurable ROI.</div>
                           </div>
                         </div>
@@ -90,7 +90,7 @@ function Service() {
                             </div>
                           </div>
                           <div className="content-box">
-                            <h4 className="title"><Link href="/page-service-details">Web Design & Development</Link></h4>
+                            <h4 className="title"><Link href="/page-services/web-development">Web Design & Development</Link></h4>
                             <div className="text">We design and develop fast, modern, and responsive websites tailored to your brand and optimized for performance.
 </div>
                           </div>
@@ -110,7 +110,7 @@ function Service() {
                             </div>
                           </div>
                           <div className="content-box">
-                            <h4 className="title"><Link href="/page-service-details">Digital Marketing</Link></h4>
+                            <h4 className="title"><Link href="/page-services/digital-marketing">Digital Marketing</Link></h4>
                             <div className="text">We create data-driven strategies that increase brand visibility, improve conversions, and accelerate your business growth.</div>
                           </div>
                         </div>
@@ -130,7 +130,7 @@ function Service() {
                             </div>
                           </div>
                           <div className="content-box">
-                            <h4 className="title"><Link href="/page-service-details">Social Media Marketing</Link></h4>
+                            <h4 className="title"><Link href="/page-services/social-media-marketing">Social Media Marketing</Link></h4>
                             <div className="text">We build engaging content and targeted campaigns that grow your audience and convert followers into loyal customers.</div>
                           </div>
                         </div>
@@ -149,7 +149,7 @@ function Service() {
                             </div>
                           </div>
                           <div className="content-box">
-                            <h4 className="title"><Link href="/page-service-details">SEO Services</Link></h4>
+                            <h4 className="title"><Link href="/page-services/seo-services">SEO Services</Link></h4>
                             <div className="text">We optimize your website to rank higher on search engines, attract organic traffic, and improve long-term visibility..</div>
                           </div>
                         </div>
@@ -168,7 +168,7 @@ function Service() {
                             </div>
                           </div>
                           <div className="content-box">
-                            <h4 className="title"><Link href="/page-service-details">Email Marketing</Link></h4>
+                            <h4 className="title"><Link href="/page-services/email-marketing">Email Marketing</Link></h4>
                             <div className="text">We craft personalized email sequences that nurture your audience, boost engagement, and increase repeat sales.</div>
                           </div>
                         </div>
@@ -188,7 +188,7 @@ function Service() {
                             </div>
                           </div>
                           <div className="content-box">
-                            <h4 className="title"><Link href="/page-service-details">Mobile App Development</Link></h4>
+                            <h4 className="title"><Link href="/page-services/mobile-app-development">Mobile App Development</Link></h4>
                             <div className="text">We create intuitive, high-quality mobile apps that enhance user experience and bring your ideas to life on iOS and Android.</div>
                           </div>
                         </div>

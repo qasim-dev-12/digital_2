@@ -127,7 +127,7 @@ faqs: [
         serviceCenter:'How We Deliver Growth',
        slug: "google-ads", 
       number: "03",
-      title: "PPC Services",
+      title: "Google Ads Services",
       image: "assets/images/resource/03 PPC.png",
       shortDesc: "ROI-first paid search & performance campaigns.",
       listItems: [
@@ -144,36 +144,40 @@ faqs: [
   { label: "Smart Budget Allocation & Bid Strategy" },
   { label: "Clear, Transparent Reporting" },
 ],
-overview: `PPC (Pay-Per-Click) advertising is one of the fastest ways to generate high-quality leads and conversions. Whether you want more calls, sales, or website traffic, PPC ensures your business appears at the top when customers search for your services.
-Our PPC team manages everything — from keyword planning and competitor tracking to ad creation, A/B testing, and daily optimization. With a data-first approach, we ensure every dirham spent delivers measurable results.`,
-description1: `We start by identifying high-intent keywords that your customers actively search for. Using competitor insights and industry benchmarks, we create a campaign structure that improves quality scores, reduces cost-per-click, and increases conversions. This foundation ensures your ads consistently outperform competitors.`,
+overview: `Google Ads is one of the fastest and most reliable ways to generate high-quality leads and revenue. Whether you want more sales, more inquiries, or more website traffic, our Google Ads campaigns are engineered to reach customers the moment they search for your services.
+From keyword selection and audience targeting to bid strategy and conversion optimization, we handle every part of the process with a data-driven approach. Our methodology ensures your ad spend is used efficiently and delivers measurable returns
+`,
+description1: `We start by identifying high-intent keywords that your customers actively search for. Using competitor insights, industry benchmarks, and performance signals, we create campaigns that maximize visibility, reduce wasted clicks, and increase conversions.
+ This foundation ensures your brand consistently stays ahead of competitors.`,
 
-description2: `Once campaigns go live, we monitor real-time performance and optimize ads daily. We adjust bids, improve targeting, and refine ad creatives to boost ROI. With continuous testing, landing page optimization, and strategic scaling, we transform ad spend into predictable revenue growth.`,
-image1Description: `We perform deep keyword and competitor research to identify profitable opportunities and build a winning PPC strategy.`,
+description2: `Once campaigns go live, we continuously monitor real-time performance metrics such as CTR, CPC, conversion rate, and ROAS. We adjust bids, improve targeting, refine ad creatives, and test landing pages to boost ROI.
+ Through testing, optimization, and strategic scaling, we transform your ad spend into predictable revenue growth.`,
+image1Description: `We perform deep keyword research and competitor analysis to identify profitable search opportunities and build a winning ad strategy.`,
 
-image2Description: `Our team monitors your campaigns daily — optimizing bids, improving targeting, and boosting conversions to maximize ROI.`,
+image2Description: `Our team monitors your campaigns daily—optimizing bids, improving targeting, and boosting conversions to maximize ROI.`,
 faqs: [
   {
-    q: "How quickly can I see results with PPC?",
-    a: "Most campaigns begin generating leads within the first 24–72 hours once approved and optimized."
+    q: "How quickly can I see results with Google Ads?",
+    a: "Most clients begin seeing initial results within the first 3–7 days, with full optimization achieved within 30 days depending on competition and budget."
   },
   {
-    q: "Which platforms do you run PPC ads on?",
-    a: "Google Search, Google Display, YouTube Ads, Meta Ads, TikTok Ads, and LinkedIn Ads."
+    q: "Which platforms do you run Google Ads on?",
+    a: "We run campaigns across Google Search, Google Display Network, YouTube Ads, Performance Max, and Google Shopping (for e-commerce)."
   },
   {
-    q: "What is a good budget for PPC campaigns?",
-    a: "Budgets vary by industry, but we recommend starting with at least AED 1,500–3,000 monthly to gather meaningful data."
+    q: "What is a good budget for Google Ads campaigns?",
+    a: "Budgets depend on your industry and competition. We recommend a starting range of AED 2,000–10,000 per month for effective testing and optimization."
   },
   {
     q: "Do you create landing pages for better conversions?",
-    a: "Yes — we design conversion-optimized landing pages that significantly reduce cost-per-lead."
+    a: "Yes. We design high-converting landing pages aligned with your ad messaging to improve quality score, reduce CPC, and boost conversions."
   },
   {
     q: "Will you handle everything from setup to reporting?",
-    a: "Absolutely. We manage setup, ad creation, daily optimization, scaling strategies, and monthly reporting."
+    a: "Absolutely — we manage everything end-to-end including setup, tracking, campaign management, optimization, scaling, and detailed reporting."
   }
 ],
+
 img_Main: '/assets/images/resource/ppc-main-image.png',
   img_1: '/assets/images/resource/ppc-side-image1.png',
   img_2: '/assets/images/resource/ppc-side-image2.png',
