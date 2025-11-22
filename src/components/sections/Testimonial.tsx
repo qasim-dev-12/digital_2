@@ -50,9 +50,7 @@ function Testimonial() {
                   <span className="sub-title"><img className="icon-img" src="assets/images/icons/sub-title-shape.png" alt="" />Our Testimonials</span>
                   <h2 className="title">Hear what others say <br />about <span className="color1">partnering with us</span></h2>
                 </div>
-                <div className="col-xxl-5 col-xl-5 col-lg-4 offset-xxl-1">
-                  <p className="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                </div>
+               
               </div>
             </div>
             <div className="row">

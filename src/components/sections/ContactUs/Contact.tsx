@@ -51,9 +51,9 @@ const ContactPage = () => {
                 <div className="sec-title">
                   <span className="sub-title">Need any help?</span>
                   <h2>Get in touch with us</h2>
-                  <div className="text">
+                  {/* <div className="text">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor.
-                  </div>
+                  </div> */}
                 </div>
                 <ul className="list-unstyled contact-details__info">
                   <li className="d-flex align-items-center mb-4">
