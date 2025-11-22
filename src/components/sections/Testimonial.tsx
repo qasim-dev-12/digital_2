@@ -99,7 +99,7 @@ function Testimonial() {
                             <i className="icon fa fa-star"></i>
                             <i className="icon fa fa-star"></i>
                           </div>
-                          <p className="text">We cannot say enough good things about the team at [Company Name]. They took our vision and turned it into a stunning website that perfectly captures our and they kept us informed every step way</p>
+                          <p className="text">We cannot say enough good things about the team at staytop. They took our vision and turned it into a stunning website that perfectly captures our and they kept us informed every step way</p>
                           <div className="info-box">
                             <div className="user-thumb">
                               <img className="user" src="assets/images/resource/testi1-1.jpg" alt="image" />
@@ -136,7 +136,7 @@ function Testimonial() {
                             <i className="icon fa fa-star"></i>
                             <i className="icon fa fa-star"></i>
                           </div>
-                          <p className="text">We cannot say enough good things about the team at [Company Name]. They took our vision and turned it into a stunning website that perfectly captures our and they kept us informed every step way</p>
+                          <p className="text">We cannot say enough good things about the team at staytop. They took our vision and turned it into a stunning website that perfectly captures our and they kept us informed every step way</p>
                           <div className="info-box">
                             <div className="user-thumb">
                               <img className="user" src="assets/images/resource/testi1-1.jpg" alt="image" />

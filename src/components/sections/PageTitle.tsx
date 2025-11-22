@@ -14,7 +14,7 @@ const PageTitle: React.FC<PageTitleProps> = ({ service,pageName }) => {
     <section
       className="page-title"
     style={{
-    backgroundImage: `url(${service?.img_Main ?? "/assets/images/background/default-fallback.jpg"})`,
+    backgroundImage: `url(${service?.img_Main ?? "/assets/images/background/about-banner.png"})`,
   }}
       // style={{ backgroundImage: 'url(assets/images/background/about-banner.png)' }}
     >
