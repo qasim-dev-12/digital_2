@@ -28,10 +28,20 @@ function Footer (){
                     </div>
                     <div className="social-widget">
                       <ul className="social-icon-list1">
-                        <li><Link href="/" aria-label="Twitter"><i className="fab fa-twitter" /></Link></li>
-                        <li><Link href="/" aria-label="Facebook"><i className="fab fa-facebook-f" /></Link></li>
-                        <li><Link href="/" aria-label="Pinterest"><i className="fab fa-pinterest-p" /></Link></li>
-                        <li><Link href="/" aria-label="Instagram"><i className="fab fa-instagram" /></Link></li>
+                     
+                        <li><Link href="https://www.facebook.com/staytopmedia" aria-label="Facebook"><i className="fab fa-facebook-f" /></Link></li>
+                         <li>
+                          <li><Link href="https://www.instagram.com/staytop.media" aria-label="Instagram"><i className="fab fa-instagram" /></Link></li>
+    <Link href="https://www.tiktok.com/@staytop.media" aria-label="TikTok">
+      <i className="fab fa-tiktok" />
+    </Link>
+  </li>
+     <li>
+    <Link href="https://www.linkedin.com/company/staytopmedia" aria-label="LinkedIn">
+      <i className="fab fa-linkedin-in" />
+    </Link>
+  </li>
+                        
                       </ul>
                     </div>
                   </div>
@@ -86,8 +96,9 @@ function Footer (){
                       <h5 className="widget-title">Support</h5>
                       <div className="widget-content">
                         <div className="text">
-                          needhelp@company.com <br className="d-none d-lg-block" />
-                          (+123) 456789 00
+                          info@staytop.ae<br className="d-none d-lg-block" />
+                        +971 52 236 7120
+                          {/* (+123) 456789 00 */}
                         </div>
                       </div>
                     </div>

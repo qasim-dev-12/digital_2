@@ -7,7 +7,8 @@ function TestimonialPage() {
 
     return (
         <>
-            <Layout HeaderStyle="two">
+        {/* <Layout HeaderStyle="two"></Layout> */}
+            <Layout>
                 <PageTitle pageName="Testimonials" />
                 <Testimonial />
             </Layout>

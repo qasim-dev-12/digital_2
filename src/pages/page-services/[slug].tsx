@@ -15,7 +15,7 @@ function ServiceDetailsPage() {
 
     return (
         <>
-            <Layout HeaderStyle="two">
+            <Layout>
                 <PageTitle service={service} pageName="Service Details" />
                 <ServiceDetails service={service} />
             </Layout>

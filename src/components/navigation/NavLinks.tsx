@@ -17,15 +17,15 @@ const NavLinks = () => {
             </ul> */}
         </li>
 
-         <li className="dropdown"><Link href="#">About</Link>
+         <li className="dropdown"><Link href="/page-about">About</Link>
             <ul>
             <li><Link href="/page-testimonial">Testimonial</Link></li>
-            <li className="dropdown"><Link href="#">Blog</Link>
+            {/* <li className="dropdown"><Link href="#">Blog</Link>
                 <ul>
                 <li><Link href="/news-grid">News Grid</Link></li>
                 <li><Link href="/news-details">News Details</Link></li>
                 </ul>
-            </li> 
+            </li>  */}
             </ul>
         </li>
          {/* <li><Link href="/page-about">About</Link></li> */}

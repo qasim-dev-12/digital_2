@@ -60,21 +60,21 @@ const ContactPage = () => {
                     <div className="icon"><span className="fal fa-phone-plus"></span></div>
                     <div className="text ms-3">
                       <h4>Have any questions?</h4>
-                      <a href="tel:+920209850"><span>Free</span> +92 (020)-9850</a>
+                      <a href="tel:+971522367120"> +971 52 236 7120</a>
                     </div>
                   </li>
                   <li className="d-flex align-items-center mb-4">
                     <div className="icon"><span className="fal fa-envelope"></span></div>
                     <div className="text ms-3">
                       <h4>Write email</h4>
-                      <a href="mailto:needhelp@company.com">needhelp@company.com</a>
+                      <a href="mailto:info@staytop.ae">info@staytop.ae</a>
                     </div>
                   </li>
                   <li className="d-flex align-items-center">
                     <div className="icon"><span className="fal fa-location-arrow"></span></div>
                     <div className="text ms-3">
                       <h4>Visit anytime</h4>
-                      <span>66 Brooklyn Golden Street, New York</span>
+                      <span>Dubai, United Arab Emirates </span>
                     </div>
                   </li>
                 </ul>
@@ -86,7 +86,9 @@ const ContactPage = () => {
       <section className="map-section">
         <iframe
           className="map w-100"
-          src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+         
+          src="https://maps.google.com/maps?width=100%25&height=600&hl=en&q=Al%20Garhoud,%20Dubai,%20UAE+(My%20Business%20Name)&t=&z=14&ie=UTF8&iwloc=B&output=embed"
+
           title="Google Map"
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"

@@ -34,7 +34,7 @@ const Header: React.FC<HeaderProps> = ({ handleOpen, handleRemove, searchToggle,
                             <nav className="nav main-menu">
                                 <NavLinks />
                             </nav>
-                            <div className="action-box">
+                            {/* <div className="action-box">
                                 <button className="ui-btn search-btn" onClick={handleToggle}>
                                     <i className="icon fal fa-search"/>
                                 </button>
@@ -43,7 +43,7 @@ const Header: React.FC<HeaderProps> = ({ handleOpen, handleRemove, searchToggle,
                                         <img className="icon-img" src="assets/images/icons/shape-line-icon.png" alt="Icon" />
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
@@ -55,7 +55,7 @@ const Header: React.FC<HeaderProps> = ({ handleOpen, handleRemove, searchToggle,
                 <div className="upper-box">
                     <div className="nav-logo">
                         <Link href="/">
-                            <img src="assets/images/logo-2.png" alt="Logo" />
+                            <img src="assets/images/ST Logo new1.png" alt="Logo" />
                         </Link>
                     </div>
                     <div className="close-btn" onClick={handleRemove}>

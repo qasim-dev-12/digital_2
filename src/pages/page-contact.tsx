@@ -7,7 +7,7 @@ function ContactPage() {
 
     return (
         <>
-            <Layout HeaderStyle="two">
+            <Layout>
                 <PageTitle pageName="Contact Us" />   
                 <Contact />
             </Layout>

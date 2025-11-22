@@ -19,7 +19,7 @@ function Footer5 (){
               <div className="container">
                 <div className="outer-box">
                   <div className="logo">
-                    <img src="assets/images/logo-2.png" alt="Image"/>
+                    <img src="assets/images/ST Logo new1.png" alt="Image"/>
                   </div>
                   <div className="social-widget">
                       <ul className="social-icon-list">

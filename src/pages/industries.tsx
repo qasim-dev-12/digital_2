@@ -7,7 +7,7 @@ function TeamPage() {
 
     return (
         <>
-            <Layout HeaderStyle="two">
+            <Layout>
                 <PageTitle pageName="Team" />
                 <TeamGrid />
             </Layout>

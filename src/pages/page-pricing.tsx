@@ -7,7 +7,7 @@ function PricingPage() {
 
     return (
         <>
-            <Layout HeaderStyle="two">
+            <Layout>
                 <PageTitle pageName="Pricing" />
                 <Pricing />
             </Layout>
