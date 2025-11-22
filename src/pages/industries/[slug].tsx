@@ -39,7 +39,7 @@ import { useRouter } from 'next/router';
 import industries from '../../data/industryData';
 
 function ProjectDetailsPage() {
-        const router = useRouter();
+    const router = useRouter();
     const { slug } = router.query;
     console.log("Current slug:", slug);
     const industry = industries.find(i => i.slug === slug);

@@ -59,7 +59,7 @@ const Header2: React.FC<HeaderProps> = ({ handleOpen, handleRemove, searchToggle
                     <div className="upper-box">
                         <div className="nav-logo">
                             <Link href="/">
-                                <img src="assets/images/ST Logo new1.png" alt="Image"/>
+                                <img src="assets/images/logo-2.png" alt="Image"/>
                             </Link>
                         </div>
                         <div className="close-btn" onClick={handleRemove}><i className="icon fa fa-times" /></div>
@@ -97,7 +97,7 @@ const Header2: React.FC<HeaderProps> = ({ handleOpen, handleRemove, searchToggle
                     <div className="inner-container">
                         <div className="logo">
                             <Link href="/">
-                                <img src="assets/images/ST Logo new1.png" alt="Image"/>
+                                <img src="assets/images/logo-2.png" alt="Image"/>
                             </Link>
                         </div>
                         <div className="nav-outer">

@@ -20,7 +20,7 @@ const Header4: React.FC<HeaderProps> = ({ handleOpen, handleRemove, searchToggle
             <div className="inner-container">
               <div className="main-box">
                 <div className="logo-box">
-                  <div className="logo"><Link href="/"><img src="assets/images/ST Logo new1.png" alt="Logo"/></Link></div>
+                  <div className="logo"><Link href="/"><img src="assets/images/logo-2.png" alt="Logo"/></Link></div>
                 </div>
                 <div className="nav-outer">
                   <nav className="nav main-menu">
@@ -47,7 +47,7 @@ const Header4: React.FC<HeaderProps> = ({ handleOpen, handleRemove, searchToggle
             <div className="upper-box">
               <div className="nav-logo">
                 <Link href="/">
-                    <img src="assets/images/ST Logo new1.png" alt="Logo" />
+                    <img src="assets/images/logo-2.png" alt="Logo" />
                 </Link>
               </div>
               <div className="close-btn" onClick={handleRemove}>
@@ -93,7 +93,7 @@ const Header4: React.FC<HeaderProps> = ({ handleOpen, handleRemove, searchToggle
             <div className="inner-container">                
               <div className="logo">
                 <Link href="/">
-                  <img src="assets/images/ST Logo new1.png" alt="Logo" />
+                  <img src="assets/images/logo-2.png" alt="Logo" />
                 </Link>
               </div>
               <div className="nav-outer">

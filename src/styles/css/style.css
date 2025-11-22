@@ -22430,16 +22430,12 @@ Page Title
 --------------------------------------------------------------*/
 .project-details__img {
   position: relative;
-  display: block;
   border-radius: 10px;
-  overflow: hidden;
-  height: 600px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center center;
-     object-position: center center;
-  border-radius: 10px 10px 10px 10px;
   margin-bottom: 40px;
+
+  height: auto;          /* let the image keep its shape */
+  object-fit: contain;
+  width: 100%;
 }
 @media (max-width: 991.98px) {
   .project-details__img {

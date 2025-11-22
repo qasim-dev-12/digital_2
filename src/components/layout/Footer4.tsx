@@ -25,7 +25,7 @@ function Footer4 () {
                             <div className="footer-column col-lg-4 col-md-6">
                                 <div className="footer-widget about-widget wow fadeInLeft">
                                     <div className="logo">
-                                        <img src="assets/images/ST Logo new1.png" alt="Image" />
+                                        <img src="assets/images/logo-2.png" alt="Image" />
                                     </div>
                                     <div className="widget-content">
                                         <div className="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed diam nonummy nibh euismod dolore magna aliquam</div>

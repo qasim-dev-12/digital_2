@@ -17,7 +17,7 @@ function Footer3 (){
             <div className="footer-column col-lg-4 col-md-6">
               <div className="footer-widget about-widget">
                 <div className="logo">
-                  <img src="/assets/images/ST Logo new1.png"
+                  <img src="/assets/images/logo-2.png"
                     alt="Company Logo" />
                 </div>
                 <div className="widget-content">
