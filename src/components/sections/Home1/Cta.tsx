@@ -15,7 +15,7 @@ function CtaSection() {
               <h2 className="title">Let’s make something <br /><span className="color1">great together!</span></h2>
             </div>
             <Link
-  href="https://wa.me/919876543210" 
+  href="https://api.whatsapp.com/send/?phone=971522367120" 
   className="link-btn"
   aria-label="WhatsApp"
 >

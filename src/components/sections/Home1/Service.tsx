@@ -198,17 +198,24 @@ function Service() {
                   </Swiper>
                 </div>
               </div>
-              <div className="swiper-arry">
+              <div className="swiper-arry mb-40">
                 <button className="arry-prev swiper-arry-prev"><i className="fa-solid fa-chevron-left"></i></button>
                 <button className="arry-next swiper-arry-next"><i className="fa-solid fa-chevron-right"></i></button>
               </div>
             </div>
-            <div className="bottom-text anim-fade-move" data-fade-from="left">
-              <span>call</span>
-              <div className="text">Grow your traffic and revenue for targeted digital marketing services</div>
-              <Link className="btn-link" href="page-contact">Get Free Quote</Link>
-            </div>
+            <div className="bottom-text anim-fade-move d-flex gap-2" data-fade-from="left mt-400">
+              
+              <h4 className='text-center'>Grow your traffic and revenue with targeted digital marketing services</h4>
             
+                
+             <Link href="https://api.whatsapp.com/send/?phone=971522367120" className='text-center' target="_blank" rel="noopener noreferrer">
+             
+              <span className='border bg-red-400 border-green ml-10 p-20  '>Whatsapp Now</span>
+             </Link> 
+           
+              
+            </div>
+           
 
           </div>
         </section>
