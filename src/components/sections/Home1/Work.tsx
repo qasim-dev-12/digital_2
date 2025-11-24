@@ -63,11 +63,6 @@ function WorkSection() {
             CHANNELS <span className="color1">&amp; WE SPECIALIZE IN</span>
           </div>
         </div>
-        {/* <div aria-hidden="true" className="marquee-group">
-          <div className="text">
-            Skills <span className="color1">&amp; Working area </span>
-          </div>
-        </div> */}
       </div>
 
       <div className="large-container">

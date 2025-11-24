@@ -24,7 +24,7 @@ const MobileMenu: React.FC = () => {
 
   return (
     <ul className="navigation">
-      <li className="dropdown">
+      {/* <li className="dropdown">
         <Link href="/">Home</Link>
         <ul className={isActive.key === "home" ? "sub-menu d-block" : "d-none"}>
           <li><Link href="/">Home Page 1</Link></li>
@@ -42,8 +42,9 @@ const MobileMenu: React.FC = () => {
         >
           <i className="fa fa-angle-down" />
         </div>
-      </li>
-      <li className="dropdown">
+      </li> */}
+      <li className="current dropdown"><Link href="/">Home</Link></li>
+      {/* <li className="dropdown">
         <Link href="#">Pages</Link>
         <ul className={isActive.key === "pages" ? "sub-menu d-block" : "d-none"}>
           <li><Link href="/page-about">About Us</Link></li>
@@ -135,7 +136,52 @@ const MobileMenu: React.FC = () => {
       </li>
       <li>
         <Link href="/contact">Contact</Link>
-      </li>
+      </li> */}
+      <li className="dropdown">
+  <Link href="/page-about">About</Link>
+  <ul>
+    <li><Link href="/page-testimonial">Testimonial</Link></li>
+  </ul>
+</li>
+
+<li>
+  <Link href="/page-pricing">Pricing</Link>
+</li>
+
+<li className="dropdown">
+  <Link href="/page-services">Services</Link>
+  <ul>
+    <li><Link href="/page-services/digital-marketing">Digital Marketing</Link></li>
+    <li><Link href="/page-services/social-media-marketing">Social Media Marketing</Link></li>
+    <li><Link href="/page-services/google-ads">Google Ads</Link></li>
+    <li><Link href="/page-services/seo-services">SEO</Link></li>
+    <li><Link href="/page-services/email-marketing">Email Marketing</Link></li>
+    <li><Link href="/page-services/web-development">Web Development</Link></li>
+    <li><Link href="/page-services/mobile-app-development">Mobile App Development</Link></li>
+  </ul>
+</li>
+
+<li className="dropdown">
+  <Link href="/industries">Industries</Link>
+  <ul>
+    <li><Link href="/industries/real-estate">Real Estate</Link></li>
+    <li><Link href="/industries/automotive-car-care">Automotive</Link></li>
+    <li><Link href="/industries/healthcare-clinics">Healthcare</Link></li>
+    <li><Link href="/industries/restaurants-cafes-fb-brands">Restaurants</Link></li>
+    <li><Link href="/industries/e-commerce-online-stores">E-Commerce</Link></li>
+    <li><Link href="/industries/hospitality-tourism">Hospitality</Link></li>
+    <li><Link href="/industries/education-training-institutes">Education</Link></li>
+    <li><Link href="/industries/beauty-salon-personal-care">Beauty Care</Link></li>
+    <li><Link href="/industries/construction-contracting">Construction</Link></li>
+    <li><Link href="/industries/logistics-transport">Logistics</Link></li>
+    <li><Link href="/industries/cleaning-home-services">Home Services</Link></li>
+    <li><Link href="/industries/technology-it-services">Technology</Link></li>
+  </ul>
+</li>
+
+<li>
+  <Link href="/page-contact">Contact</Link>
+</li>
     </ul>
   );
 };

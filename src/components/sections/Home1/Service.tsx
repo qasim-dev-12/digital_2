@@ -205,9 +205,11 @@ function Service() {
             </div>
             <div className="bottom-text anim-fade-move" data-fade-from="left">
               <span>call</span>
-              <div className="text">Let's make something great work together</div>
+              <div className="text">Grow your traffic and revenue for targeted digital marketing services</div>
               <Link className="btn-link" href="page-contact">Get Free Quote</Link>
             </div>
+            
+
           </div>
         </section>
         </>

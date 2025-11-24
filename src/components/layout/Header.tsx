@@ -55,7 +55,7 @@ const Header: React.FC<HeaderProps> = ({ handleOpen, handleRemove, searchToggle,
                 <div className="upper-box">
                     <div className="nav-logo">
                         <Link href="/">
-                            <img src="assets/images/logo-2.png" alt="Logo" />
+                            <img src="assets/images/ST Logo new1.png" alt="Logo" />
                         </Link>
                     </div>
                     <div className="close-btn" onClick={handleRemove}>
@@ -70,16 +70,36 @@ const Header: React.FC<HeaderProps> = ({ handleOpen, handleRemove, searchToggle,
                         <i className="icon fal fa-envelope"/>
                         <span className="title">Send Email</span>
                         <div className="text">
-                            <Link href="mailto:alma.lawson@example.com">alma.lawson@example.com</Link>
+                            <Link href="mailto:info@staytop.ae">info@staytop.ae</Link>
                         </div>
                     </li>
                 </ul>
-                <ul className="social-links">
-                    <li><Link href="/"><i className="icon fab fa-twitter"/></Link></li>
-                    <li><Link href="/"><i className="icon fab fa-facebook-f"/></Link></li>
-                    <li><Link href="/"><i className="icon fab fa-pinterest-p"/></Link></li>
-                    <li><Link href="/"><i className="icon fab fa-vimeo-v"/></Link></li>
-                </ul>
+                <ul className="social-links flex items-center gap-4">
+  <li>
+    <Link href="https://www.facebook.com/staytopmedia" aria-label="Facebook">
+      <i className="fab fa-facebook-f" />
+    </Link>
+  </li>
+
+  <li>
+    <Link href="https://www.instagram.com/staytop.media" aria-label="Instagram">
+      <i className="fab fa-instagram" />
+    </Link>
+  </li>
+
+  <li>
+    <Link href="https://www.tiktok.com/@staytop.media" aria-label="TikTok">
+      <i className="fab fa-tiktok" />
+    </Link>
+  </li>
+
+  <li>
+    <Link href="https://www.youtube.com/@StayTopMedia/shorts" aria-label="YouTube">
+      <i className="fab fa-youtube" />
+    </Link>
+  </li>
+</ul>
+
             </nav>
         </div>
         <div className="search-popup">
