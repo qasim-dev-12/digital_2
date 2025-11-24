@@ -41,6 +41,11 @@ function Footer (){
       <i className="fab fa-linkedin-in" />
     </Link>
   </li>
+  <li>
+  <Link href="https://www.youtube.com/@StayTopMedia/shorts" aria-label="YouTube">
+    <i className="fab fa-youtube" />
+  </Link>
+</li>
                         
                       </ul>
                     </div>

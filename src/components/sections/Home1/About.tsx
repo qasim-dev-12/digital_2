@@ -43,7 +43,7 @@ export default function Section2() {
                         <span className="dot-item"></span>
                       </span>
                     </Link>
-                    <div className="user-info">
+                    {/* <div className="user-info">
                       <div className="thumb">
                         <img src="assets/images/resource/user.png" alt="" />
                       </div>
@@ -51,7 +51,7 @@ export default function Section2() {
                         <h6 className="name">Eleanor Pena</h6>
                         <span className="designation">Manager</span>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

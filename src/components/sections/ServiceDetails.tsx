@@ -91,12 +91,12 @@ const ServiceDetails: React.FC<ServiceDetailsProps>  = ({service}) => {
 									</div>
 									<div className="help-contact">
 										<p>Need help? Talk to an expert</p>
-										<a href="tel:12463330079">+892 ( 123 ) 112 - 9999</a>
+										<a href="tel:+971 52 236 7120">+971 52 236 7120</a>
 									</div>
 								</div>
 								<div className="sidebar-widget service-sidebar-single mt-4">
 									<div className="service-sidebar-single-btn wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="1200m">
-										<Link href="#" className="theme-btn btn-style-one d-grid"><span className="btn-title"><span className="fas fa-file-pdf"></span> download pdf file</span></Link>
+										<Link href="#" className="theme-btn btn-style-one d-grid"><span className="btn-title"><span className="fas fa-file-pdf"></span> Get quote now</span></Link>
 									</div>
 								</div>
 							</div>

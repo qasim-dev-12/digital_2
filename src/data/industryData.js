@@ -3,7 +3,7 @@ const industries = [
   title: "Real Estate & Property Developers",
   slug: "real-estate",
  
-  image: '/assets/images/resource/down-1.png',
+  image: '/assets/images/resource/01 real estate top.png',
 
 
 
@@ -60,7 +60,7 @@ description_below_img: `To complete the growth cycle, we build Targeted Lead Gen
   slug: "automotive-car-care",
 
   // Thumbnail (replace with your real thumbnail)
-  image: "/assets/images/resource/auto-main.png",
+  image: "/assets/images/resource/02-automotive-top.png",
 
   // Main Banner Image (replace after upload)
   img_Main: "/assets/images/resource/auto-banner.png",
@@ -135,7 +135,7 @@ Our approach is designed for car care centers, detailing studios, repair garages
   title: "Healthcare & Clinics Industry",
   slug: "healthcare-clinics",
 
-  image: '/assets/images/resource/health-main-1.png',
+  image: '/assets/images/resource/03-healthcare-top.png',
 
   img_1: '/assets/images/resource/health-1.png',
   img_2: '/assets/images/resource/health-2.png',
@@ -186,7 +186,7 @@ Our approach is designed for car care centers, detailing studios, repair garages
   title: "Restaurants, Cafés & F&B Brands",
   slug: "restaurants-cafes-fb-brands",
 // C:\wisevision\staytop_digital\digitaal-next-client-files\file\public\assets\images\resource\
-  image: '/assets/images/resource/restaurants-top.png',
+  image: '/assets/images/resource/04-restaurants-top.png',
 
   // Two images (870 × 485)
 //   C:\wisevision\staytop_digital\digitaal-next-client-files\file\public\assets\images\resource\
@@ -248,7 +248,7 @@ Our approach is designed for car care centers, detailing studios, repair garages
   title: "E-Commerce & Online Stores",
   slug: "e-commerce-online-stores",
 
-  image: "/assets/images/resource/ecommerce-main.png",
+  image: "/assets/images/resource/05-e-commerce-top.png",
 
   // Two images (870 × 485)
   img_1: "/assets/images/resource/ecom-side1.png",
@@ -308,7 +308,7 @@ Our approach is designed for car care centers, detailing studios, repair garages
   title: "Hospitality & Tourism",
   slug: "hospitality-tourism",
 
-  image: "/assets/images/resource/hospitality-main.png",
+  image: "/assets/images/resource/06-Hospitality-top.png",
 
   // Two images (870 × 485)
   img_1: "/assets/images/resource/hospital-1.png",
@@ -360,7 +360,7 @@ Our approach is designed for car care centers, detailing studios, repair garages
   title: "Education & Training Institutes",
   slug: "education-training-institutes",
 
-  image: "/assets/images/resource/edu-main.png",
+  image: "/assets/images/resource/07-Education-top.png",
 
   // Side images
   img_1: "/assets/images/resource/edu-side-1.png",
@@ -417,7 +417,7 @@ Our approach is designed for car care centers, detailing studios, repair garages
   slug: "beauty-salon-personal-care",
 
   // Main banner
-  image: "/assets/images/resource/beauty-main.png",
+  image: "/assets/images/resource/08-Beauty-top.png",
 
   // Side images (you can replace with final uploads)
   img_1: "/assets/images/resource/beauty-side-1.png",
@@ -474,7 +474,7 @@ Our approach is designed for car care centers, detailing studios, repair garages
   slug: "construction-contracting",
 
   // Main Banner
-  image: "/assets/images/resource/const-main.png",
+  image: "/assets/images/resource/09-Construction-top.png",
 
   // Side images (placeholders — replace when you upload final visuals)
   img_1: "/assets/images/resource/const-side-1.png",
@@ -531,7 +531,7 @@ Our approach is designed for car care centers, detailing studios, repair garages
   slug: "logistics-transport",
 
   // Main Banner Image
-  image: "/assets/images/resource/logistics-main.png",
+  image: "/assets/images/resource/10- Logistics-top.png",
 
   // Side Images (placeholders — replace when final images are ready)
   img_1: "/assets/images/resource/logistics-side1.png",
@@ -645,7 +645,7 @@ Our approach is designed for car care centers, detailing studios, repair garages
   slug: "technology-it-services",
 
   // Main Banner Image
-  image: "/assets/images/resource/tech-main.png",
+  image: "/assets/images/resource/12-Technology-top.png",
 
   // Side Images (replace with actual visuals)
   img_1: "/assets/images/resource/tech-side1.png",

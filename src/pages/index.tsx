@@ -27,7 +27,7 @@ function Home1() {
             <Team />
             <Testimonial />
             <Process />
-            <Blog />
+            {/* <Blog /> */}
             <Cta />
             <Clients />
         </Layout>

@@ -14,10 +14,18 @@ function CtaSection() {
             <div className="sec-title text-center">
               <h2 className="title">Let’s make something <br /><span className="color1">great together!</span></h2>
             </div>
-            <Link href="/page-contact" className="link-btn">
-              <span className="btn-title">Contact with us</span>
-              <img className="icon" src="assets/images/icons/arrow-border.png" alt="image" />
-            </Link>
+            <Link
+  href="https://wa.me/919876543210" 
+  className="link-btn"
+  aria-label="WhatsApp"
+>
+  <span className="btn-title">Contact with us</span>
+  <img
+    className="icon"
+    src="assets/images/icons/arrow-border.png"
+    alt="image"
+  />
+</Link>
           </div>
         </div>
       </section>

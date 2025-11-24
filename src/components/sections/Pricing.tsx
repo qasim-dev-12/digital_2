@@ -4,7 +4,7 @@ import React from 'react';
 
 const pricingData = [
   {
-    title: '  Plan — Social Lite',
+    title: 'Social Lite',
     price: 999,
   icon: '/assets/images/icons/theme-icon36.png',
     features: [
@@ -22,7 +22,7 @@ const pricingData = [
     delay: '0.15',
   },
   {
-    title: '  Plan — Social Pro',
+    title: 'Social Pro',
     price: 1999,
    icon: '/assets/images/icons/theme-icon37.png',
     features: [
@@ -41,7 +41,7 @@ const pricingData = [
     active: true,
   },
   {
-    title: '  Plan — Social Elite',
+    title: 'Social Elite',
     price: 3999,
    icon: '/assets/images/icons/theme-icon38.png',// fallback if filename slight mismatch
     // If your build expects exact path, replace above with:
@@ -63,7 +63,7 @@ const pricingData = [
 ];
 const googleAdsPricing = [
   {
-    title: ' — “Ad Starter”',
+    title: 'Ad Starter',
     price: 699,
     icon: '/assets/images/icons/theme-icon36.png',
     features: [
@@ -82,7 +82,7 @@ const googleAdsPricing = [
   },
 
   {
-    title: ' — “Ad Performance Pro”',
+    title: 'Ad Performance Pro',
     price: 1299,
     icon: '/assets/images/icons/theme-icon37.png',
     features: [
@@ -102,7 +102,7 @@ const googleAdsPricing = [
   },
 
   {
-    title: ' — “Ad Dominator”',
+    title: 'Ad Dominator',
     price: 2499,
     icon: '/assets/images/icons/theme-icon38.png',
     features: [
@@ -122,7 +122,7 @@ const googleAdsPricing = [
 ];
 const seoPricing = [
   {
-    title: '“SEO Essentials”',
+    title: 'SEO Essentials',
     price: 799,
     icon: '/assets/images/icons/theme-icon36.png',
     features: [
@@ -141,7 +141,7 @@ const seoPricing = [
   },
 
   {
-    title: '“SEO Growth Pro”',
+    title: 'SEO Growth Pro',
     price: 1499,
     icon: '/assets/images/icons/theme-icon37.png',
     features: [
@@ -161,7 +161,7 @@ const seoPricing = [
   },
 
   {
-    title: '“SEO Elite Dominator”',
+    title: 'SEO Elite Dominator',
     price: 2999,
     icon: '/assets/images/icons/theme-icon38.png',
     features: [
@@ -181,7 +181,7 @@ const seoPricing = [
 ];
 const webDevPricing = [
   {
-    title: ' — “Web Starter”',
+    title: 'Web Starter',
     price: 1999,
     icon: '/assets/images/icons/theme-icon36.png',
     features: [
@@ -200,7 +200,7 @@ const webDevPricing = [
   },
 
   {
-    title: ' — “Web Pro”',
+    title: 'Web Pro',
     price: 3999,
     icon: '/assets/images/icons/theme-icon37.png',
     features: [
@@ -220,7 +220,7 @@ const webDevPricing = [
   },
 
   {
-    title: ' — “Web Elite”',
+    title: 'Web Elite',
     price: 7999,
     icon: '/assets/images/icons/theme-icon38.png',
     features: [
@@ -240,7 +240,7 @@ const webDevPricing = [
 ];
 const digitalMarketingPricing = [
   {
-    title: ' Plan — “Digital Start”',
+    title: 'Digital Start',
     price: 1499,
     icon: '/assets/images/icons/theme-icon36.png',
     features: [
@@ -260,7 +260,7 @@ const digitalMarketingPricing = [
   },
 
   {
-    title: ' Plan — “Digital Growth”',
+    title: 'Digital Growth',
     price: 2999,
     icon: '/assets/images/icons/theme-icon37.png',
     features: [
@@ -281,7 +281,7 @@ const digitalMarketingPricing = [
   },
 
   {
-    title: ' Plan — “Digital Performance Pro”',
+    title: 'Digital Performance Pro',
     price: 4999,
     icon: '/assets/images/icons/theme-icon38.png',
     features: [
@@ -306,12 +306,12 @@ const digitalMarketingPricing = [
 const Pricing = () => {
   return (
     <section className="pricing-section-three pt-120 pb-60">
-      <div className="section-header text-center mb-5">
-      <h3 className="section-title">⭐ SOCIAL MEDIA MARKETING PACKAGES</h3>
-    </div>
-      <div className="container mb-50">
+        <div className="container">
         <div className="row">
-          {pricingData.map((item, index) => (
+           <div className="section-header text-center mb-5">
+      <h3 className="section-title">⭐ DIGITAL MARKETING PACKAGES</h3>
+    </div>
+          {digitalMarketingPricing.map((item, index) => (
             <div className="col-lg-4 col-md-6 col-sm-12" key={index}>
               <div className={`pricing-block-three anim-fade-move ${item.active ? 'active' : ''}`} data-fade-from={index === 2 ? 'right' : 'left'} data-delay={item.delay}>
                 <div className="inner-box">
@@ -332,7 +332,53 @@ const Pricing = () => {
                     ))}
                   </ul>
                   <div className="btn-box">
-                    <Link className="theme-btn btn-style-one dark-bg hover-dark" href="/page-contact"><span className="btn-title">Choose Plan</span></Link>
+                <Link
+  className="theme-btn btn-style-one dark-bg hover-dark"
+  href="https://wa.me/919876543210"
+  aria-label="WhatsApp"
+>
+  <span className="btn-title">Choose Plan</span>
+</Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+      <div className="section-header text-center mb-5">
+      <h3 className="section-title">⭐ SOCIAL MEDIA MARKETING PACKAGES</h3>
+    </div>
+      <div className="container mb-50">
+        <div className="row">
+          {pricingData.map((item, index) => (
+            <div className="col-lg-4 col-md-6 col-sm-12" key={index}>
+              <div className={`pricing-block-three anim-fade-move ${item.active ? 'active' : ''}`} data-fade-from={index === 2 ? 'right' : 'left'} data-delay={item.delay}>
+                <div className="inner-box">
+                  <div className="shape-image1"><img src={item.icon} alt={`${item.title} Icon`} /></div>
+                  <h4 className="title mx-auto">{item.title}</h4>
+                  <div className="price-box">
+                    <h4 className="price">
+                      <sup>د.إ</sup>
+                      {item.price}
+                    </h4>
+                    <span className="validaty">/month</span>
+                  </div>
+                  <div className="text">Highly recommended for small teams who seek to upgrade their time</div>
+                  <div className="list-title">What you will get:</div>
+                  <ul className="features">
+                    {item.features.map((feature, i) => (
+                      <li key={i}>{feature}</li>
+                    ))}
+                  </ul>
+                  <div className="btn-box">
+                   <Link
+  className="theme-btn btn-style-one dark-bg hover-dark"
+  href="https://wa.me/919876543210"
+  aria-label="WhatsApp"
+>
+  <span className="btn-title">Choose Plan</span>
+</Link>
                   </div>
                 </div>
               </div>
@@ -366,7 +412,13 @@ const Pricing = () => {
                     ))}
                   </ul>
                   <div className="btn-box">
-                    <Link className="theme-btn btn-style-one dark-bg hover-dark" href="/page-contact"><span className="btn-title">Choose Plan</span></Link>
+                  <Link
+  className="theme-btn btn-style-one dark-bg hover-dark"
+  href="https://wa.me/919876543210"
+  aria-label="WhatsApp"
+>
+  <span className="btn-title">Choose Plan</span>
+</Link>
                   </div>
                 </div>
               </div>
@@ -400,7 +452,13 @@ const Pricing = () => {
                     ))}
                   </ul>
                   <div className="btn-box">
-                    <Link className="theme-btn btn-style-one dark-bg hover-dark" href="/page-contact"><span className="btn-title">Choose Plan</span></Link>
+                   <Link
+  className="theme-btn btn-style-one dark-bg hover-dark"
+  href="https://wa.me/919876543210"
+  aria-label="WhatsApp"
+>
+  <span className="btn-title">Choose Plan</span>
+</Link>
                   </div>
                 </div>
               </div>
@@ -421,7 +479,11 @@ const Pricing = () => {
                   <h4 className="title">{item.title}</h4>
                   <div className="price-box">
                     <h4 className="price">
-                      <sup>د.إ</sup>
+                      <sup
+>د.إ
+
+
+                      </sup>
                       {item.price}
                     </h4>
                     <span className="validaty">/month</span>
@@ -434,7 +496,13 @@ const Pricing = () => {
                     ))}
                   </ul>
                   <div className="btn-box">
-                    <Link className="theme-btn btn-style-one dark-bg hover-dark" href="/page-contact"><span className="btn-title">Choose Plan</span></Link>
+                  <Link
+  className="theme-btn btn-style-one dark-bg hover-dark"
+  href="https://wa.me/919876543210"
+  aria-label="WhatsApp"
+>
+  <span className="btn-title">Choose Plan</span>
+</Link>
                   </div>
                 </div>
               </div>
@@ -442,40 +510,7 @@ const Pricing = () => {
           ))}
         </div>
       </div>
-      <div className="container">
-        <div className="row">
-           <div className="section-header text-center mb-5">
-      <h3 className="section-title">⭐ DIGITAL MARKETING PACKAGES</h3>
-    </div>
-          {digitalMarketingPricing.map((item, index) => (
-            <div className="col-lg-4 col-md-6 col-sm-12" key={index}>
-              <div className={`pricing-block-three anim-fade-move ${item.active ? 'active' : ''}`} data-fade-from={index === 2 ? 'right' : 'left'} data-delay={item.delay}>
-                <div className="inner-box">
-                  <div className="shape-image1"><img src={item.icon} alt={`${item.title} Icon`} /></div>
-                  <h4 className="title">{item.title}</h4>
-                  <div className="price-box">
-                    <h4 className="price">
-                      <sup>د.إ</sup>
-                      {item.price}
-                    </h4>
-                    <span className="validaty">/month</span>
-                  </div>
-                  <div className="text">Highly recommended for small teams who seek to upgrade their time</div>
-                  <div className="list-title">What you will get:</div>
-                  <ul className="features">
-                    {item.features.map((feature, i) => (
-                      <li key={i}>{feature}</li>
-                    ))}
-                  </ul>
-                  <div className="btn-box">
-                    <Link className="theme-btn btn-style-one dark-bg hover-dark" href="/page-contact"><span className="btn-title">Choose Plan</span></Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
+    
     </section>
   );
 };

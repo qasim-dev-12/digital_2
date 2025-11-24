@@ -108,7 +108,7 @@ function Testimonial() {
  — Arjun Mehta, Founder, BlueStone Realty”</p>
                               <div className="info-box">
                                 <div className="user-thumb">
-                                  <img className="user" src="assets/images/resource/testi1-1.jpg" alt="image" />
+                                  <img className="user" src="assets/images/resource/Arjun Mehta.png" alt="image" />
                                 </div>
                                 <div className="user-info">
                                    
@@ -148,7 +148,7 @@ function Testimonial() {
  — Sophie Laurent, Marketing Director, Maison Luxe Paris”</p>
                               <div className="info-box">
                                 <div className="user-thumb">
-                                  <img className="user" src="assets/images/resource/testi1-1.jpg" alt="image" />
+                                  <img className="user" src="assets/images/resource/Sophie Laurent.png" alt="image" />
                                 </div>
                                 <div className="user-info">
                                   <div className="user">
@@ -188,7 +188,7 @@ function Testimonial() {
 <p className='text'>“We saw a remarkable improvement in traffic and conversions after partnering with them. Their expertise in social media is truly next level.”
  — Faisal Al Noor, CEO, Emirates Auto Care</p>                              <div className="info-box">
                                 <div className="user-thumb">
-                                  <img className="user" src="assets/images/resource/testi1-1.jpg" alt="image" />
+                                  <img className="user" src="assets/images/resource/Faisal Al Noor.png" alt="image" />
                                 </div>
                                 <div className="user-info">
                                   <div className="user">
@@ -226,7 +226,7 @@ function Testimonial() {
                               </div>
 <p className='text'>“Professional, timely, and incredibly creative. They helped us scale our e-commerce brand with campaigns that actually brought results.”</p>                              <div className="info-box">
                                 <div className="user-thumb">
-                                  <img className="user" src="assets/images/resource/testi1-1.jpg" alt="image" />
+                                  <img className="user" src="assets/images/resource/Mira Kapoor.png" alt="image" />
                                 </div>
                                 <div className="user-info">
                                   <div className="user">
@@ -264,7 +264,7 @@ function Testimonial() {
                               </div>
 <p className='text'>“From SEO to paid ads, everything was executed perfectly. The team constantly refined our campaigns and made sure we stayed ahead of competitors.”</p>                              <div className="info-box">
                                 <div className="user-thumb">
-                                  <img className="user" src="assets/images/resource/testi1-1.jpg" alt="image" />
+                                  <img className="user" src="assets/images/resource/Daniel Fischer.png" alt="image" />
                                 </div>
                                 <div className="user-info">
                                   <div className="user">
