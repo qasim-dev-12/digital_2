@@ -18,7 +18,7 @@ function VideoSection() {
           </div>
         </div>
       </section>
-      <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="Fvae8nxzVz4" onClose={() => setOpen(false)} />
+      <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="1awT7-sLO64" onClose={() => setOpen(false)} />
         </>
     )
 }

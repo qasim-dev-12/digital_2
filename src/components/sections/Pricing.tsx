@@ -4,7 +4,7 @@ import React from 'react';
 
 const pricingData = [
   {
-    title: ' Silver Plan — Social Lite',
+    title: '  Plan — Social Lite',
     price: 999,
   icon: '/assets/images/icons/theme-icon36.png',
     features: [
@@ -22,7 +22,7 @@ const pricingData = [
     delay: '0.15',
   },
   {
-    title: ' Gold Plan — Social Pro',
+    title: '  Plan — Social Pro',
     price: 1999,
    icon: '/assets/images/icons/theme-icon37.png',
     features: [
@@ -41,7 +41,7 @@ const pricingData = [
     active: true,
   },
   {
-    title: ' Platinum Plan — Social Elite',
+    title: '  Plan — Social Elite',
     price: 3999,
    icon: '/assets/images/icons/theme-icon38.png',// fallback if filename slight mismatch
     // If your build expects exact path, replace above with:
@@ -63,7 +63,7 @@ const pricingData = [
 ];
 const googleAdsPricing = [
   {
-    title: 'Silver — “Ad Starter”',
+    title: ' — “Ad Starter”',
     price: 699,
     icon: '/assets/images/icons/theme-icon36.png',
     features: [
@@ -82,7 +82,7 @@ const googleAdsPricing = [
   },
 
   {
-    title: 'Gold — “Ad Performance Pro”',
+    title: ' — “Ad Performance Pro”',
     price: 1299,
     icon: '/assets/images/icons/theme-icon37.png',
     features: [
@@ -102,7 +102,7 @@ const googleAdsPricing = [
   },
 
   {
-    title: 'Platinum — “Ad Dominator”',
+    title: ' — “Ad Dominator”',
     price: 2499,
     icon: '/assets/images/icons/theme-icon38.png',
     features: [
@@ -181,7 +181,7 @@ const seoPricing = [
 ];
 const webDevPricing = [
   {
-    title: 'Silver — “Web Starter”',
+    title: ' — “Web Starter”',
     price: 1999,
     icon: '/assets/images/icons/theme-icon36.png',
     features: [
@@ -200,7 +200,7 @@ const webDevPricing = [
   },
 
   {
-    title: 'Gold — “Web Pro”',
+    title: ' — “Web Pro”',
     price: 3999,
     icon: '/assets/images/icons/theme-icon37.png',
     features: [
@@ -220,7 +220,7 @@ const webDevPricing = [
   },
 
   {
-    title: 'Platinum — “Web Elite”',
+    title: ' — “Web Elite”',
     price: 7999,
     icon: '/assets/images/icons/theme-icon38.png',
     features: [
@@ -240,7 +240,7 @@ const webDevPricing = [
 ];
 const digitalMarketingPricing = [
   {
-    title: 'Silver Plan — “Digital Start”',
+    title: ' Plan — “Digital Start”',
     price: 1499,
     icon: '/assets/images/icons/theme-icon36.png',
     features: [
@@ -260,7 +260,7 @@ const digitalMarketingPricing = [
   },
 
   {
-    title: 'Gold Plan — “Digital Growth”',
+    title: ' Plan — “Digital Growth”',
     price: 2999,
     icon: '/assets/images/icons/theme-icon37.png',
     features: [
@@ -281,7 +281,7 @@ const digitalMarketingPricing = [
   },
 
   {
-    title: 'Platinum Plan — “Digital Performance Pro”',
+    title: ' Plan — “Digital Performance Pro”',
     price: 4999,
     icon: '/assets/images/icons/theme-icon38.png',
     features: [

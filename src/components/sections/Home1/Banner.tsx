@@ -1,7 +1,9 @@
 import React from 'react';
 import Link from 'next/link';
 import CounterUp from '../../elements/CounterUp';
-
+import {Swiper} from 'swiper/react';
+import { SwiperSlide } from 'swiper/react';
+import { Autoplay } from "swiper/modules";
 export default function Section1() {
   return (
     <section className="banner-section-one">
@@ -24,7 +26,30 @@ export default function Section1() {
                       </h1>
                     </div>
                     <div className="image-box">
-                      <figure className="image-1 anim-fade-move" data-fade-from="right"><img src="assets/images/banner/hero-banner-1.jpg" alt="Image" /></figure>
+                       <Swiper
+    modules={[Autoplay]}
+        spaceBetween={20}
+        slidesPerView={1}
+        autoplay={{ delay: 3000, disableOnInteraction: false }}
+        loop={true}
+  >
+    <SwiperSlide>
+       <figure className="image-1 anim-fade-move" data-fade-from="right"><img src="assets/images/banner/hero-banner-1.jpg" alt="Image" /></figure>
+    </SwiperSlide>
+
+    <SwiperSlide>
+        <figure className="image-1 anim-fade-move" data-fade-from="right"><img src="assets/images/banner/hero-banner-1.jpg" alt="Image" /></figure>
+    </SwiperSlide>
+
+    <SwiperSlide>
+        <figure className="image-1 anim-fade-move" data-fade-from="right"><img src="assets/images/banner/hero-banner-1.jpg" alt="Image" /></figure>
+    </SwiperSlide>
+
+    <SwiperSlide>
+        <figure className="image-1 anim-fade-move" data-fade-from="right"><img src="assets/images/banner/hero-banner-1.jpg" alt="Image" /></figure>
+    </SwiperSlide>
+  </Swiper>
+                    
                       <div className="customer-info anim-fade-move" data-fade-from="right" data-delay="0.05">
                         <div className="image-box">
                           <Link href="/page-contact"><img src="assets/images/resource/customer1.png" alt="" /></Link>
