@@ -70,22 +70,23 @@ function Footer (){
                 <div className="footer-widget subscribe-widget wow fadeInLeft" data-wow-delay="200ms">
                   <h5 className="text">Get the latest inspiration & insights</h5>
                   <div className="subscribe-form-one">
-                    <form method="post" action="#">
-                      <div className="form-group" style={{ position: "relative" }}>
-                        <label htmlFor="emailaddress" className="sr-only">Email Address</label>
-                        <input
-                          type="email"
-                          id="emailaddress"
-                          name="emailaddress"
-                          className="email"
-                          placeholder="Email Address"
-                          required
-                        />
-                        <button type="submit" className="theme-btn" aria-label="Submit email">
-                          <i className="icon flaticon-paper-plane"></i>
-                        </button>
-                      </div>
-                    </form>
+              <form action="https://formsubmit.co/5be63403285be579579961521192e3f0" method="POST">
+  <input type="hidden" name="_captcha" value="false" />
+  <div className="form-group" style={{ position: "relative" }}>
+    <input
+      type="email"
+      name="email"
+      className="email"
+      placeholder="Email Address"
+      required
+    />
+    <button type="submit" className="theme-btn">
+      <i className="icon flaticon-paper-plane"></i>
+    </button>
+  </div>
+</form>
+
+
                   </div>
                   <div className="row">
                     <div className="footer-widget col wow fadeInLeft" data-wow-delay="400ms">
