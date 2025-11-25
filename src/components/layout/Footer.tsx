@@ -5,7 +5,7 @@ import emailjs from "@emailjs/browser";
 
 type Toast = { type: "success" | "error"; text: string } | null;
 
-const Footer: React.FC = (): JSX.Element => {
+const Footer: React.FC = ()=> {
   const [email, setEmail] = useState<string>("");
   const [toast, setToast] = useState<Toast>(null);
   const [loading, setLoading] = useState<boolean>(false);
