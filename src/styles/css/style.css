@@ -393,7 +393,9 @@ textarea.form-control {
   height: auto;
   padding-top: 15px;
   padding-bottom: 15px;
+  
 }
+
 
 /* -------- Dark Theme Styling ---------- */
 .dark-layout {
@@ -21154,7 +21156,7 @@ table.tbl-shopping-cart > tfoot > tr > th {
 
 .section-content form .form-control,
 .section-content form .input-text {
-  color: var(--theme-color-lighter2);
+  color: #ffff;
   background-color: var(--theme-color-gray);
   border-color: rgba(255, 255, 255, 0.17);
 }
@@ -24003,3 +24005,45 @@ Sidebar
 .map {
   height: 450px;
 }
+
+
+/* Default input + textarea styles */
+.form-control,
+input.form-control,
+textarea.form-control {
+  background: #0f0f10 !important;
+  border: 1px solid #ffffff !important;   /* WHITE BORDER */
+  color: #fff !important;
+  -webkit-text-fill-color: #fff !important;
+  caret-color: #fff !important;
+  box-shadow: none !important;
+}
+
+/* ON FOCUS (keep white border) */
+.form-control:focus,
+input.form-control:focus,
+textarea.form-control:focus {
+  background: #0f0f10 !important;
+  border: 1px solid #ffffff !important;   /* WHITE BORDER ON FOCUS */
+  color: #fff !important;
+  -webkit-text-fill-color: #fff !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+input:-webkit-autofill {
+  background-color: #e8f0fe !important;  /* Chrome light-blue autofill bg */
+  -webkit-text-fill-color: rgba(0,0,0,0.9);
+}
+/* Block Chrome autofill white/light-blue background */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px #0f0f10 inset !important; 
+  box-shadow: 0 0 0px 1000px #0f0f10 inset !important; 
+  -webkit-text-fill-color: #fff !important;
+  caret-color: #fff !important;
+}
+
