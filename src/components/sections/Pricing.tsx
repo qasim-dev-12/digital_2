@@ -1,11 +1,13 @@
 import Link from 'next/link';
 import React from 'react';
+import { text } from 'stream/consumers';
 
 
 const pricingData = [
   {
     title: 'Social Lite',
     price: 999,
+    text:'Perfect for startups & small brands building online presence.',
   icon: '/assets/images/icons/theme-icon36.png',
     features: [
       '2 platforms (Facebook & Instagram)',
@@ -24,6 +26,7 @@ const pricingData = [
   {
     title: 'Social Pro',
     price: 1999,
+    text:' Designed for brands needing consistent, quality content.',
    icon: '/assets/images/icons/theme-icon37.png',
     features: [
       '3 platforms (Facebook, Instagram, TikTok)',
@@ -43,6 +46,7 @@ const pricingData = [
   {
     title: 'Social Elite',
     price: 3999,
+    text:' For brands wanting premium content & accelerated growth.',
    icon: '/assets/images/icons/theme-icon38.png',// fallback if filename slight mismatch
     // If your build expects exact path, replace above with:
     // icon: '/mnt/data/A_flat,_graphic_digital_graphic_displays_th.png',
@@ -65,6 +69,7 @@ const googleAdsPricing = [
   {
     title: 'Ad Starter',
     price: 699,
+    text:' Best suited for small businesses testing Google Ads for leads or traffic.',
     icon: '/assets/images/icons/theme-icon36.png',
     features: [
       'Google Search Ads (up to 2 campaigns)',
@@ -84,6 +89,7 @@ const googleAdsPricing = [
   {
     title: 'Ad Performance Pro',
     price: 1299,
+    text:' Designed for growing brands needing optimized campaigns, better reach & quality leads.',
     icon: '/assets/images/icons/theme-icon37.png',
     features: [
       'Google Search + Display + Remarketing Ads',
@@ -104,6 +110,7 @@ const googleAdsPricing = [
   {
     title: 'Ad Dominator',
     price: 2499,
+    text:' For businesses that want maximum conversions, top search presence & aggressive lead generation.',
     icon: '/assets/images/icons/theme-icon38.png',
     features: [
       'Google Search + Display + YouTube + Discovery + Remarketing',
@@ -124,6 +131,7 @@ const seoPricing = [
   {
     title: 'SEO Essentials',
     price: 799,
+    text:"Perfect for small businesses starting SEO and wanting stable monthly improvements.",
     icon: '/assets/images/icons/theme-icon36.png',
     features: [
       'Basic website SEO audit',
@@ -144,6 +152,7 @@ const seoPricing = [
     title: 'SEO Growth Pro',
     price: 1499,
     icon: '/assets/images/icons/theme-icon37.png',
+    text:'Ideal for growing businesses needing stronger ranking, content strategy, and backlink building.',
     features: [
       'Full website audit + competitor analysis',
       'Keyword targeting for 25–40 keywords',
@@ -163,6 +172,7 @@ const seoPricing = [
   {
     title: 'SEO Elite Dominator',
     price: 2999,
+    text:'Designed for companies competing in challenging markets and needing aggressive ranking growth.',
     icon: '/assets/images/icons/theme-icon38.png',
     features: [
       'Advanced SEO audit + full competitor gap mapping',
@@ -184,6 +194,7 @@ const webDevPricing = [
     title: 'Web Starter',
     price: 1999,
     icon: '/assets/images/icons/theme-icon36.png',
+    text:' Ideal for startups and small businesses needing a clean, modern online presence.',
     features: [
       '5-page responsive website (Home, About, Services, Contact, Blog/Extra)',
       'Mobile-friendly + fast-loading design',
@@ -203,6 +214,7 @@ const webDevPricing = [
     title: 'Web Pro',
     price: 3999,
     icon: '/assets/images/icons/theme-icon37.png',
+    text:' Best for growing brands needing a high-quality, optimized website.',
     features: [
       'Up to 10 custom-designed pages',
       'Premium UI/UX with branded visuals',
@@ -223,6 +235,7 @@ const webDevPricing = [
     title: 'Web Elite',
     price: 7999,
     icon: '/assets/images/icons/theme-icon38.png',
+    text:' Perfect for businesses needing a premium, feature-rich, high-converting digital presence.',
     features: [
       'Unlimited pages (as per sitemap)',
       'Fully custom UI/UX + advanced animations',
@@ -243,6 +256,7 @@ const digitalMarketingPricing = [
     title: 'Digital Start',
     price: 1499,
     icon: '/assets/images/icons/theme-icon36.png',
+    text:' Perfect for small businesses starting with paid ads.',
     features: [
       'Minimum Ad Spend Required: AED 5,000 / month',
       'Meta Ads (Facebook + Instagram) campaign setup',
@@ -263,6 +277,7 @@ const digitalMarketingPricing = [
     title: 'Digital Growth',
     price: 2999,
     icon: '/assets/images/icons/theme-icon37.png',
+    text:" Built for brands that need consistent lead generation & multi-platform exposure.",
     features: [
       'Minimum Ad Spend Required: AED 7,500 / month',
       'Meta Ads management (FB + IG)',
@@ -284,6 +299,7 @@ const digitalMarketingPricing = [
     title: 'Digital Performance Pro',
     price: 4999,
     icon: '/assets/images/icons/theme-icon38.png',
+    text:" For businesses needing aggressive scaling, full funnel optimization, and high-performance marketing.",
     features: [
       'Minimum Ad Spend Required: AED 10,000 / month',
       'Full Meta Ads + Google Ads management (Search, Display, YouTube)',
@@ -324,7 +340,7 @@ const Pricing = () => {
                     </h4>
                     <span className="validaty">/month</span>
                   </div>
-                  <div className="text">Highly recommended for small teams who seek to upgrade their time</div>
+                  <div className="text">{item?.text}</div>
                   <div className="list-title">What you will get:</div>
                   <ul className="features">
                     {item.features.map((feature, i) => (
@@ -364,7 +380,7 @@ const Pricing = () => {
                     </h4>
                     <span className="validaty">/month</span>
                   </div>
-                  <div className="text">Highly recommended for small teams who seek to upgrade their time</div>
+                  <div className="text">{item?.text}</div>
                   <div className="list-title">What you will get:</div>
                   <ul className="features">
                     {item.features.map((feature, i) => (
@@ -404,7 +420,7 @@ const Pricing = () => {
                     </h4>
                     <span className="validaty">/month</span>
                   </div>
-                  <div className="text">Highly recommended for small teams who seek to upgrade their time</div>
+                  <div className="text">{item?.text}</div>
                   <div className="list-title">What you will get:</div>
                   <ul className="features">
                     {item.features.map((feature, i) => (
@@ -444,7 +460,7 @@ const Pricing = () => {
                     </h4>
                     <span className="validaty">/month</span>
                   </div>
-                  <div className="text">Highly recommended for small teams who seek to upgrade their time</div>
+                  <div className="text">{item?.text}</div>
                   <div className="list-title">What you will get:</div>
                   <ul className="features">
                     {item.features.map((feature, i) => (
@@ -488,7 +504,7 @@ const Pricing = () => {
                     </h4>
                     <span className="validaty">/month</span>
                   </div>
-                  <div className="text">Highly recommended for small teams who seek to upgrade their time</div>
+                  <div className="text">{item?.text}</div>
                   <div className="list-title">What you will get:</div>
                   <ul className="features">
                     {item.features.map((feature, i) => (

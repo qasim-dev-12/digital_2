@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
+import Image from 'next/image';
 
 
 const swiperOptions = {
@@ -208,10 +209,21 @@ function Service() {
               <h4 className='text-center'>Grow your traffic and revenue with targeted digital marketing services</h4>
             
                 
-             <Link href="https://api.whatsapp.com/send/?phone=971522367120" className='text-center' target="_blank" rel="noopener noreferrer">
+             {/* <Link href="https://api.whatsapp.com/send/?phone=971522367120" className='text-center' target="_blank" rel="noopener noreferrer">
              
               <span className='border bg-red-400 border-green ml-10 p-20  '>Whatsapp Now</span>
-             </Link> 
+             </Link>  */}
+             
+        <Link
+  href="https://api.whatsapp.com/send/?phone=971522367120"
+  className="flex items-center gap-2 px-4 py-4 bg-[#25D366] text-white uppercase tracking-wide leading-none transition-all duration-500 font-[Avenir] animate-wobble wobble-btn inline-block"
+>
+ <Image src="/assets/images/whastapp.png" alt="hello" width={120} height={120} />
+</Link>
+
+
+
+
            
               
             </div>
@@ -219,6 +231,25 @@ function Service() {
 
           </div>
         </section>
+
+        <style jsx global>{`
+  @keyframes wobble-btn {
+    0%   { transform: translateX(0) rotate(0deg); }
+    15%  { transform: translateX(-6px) rotate(-1deg); }
+    30%  { transform: translateX(6px) rotate(1deg); }
+    45%  { transform: translateX(-4px) rotate(-0.7deg); }
+    60%  { transform: translateX(3px) rotate(0.5deg); }
+    75%  { transform: translateX(-2px) rotate(-0.3deg); }
+    100% { transform: translateX(0) rotate(0deg); }
+  }
+
+  .wobble-btn {
+    animation: wobble-btn 1.8s ease-in-out infinite;
+    will-change: transform;
+    display: inline-flex;
+  }
+`}</style>
+
         </>
     )
 }

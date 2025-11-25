@@ -104,8 +104,7 @@ function Testimonial() {
                                 <i className="icon fa fa-star"></i>
                                 <i className="icon fa fa-star"></i>
                               </div>
-                              <p className="text">“Stay Top Media completely transformed our online presence. Their strategy helped us generate consistent leads and the communication was always smooth and professional.”
- — Arjun Mehta, Founder, BlueStone Realty”</p>
+                              <p className="text">“Stay Top Media transformed our online presence with a strategy that finally delivered consistent, qualified leads. Their communication was clear, fast, and professional throughout the process. A reliable partner for brands aiming to scale with confidence”</p>
                               <div className="info-box">
                                 <div className="user-thumb">
                                   <img className="user" src="assets/images/resource/Arjun Mehta.png" alt="image" />
@@ -144,8 +143,7 @@ function Testimonial() {
                                 <i className="icon fa fa-star"></i>
                                 <i className="icon fa fa-star"></i>
                               </div>
-                              <p className="text">“The team understood our brand instantly and delivered creatives that exceeded expectations. Their marketing approach brought an immediate boost in engagement.”
- — Sophie Laurent, Marketing Director, Maison Luxe Paris”</p>
+                              <p className="text">“The team instantly understood our brand and delivered high-quality creatives that felt truly premium. Their marketing approach boosted our engagement far quicker than expected. Working with them has elevated how Maison Luxe Paris connects with its audience”</p>
                               <div className="info-box">
                                 <div className="user-thumb">
                                   <img className="user" src="assets/images/resource/Sophie Laurent.png" alt="image" />
@@ -185,8 +183,7 @@ function Testimonial() {
                                 <i className="icon fa fa-star"></i>
                                 <i className="icon fa fa-star"></i>
                               </div>
-<p className='text'>“We saw a remarkable improvement in traffic and conversions after partnering with them. Their expertise in social media is truly next level.”
- — Faisal Al Noor, CEO, Emirates Auto Care</p>                              <div className="info-box">
+<p className='text'>“We saw a strong improvement in traffic and conversions soon after partnering with Stay Top Media. Their social media expertise and optimization made a noticeable impact on our results. They delivered strategies that kept us ahead of competitors in a fast-moving market.</p>                              <div className="info-box">
                                 <div className="user-thumb">
                                   <img className="user" src="assets/images/resource/Faisal Al Noor.png" alt="image" />
                                 </div>
@@ -224,7 +221,7 @@ function Testimonial() {
                                 <i className="icon fa fa-star"></i>
                                 <i className="icon fa fa-star"></i>
                               </div>
-<p className='text'>“Professional, timely, and incredibly creative. They helped us scale our e-commerce brand with campaigns that actually brought results.”</p>                              <div className="info-box">
+<p className='text'>“Professional, creative, and always on time — their work helped us scale our e-commerce brand faster. Their campaigns delivered real results with improved engagement and sales. A truly valuable partner for growing Urban Threads India”</p>                              <div className="info-box">
                                 <div className="user-thumb">
                                   <img className="user" src="assets/images/resource/Mira Kapoor.png" alt="image" />
                                 </div>
@@ -262,7 +259,8 @@ function Testimonial() {
                                 <i className="icon fa fa-star"></i>
                                 <i className="icon fa fa-star"></i>
                               </div>
-<p className='text'>“From SEO to paid ads, everything was executed perfectly. The team constantly refined our campaigns and made sure we stayed ahead of competitors.”</p>                              <div className="info-box">
+<p className='text'>“From SEO to paid ads, everything was handled with precision and clear strategy. They refined our campaigns continuously, ensuring we stayed ahead in a competitive market.
+Their data-driven approach strengthened our visibility and lead quality.”</p>                              <div className="info-box">
                                 <div className="user-thumb">
                                   <img className="user" src="assets/images/resource/Daniel Fischer.png" alt="image" />
                                 </div>
