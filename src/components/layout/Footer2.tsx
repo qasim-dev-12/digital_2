@@ -82,7 +82,7 @@ function Footer2 (){
                           </ul>
                         </div>
                         <Link
-                          href="/page-contact"
+                          href="/contact"
                           className="contact-us wow fadeInUp animated"
                           style={{ visibility: "visible", animationName: "fadeInUp" }}
                         >

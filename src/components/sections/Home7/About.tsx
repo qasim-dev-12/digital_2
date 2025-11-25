@@ -25,7 +25,7 @@ function About() {
                                     <p className="text" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim .</p>							
                                 </div>
                                 <div className="btn-box">
-                                    <Link href="/page-about" className="theme-btn btn-style-one"><span className="btn-title">Read More</span><i className="icon fa fa-arrow-up-right"></i></Link>
+                                    <Link href="/about" className="theme-btn btn-style-one"><span className="btn-title">Read More</span><i className="icon fa fa-arrow-up-right"></i></Link>
                                 </div>
                             </div>
                         </div>

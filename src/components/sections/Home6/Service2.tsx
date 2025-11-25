@@ -156,7 +156,7 @@ We provide end-to-end digital solutions designed to help businesses grow, scale,
                             {/* <Link href={`/page-service-details/${service.slug}`}>
   <i className="icon flaticon-right-down"></i>
 </Link> */}
-<Link href={`/page-services/${service.slug}`}>
+<Link href={`/services/${service.slug}`}>
   <i aria-label={`Open ${service.title} details`}><i className="icon flaticon-right-down" /></i>
 </Link>
                           </div>

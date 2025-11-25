@@ -91,7 +91,7 @@ function Pricing() {
                       <li>Remote support</li>
                     </ul>
                     <div className="btn-box">
-                      <Link href="/page-pricing" className="theme-btn btn-style-one">
+                      <Link href="/pricing" className="theme-btn btn-style-one">
                         <span className="btn-title">Choose Plan</span>
                       </Link>
                     </div>
@@ -125,7 +125,7 @@ function Pricing() {
                       <li>Remote support</li>
                     </ul>
                     <div className="btn-box">
-                      <Link href="/page-pricing" className="theme-btn btn-style-one dark-bg">
+                      <Link href="/pricing" className="theme-btn btn-style-one dark-bg">
                         <span className="btn-title">Choose plan</span>
                       </Link>
                     </div>

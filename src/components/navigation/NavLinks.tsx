@@ -17,7 +17,7 @@ const NavLinks = () => {
             </ul> */}
         </li>
 
-         <li className="dropdown"><Link href="/page-about">About</Link>
+         <li className="dropdown"><Link href="/about">About</Link>
             <ul>
             <li><Link href="/page-testimonial">Testimonial</Link></li>
             {/* <li className="dropdown"><Link href="#">Blog</Link>
@@ -28,13 +28,13 @@ const NavLinks = () => {
             </li>  */}
             </ul>
         </li>
-         {/* <li><Link href="/page-about">About</Link></li> */}
-          <li><Link href="/page-pricing">Pricing</Link></li>
+         {/* <li><Link href="/about">About</Link></li> */}
+          <li><Link href="/pricing">Pricing</Link></li>
          
         {/* <li className="dropdown"><Link href="#">Pages</Link>
             <ul>
-            <li><Link href="/page-about">About</Link></li>
-            <li><Link href="/page-pricing">Pricing</Link></li>
+            <li><Link href="/about">About</Link></li>
+            <li><Link href="/pricing">Pricing</Link></li>
             <li><Link href="/page-testimonial">Testimonial</Link></li>
             <li><Link href="/page-faq">FAQ</Link></li>
             <li className="dropdown"><Link href="#">Team</Link>
@@ -61,15 +61,15 @@ const NavLinks = () => {
             <li><Link href="/page-404">Page 404</Link></li>
             </ul>
         </li>                   */}
-        <li className="dropdown"><Link href="/page-services">Services</Link>
+        <li className="dropdown"><Link href="/services">Services</Link>
             <ul>
-            <li><Link href="/page-services/digital-marketing">Digital Marketing</Link></li>
-            <li><Link href="/page-services/social-media-marketing">Social Media Marketing</Link></li>
-            <li><Link href="/page-services/google-ads">Google Ads</Link></li>
-             <li><Link href="/page-services/seo-services">SEO</Link></li>
-             <li><Link href="/page-services/email-marketing">Email Marketing</Link></li>
-               <li><Link href="/page-services/web-development">Web Development</Link></li>
-               <li><Link href="/page-services/mobile-app-development">Mobile App Development</Link></li>
+            <li><Link href="/services/digital-marketing">Digital Marketing</Link></li>
+            <li><Link href="/services/social-media-marketing">Social Media Marketing</Link></li>
+            <li><Link href="/services/google-ads">Google Ads</Link></li>
+             <li><Link href="/services/seo-services">SEO</Link></li>
+             <li><Link href="/services/email-marketing">Email Marketing</Link></li>
+               <li><Link href="/services/web-development">Web Development</Link></li>
+               <li><Link href="/services/mobile-app-development">Mobile App Development</Link></li>
             {/* <li><Link href="/page-service-details">Service Details</Link></li> */}
             </ul>
         </li>
@@ -96,7 +96,7 @@ const NavLinks = () => {
 
             </ul>
         </li>                                    
-        <li><Link href="/page-contact">Contact</Link></li>
+        <li><Link href="/contact">Contact</Link></li>
     </ul>
 
     );

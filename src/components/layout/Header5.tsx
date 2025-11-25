@@ -28,7 +28,7 @@ const Header5: React.FC<HeaderProps> = ({ handleOpen, handleRemove, searchToggle
                     <NavLinks/>
                   </nav>
                   <div className="action-box">
-                    <Link href="/page-contact" className="theme-btn btn-style-four btn-sm">
+                    <Link href="/contact" className="theme-btn btn-style-four btn-sm">
                       <span className="btn-title">Let’s Talk</span>
                       <span className="dot-box"><span className="dot-item"></span></span>
                     </Link>

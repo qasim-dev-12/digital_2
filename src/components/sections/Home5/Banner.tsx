@@ -24,7 +24,7 @@ function Banner() {
                             <div className="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</div>
                             <div className="customer-info">
                               <div className="btn-box">
-                                <Link href="/page-about" className="theme-btn btn-style-four btn-md">
+                                <Link href="/about" className="theme-btn btn-style-four btn-md">
                                   <span className="btn-title">Read More</span>
                                   <span className="dot-box"><span className="dot-item"></span></span>
                                 </Link>

@@ -37,7 +37,7 @@ export default function Section2() {
                     Our approach blends innovation, research, and modern digital practices to help your brand grow stronger, smarter, and more visible in a competitive market.
                   </div>
                   <div className="user-info-box anim-fade-move">
-                    <Link href="/page-about" className="theme-btn btn-style-four">
+                    <Link href="/about" className="theme-btn btn-style-four">
                       <span className="btn-title">Read More</span>
                       <span className="dot-box">
                         <span className="dot-item"></span>

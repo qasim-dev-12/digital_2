@@ -20,7 +20,7 @@ import React from 'react';
                                     <h1 className="title animate-3">Your ultimate <br/><span>Digital agency</span></h1>
                                     <div className="text-box">
                                     <div className="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</div>
-                                    <Link href="/page-about" className="theme-btn btn-style-four">
+                                    <Link href="/about" className="theme-btn btn-style-four">
                                         <span className="btn-title">Read More</span>
                                         <span className="dot-box"><span className="dot-item"></span></span>
                                     </Link>

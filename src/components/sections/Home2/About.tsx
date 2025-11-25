@@ -35,7 +35,7 @@ function About() {
                 </p>
               </div>
               <div className="btn-box">
-                <Link href="/page-about" className="theme-btn btn-style-four">
+                <Link href="/about" className="theme-btn btn-style-four">
                   <span className="btn-title">Read More</span>
                   <span className="dot-box"><span className="dot-item"></span></span>
                 </Link>

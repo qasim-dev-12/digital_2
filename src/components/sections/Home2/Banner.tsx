@@ -30,7 +30,7 @@ function Banner2() {
                     </div>
                     <div className="customer-info">
                       <div className="image-box">
-                        <Link href="/page-contact"><img src="assets/images/resource/customer1.png" alt="Image" /></Link>
+                        <Link href="/contact"><img src="assets/images/resource/customer1.png" alt="Image" /></Link>
                       </div>
                       <div className="count-outer">
                         <div className="count-box"><span className="count-text"><CounterUp end={200} /></span>k</div>

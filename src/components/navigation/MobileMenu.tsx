@@ -47,7 +47,7 @@ const MobileMenu: React.FC = () => {
       {/* <li className="dropdown">
         <Link href="#">Pages</Link>
         <ul className={isActive.key === "pages" ? "sub-menu d-block" : "d-none"}>
-          <li><Link href="/page-about">About Us</Link></li>
+          <li><Link href="/about">About Us</Link></li>
           <li>
             <Link href="#">Team</Link>
             <ul className={isSubActive.key === "team" ? "d-block" : "d-none"}>
@@ -64,7 +64,7 @@ const MobileMenu: React.FC = () => {
           </li>
           <li><Link href="/page-testimonial">Testimonials</Link></li>
           <li><Link href="/page-faq">FAQ’s</Link></li>
-          <li><Link href="/page-pricing">Pricing Table</Link></li>
+          <li><Link href="/pricing">Pricing Table</Link></li>
           <li>
             <Link href="#">Shop</Link>
             <ul className={isSubActive.key === "shop" ? "d-block" : "d-none"}>
@@ -95,7 +95,7 @@ const MobileMenu: React.FC = () => {
       <li className="dropdown">
         <Link href="#">Services</Link>
         <ul className={isActive.key === "services" ? "sub-menu d-block" : "d-none"}>
-          <li><Link href="/page-services">Service Grid</Link></li>
+          <li><Link href="/services">Service Grid</Link></li>
           <li><Link href="/page-service-details">Service Details</Link></li>
         </ul>
         <div
@@ -138,26 +138,26 @@ const MobileMenu: React.FC = () => {
         <Link href="/contact">Contact</Link>
       </li> */}
       <li className="dropdown">
-  <Link href="/page-about">About</Link>
+  <Link href="/about">About</Link>
   <ul>
     <li><Link href="/page-testimonial">Testimonial</Link></li>
   </ul>
 </li>
 
 <li>
-  <Link href="/page-pricing">Pricing</Link>
+  <Link href="/pricing">Pricing</Link>
 </li>
 
 <li className="dropdown">
-  <Link href="/page-services">Services</Link>
+  <Link href="/services">Services</Link>
   <ul>
-    <li><Link href="/page-services/digital-marketing">Digital Marketing</Link></li>
-    <li><Link href="/page-services/social-media-marketing">Social Media Marketing</Link></li>
-    <li><Link href="/page-services/google-ads">Google Ads</Link></li>
-    <li><Link href="/page-services/seo-services">SEO</Link></li>
-    <li><Link href="/page-services/email-marketing">Email Marketing</Link></li>
-    <li><Link href="/page-services/web-development">Web Development</Link></li>
-    <li><Link href="/page-services/mobile-app-development">Mobile App Development</Link></li>
+    <li><Link href="/services/digital-marketing">Digital Marketing</Link></li>
+    <li><Link href="/services/social-media-marketing">Social Media Marketing</Link></li>
+    <li><Link href="/services/google-ads">Google Ads</Link></li>
+    <li><Link href="/services/seo-services">SEO</Link></li>
+    <li><Link href="/services/email-marketing">Email Marketing</Link></li>
+    <li><Link href="/services/web-development">Web Development</Link></li>
+    <li><Link href="/services/mobile-app-development">Mobile App Development</Link></li>
   </ul>
 </li>
 
@@ -180,7 +180,7 @@ const MobileMenu: React.FC = () => {
 </li>
 
 <li>
-  <Link href="/page-contact">Contact</Link>
+  <Link href="/contact">Contact</Link>
 </li>
     </ul>
   );

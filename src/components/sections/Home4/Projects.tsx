@@ -18,7 +18,7 @@ function Projects() {
                         <span className="sub-title wow fadeInUp"><img className="icon-img" src="assets/images/icons/sub-title-shape.png" alt="Image"/> Projects</span>
                         <h2 className="title wow fadeInUp">Our selected <br/><span>projects</span></h2>
                         <div className="btn-box">
-                            <Link href="/page-services" className="theme-btn btn-style-four">
+                            <Link href="/services" className="theme-btn btn-style-four">
                             <span className="btn-title">All Services</span>
                             <span className="dot-box"><span className="dot-item"></span></span>
                             </Link>

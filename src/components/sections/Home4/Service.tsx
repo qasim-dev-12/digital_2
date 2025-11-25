@@ -56,7 +56,7 @@ function Service() {
                     <div className="col-lg-5">
                     <div className="text ms-lg-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</div>
                     <div className="btn-box">
-                        <Link href="/page-services" className="theme-btn btn-style-four ms-lg-5">
+                        <Link href="/services" className="theme-btn btn-style-four ms-lg-5">
                         <span className="btn-title">All Services</span>
                         <span className="dot-box"><span className="dot-item"></span></span>
                         </Link>

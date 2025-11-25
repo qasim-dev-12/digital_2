@@ -1,7 +1,11 @@
 import React from "react";
 import Link from "next/link";
+// import emailjs from '@emailjs/browser';
+import { useState } from 'react';
 
 function Footer (){
+   const [email, setEmail] = useState("");
+  const [msg, setMsg] = useState("");
 
   return (
     <footer className="main-footer footer-style-one overflow-hidden">

@@ -43,7 +43,7 @@ const Header3: React.FC<HeaderProps> = ({ handleOpen, handleRemove, searchToggle
                       </div>
                     </div>
 
-                    <Link href="/page-contact" className="theme-btn btn-style-four">
+                    <Link href="/contact" className="theme-btn btn-style-four">
                       <span className="btn-title">Let’s Talk</span>
                       <span className="dot-box"><span className="dot-item"></span></span>
                     </Link>

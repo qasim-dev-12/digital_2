@@ -32,7 +32,7 @@ export default function TeamGrid() {
                           <li><Link href="#"><i className="fab fa-youtube"></i></Link></li>
                         </ul> */}
                         <ul className="social-icon-list1">
-                          <Link href="/page-about" className="theme-btn btn-style-four">
+                          <Link href="/about" className="theme-btn btn-style-four">
                       <span className="btn-title">Read More</span>
                       <span className="dot-box">
                         <span className="dot-item"></span>
@@ -62,7 +62,7 @@ export default function TeamGrid() {
                         </svg>
                       </figure>
                     <ul className="social-icon-list1">
-                          <Link href="/page-about" className="theme-btn btn-style-four">
+                          <Link href="/about" className="theme-btn btn-style-four">
                       <span className="btn-title">Read More</span>
                       <span className="dot-box">
                         <span className="dot-item"></span>
@@ -90,7 +90,7 @@ export default function TeamGrid() {
                           <path d="M304 0H103.746L0 288.319H86.8571L14.4762 543L265.397 192.212H176.127L304 0Z"/>
                         </svg>
                       <ul className="social-icon-list1">
-                          <Link href="/page-about" className="theme-btn btn-style-four">
+                          <Link href="/about" className="theme-btn btn-style-four">
                       <span className="btn-title">Read More</span>
                       <span className="dot-box">
                         <span className="dot-item"></span>
@@ -120,7 +120,7 @@ export default function TeamGrid() {
                         </svg>
                       </figure>
                     <ul className="social-icon-list1">
-                          <Link href="/page-about" className="theme-btn btn-style-four">
+                          <Link href="/about" className="theme-btn btn-style-four">
                       <span className="btn-title">Read More</span>
                       <span className="dot-box">
                         <span className="dot-item"></span>
@@ -148,7 +148,7 @@ export default function TeamGrid() {
                           <path d="M304 0H103.746L0 288.319H86.8571L14.4762 543L265.397 192.212H176.127L304 0Z"/>
                         </svg>
                       <ul className="social-icon-list1">
-                          <Link href="/page-about" className="theme-btn btn-style-four">
+                          <Link href="/about" className="theme-btn btn-style-four">
                       <span className="btn-title">Read More</span>
                       <span className="dot-box">
                         <span className="dot-item"></span>
@@ -177,7 +177,7 @@ export default function TeamGrid() {
                           <path d="M304 0H103.746L0 288.319H86.8571L14.4762 543L265.397 192.212H176.127L304 0Z"/>
                         </svg>
                       <ul className="social-icon-list1">
-                          <Link href="/page-about" className="theme-btn btn-style-four">
+                          <Link href="/about" className="theme-btn btn-style-four">
                       <span className="btn-title">Read More</span>
                       <span className="dot-box">
                         <span className="dot-item"></span>
@@ -206,7 +206,7 @@ export default function TeamGrid() {
                           <path d="M304 0H103.746L0 288.319H86.8571L14.4762 543L265.397 192.212H176.127L304 0Z"/>
                         </svg>
                        <ul className="social-icon-list1">
-                          <Link href="/page-about" className="theme-btn btn-style-four">
+                          <Link href="/about" className="theme-btn btn-style-four">
                       <span className="btn-title">Read More</span>
                       <span className="dot-box">
                         <span className="dot-item"></span>
@@ -235,7 +235,7 @@ export default function TeamGrid() {
                           <path d="M304 0H103.746L0 288.319H86.8571L14.4762 543L265.397 192.212H176.127L304 0Z"/>
                         </svg>
                        <ul className="social-icon-list1">
-                          <Link href="/page-about" className="theme-btn btn-style-four">
+                          <Link href="/about" className="theme-btn btn-style-four">
                       <span className="btn-title">Read More</span>
                       <span className="dot-box">
                         <span className="dot-item"></span>
@@ -264,7 +264,7 @@ export default function TeamGrid() {
                           <path d="M304 0H103.746L0 288.319H86.8571L14.4762 543L265.397 192.212H176.127L304 0Z"/>
                         </svg>
                       <ul className="social-icon-list1">
-                          <Link href="/page-about" className="theme-btn btn-style-four">
+                          <Link href="/about" className="theme-btn btn-style-four">
                       <span className="btn-title">Read More</span>
                       <span className="dot-box">
                         <span className="dot-item"></span>
@@ -293,7 +293,7 @@ export default function TeamGrid() {
                           <path d="M304 0H103.746L0 288.319H86.8571L14.4762 543L265.397 192.212H176.127L304 0Z"/>
                         </svg>
                       <ul className="social-icon-list1">
-                          <Link href="/page-about" className="theme-btn btn-style-four">
+                          <Link href="/about" className="theme-btn btn-style-four">
                       <span className="btn-title">Read More</span>
                       <span className="dot-box">
                         <span className="dot-item"></span>
@@ -322,7 +322,7 @@ export default function TeamGrid() {
                           <path d="M304 0H103.746L0 288.319H86.8571L14.4762 543L265.397 192.212H176.127L304 0Z"/>
                         </svg>
                        <ul className="social-icon-list1">
-                          <Link href="/page-about" className="theme-btn btn-style-four">
+                          <Link href="/about" className="theme-btn btn-style-four">
                       <span className="btn-title">Read More</span>
                       <span className="dot-box">
                         <span className="dot-item"></span>
@@ -351,7 +351,7 @@ export default function TeamGrid() {
                           <path d="M304 0H103.746L0 288.319H86.8571L14.4762 543L265.397 192.212H176.127L304 0Z"/>
                         </svg>
                       <ul className="social-icon-list1">
-                          <Link href="/page-about" className="theme-btn btn-style-four">
+                          <Link href="/about" className="theme-btn btn-style-four">
                       <span className="btn-title">Read More</span>
                       <span className="dot-box">
                         <span className="dot-item"></span>

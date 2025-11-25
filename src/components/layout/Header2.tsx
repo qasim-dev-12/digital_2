@@ -42,7 +42,7 @@ const Header2: React.FC<HeaderProps> = ({ handleOpen, handleRemove, searchToggle
                                     <button className="ui-btn search-btn" onClick={handleToggle}>
                                         <i className="icon fal fa-search" />
                                     </button>
-                                    <Link href="/page-contact" className="theme-btn btn-style-four">
+                                    <Link href="/contact" className="theme-btn btn-style-four">
                                         <span className="btn-title">Let’s Talk</span>
                                         <span className="dot-box"><span className="dot-item" /></span>
                                     </Link>

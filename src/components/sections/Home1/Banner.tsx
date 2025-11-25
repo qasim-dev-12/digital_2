@@ -19,12 +19,12 @@ export default function Section1() {
               <div className="row">
                 <div className="content-box col-12">
                   <div className="inner-box">
-                    <div className="title-box">
+                    {/* <div className="title-box">
                       <h1 className="title tm-split-text split-in-right">
                         TRANSFORM REACH <img className="shape-image-2" src="assets/images/icons/shape-style3.png" alt="" /> <br />
                            <span><img className="shape-image-1" src="assets/images/icons/shape-style2.png" alt="" /> INTO REVENUE.</span>
                       </h1>
-                    </div>
+                    </div> */}
                     <div className="image-box">
                        <Swiper
     modules={[Autoplay]}
@@ -34,19 +34,19 @@ export default function Section1() {
         loop={true}
   >
     <SwiperSlide>
-       <figure className="image-1 anim-fade-move" data-fade-from="right"><img src="assets/images/banner/hero-banner-1.jpg" alt="Image" /></figure>
+       <figure className="image-1 anim-fade-move" data-fade-from="right"><img src="assets/images/banner/digi-banner.png" alt="Image" /></figure>
     </SwiperSlide>
 
     <SwiperSlide>
-        <figure className="image-1 anim-fade-move" data-fade-from="right"><img src="assets/images/banner/hero-banner-1.jpg" alt="Image" /></figure>
+        <figure className="image-1 anim-fade-move" data-fade-from="right"><img src="assets/images/banner/google-banner.png" alt="Image" /></figure>
     </SwiperSlide>
 
     <SwiperSlide>
-        <figure className="image-1 anim-fade-move" data-fade-from="right"><img src="assets/images/banner/hero-banner-1.jpg" alt="Image" /></figure>
+        <figure className="image-1 anim-fade-move" data-fade-from="right"><img src="assets/images/banner/social-banner.png" alt="Image" /></figure>
     </SwiperSlide>
 
     <SwiperSlide>
-        <figure className="image-1 anim-fade-move" data-fade-from="right"><img src="assets/images/banner/hero-banner-1.jpg" alt="Image" /></figure>
+        <figure className="image-1 anim-fade-move" data-fade-from="right"><img src="assets/images/banner/web-banner.png" alt="Image" /></figure>
     </SwiperSlide>
   </Swiper>
                     
