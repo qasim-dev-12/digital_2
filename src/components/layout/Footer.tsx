@@ -32,26 +32,64 @@ function Footer (){
                     </div>
                     <div className="social-widget">
                       <ul className="social-icon-list1">
-                     
-                        <li><Link href="https://www.facebook.com/staytopmedia" aria-label="Facebook"><i className="fab fa-facebook-f" /></Link></li>
-                         <li>
-                          <li><Link href="https://www.instagram.com/staytop.media" aria-label="Instagram"><i className="fab fa-instagram" /></Link></li>
-    <Link href="https://www.tiktok.com/@staytop.media" aria-label="TikTok">
+
+  <li>
+    <Link 
+      href="https://www.facebook.com/staytopmedia"
+      aria-label="Facebook"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <i className="fab fa-facebook-f" />
+    </Link>
+  </li>
+
+  <li>
+    <Link 
+      href="https://www.instagram.com/staytop.media"
+      aria-label="Instagram"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <i className="fab fa-instagram" />
+    </Link>
+  </li>
+
+  <li>
+    <Link 
+      href="https://www.tiktok.com/@staytop.media"
+      aria-label="TikTok"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       <i className="fab fa-tiktok" />
     </Link>
   </li>
-     <li>
-    <Link href="https://www.linkedin.com/company/staytopmedia" aria-label="LinkedIn">
+
+  <li>
+    <Link 
+      href="https://www.linkedin.com/company/staytopmedia"
+      aria-label="LinkedIn"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       <i className="fab fa-linkedin-in" />
     </Link>
   </li>
+
   <li>
-  <Link href="https://www.youtube.com/@StayTopMedia/shorts" aria-label="YouTube">
-    <i className="fab fa-youtube" />
-  </Link>
-</li>
-                        
-                      </ul>
+    <Link 
+      href="https://www.youtube.com/@StayTopMedia/shorts"
+      aria-label="YouTube"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <i className="fab fa-youtube" />
+    </Link>
+  </li>
+
+</ul>
+
                     </div>
                   </div>
                 </div>
@@ -61,11 +99,11 @@ function Footer (){
                   <h5 className="widget-title">Quick Link</h5>
                   <div className="widget-content">
                     <ul className="user-links">
-                      <li><Link href="/">About Us</Link></li>
-                      <li><Link href="/">Our Team</Link></li>
-                      <li><Link href="/">Our Portfolio</Link></li>
-                      <li><Link href="/">Careers</Link></li>
-                      <li><Link href="/">Contact Us</Link></li>
+                      <li><Link href="/about">About Us</Link></li>
+                      <li><Link href="/services">Services</Link></li>
+                      <li><Link href="/industries">Industries</Link></li>
+                      <li><Link href="/pricing">Pricing</Link></li>
+                      <li><Link href="/contact">Contact Us</Link></li>
                     </ul>
                   </div>
                 </div>

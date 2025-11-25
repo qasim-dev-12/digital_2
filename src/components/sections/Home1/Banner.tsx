@@ -30,7 +30,7 @@ export default function Section1() {
     modules={[Autoplay]}
         spaceBetween={20}
         slidesPerView={1}
-        autoplay={{ delay: 3000, disableOnInteraction: false }}
+        autoplay={{ delay: 5000, disableOnInteraction: false }}
         loop={true}
   >
     <SwiperSlide>
