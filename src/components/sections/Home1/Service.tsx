@@ -206,7 +206,7 @@ function Service() {
             </div>
             <div className="bottom-text anim-fade-move d-flex gap-2" data-fade-from="left mt-400">
               
-              <h4 className='text-center'>Grow your traffic and revenue with targeted digital marketing services</h4>
+              <h4 className='text-center'>Unlock more traffic & sales — get started today.</h4>
             
                 
              {/* <Link href="https://api.whatsapp.com/send/?phone=971522367120" className='text-center' target="_blank" rel="noopener noreferrer">
@@ -218,7 +218,7 @@ function Service() {
   href="https://api.whatsapp.com/send/?phone=971522367120"
   className="flex items-center gap-2 px-4 py-4 bg-[#25D366] text-white uppercase tracking-wide leading-none transition-all duration-500 font-[Avenir] animate-wobble wobble-btn inline-block"
 >
- <Image src="/assets/images/whastapp.png" alt="hello" width={120} height={120} />
+ <Image src="/assets/images/whastapp.png" alt="hello" width={230} height={170} />
 </Link>
 
 
