@@ -4,6 +4,7 @@ import CounterUp from '../../elements/CounterUp';
 import {Swiper} from 'swiper/react';
 import { SwiperSlide } from 'swiper/react';
 import { Autoplay } from "swiper/modules";
+import Image from 'next/image';
 export default function Section1() {
   return (
     <section className="banner-section-one">
@@ -58,9 +59,22 @@ export default function Section1() {
                           <div className="count-box"><span className="count-text"><CounterUp end={100} /></span>k</div>
                           <div className="count-title">satisfied <br />customers</div>
                         </div>
+                         
                       </div>
+                       
+                       
                     </div>
+                    <div className='text-right'>
+                         <Link
+  href="https://api.whatsapp.com/send/?phone=971522367120"
+  className="flex items-center gap-2 px-4 py-4 bg-[#25D366] text-white uppercase tracking-wide leading-none transition-all duration-500 font-[Avenir] animate-wobble wobble-btn inline-block"
+>
+ <Image src="/assets/images/whastapp.png" alt="hello" width={230} height={170} />
+</Link>
+                    </div>
+                
                   </div>
+                  
                 </div>
               </div>
             </div>
