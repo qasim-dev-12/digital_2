@@ -64,14 +64,41 @@ export default function Section1() {
                        
                        
                     </div>
-                    <div className='text-right'>
+                    {/* <div className='text-right'>
                          <Link
   href="https://api.whatsapp.com/send/?phone=971522367120"
   className="flex items-center gap-2 px-4 py-4 bg-[#25D366] text-white uppercase tracking-wide leading-none transition-all duration-500 font-[Avenir] animate-wobble wobble-btn inline-block"
 >
  <Image src="/assets/images/whastapp.png" alt="hello" width={230} height={170} />
 </Link>
-                    </div>
+<Link
+  href="tel:+971522367120"
+  className="call-us-btn flex items-center gap-2 px-4 py-4 bg-[#25D366] text-white uppercase tracking-wide leading-none transition-all duration-500 font-[Avenir] animate-wobble wobble-btn inline-block"
+>
+  <img src="/assets/images/phone-call.png" alt="Call Us" className="call-icon" />
+  <span>Call Us</span>
+</Link>
+
+                    </div> */}
+
+                    <div className='text-right'>
+  <Link
+    href="https://api.whatsapp.com/send/?phone=971522367120"
+    className="custom-btn whatsapp-btn wobble-btn"
+  >
+    <img src="/assets/images/whatsapp-1.png" alt="hello" className="btn-icon " />
+    <span>Chat on WhatsApp</span>
+  </Link>
+
+  <Link
+    href="tel:+971522367120"
+    className="custom-btn call-btn wobble-btn"
+  >
+    <img src="/assets/images/phone-call.png" alt="Call Us" className="btn-icon" />
+    <span>Call Us</span>
+  </Link>
+</div>
+
                 
                   </div>
                   

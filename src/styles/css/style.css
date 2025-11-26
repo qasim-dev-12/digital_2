@@ -24069,3 +24069,86 @@ textarea:-webkit-autofill:focus {
   caret-color: #fff !important;
 }
 
+.call-us-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  /* padding: 0px 25px; */
+  background-color: #D9F45F;
+  color: #ffffff;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 16px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  border: none;
+}
+
+.call-us-btn:hover {
+  background-color: #c8e650;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.call-icon {
+  width: 22px;
+  height: 22px;
+  filter: brightness(0) invert(1); /* makes icon white */
+}
+.custom-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 25px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-left: 10px;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+}
+
+.custom-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 6px 15px rgba(0,0,0,0.25);
+}
+
+.btn-icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+ 
+}
+
+/* Different button colors */
+.whatsapp-btn {
+  background-color: #25D366;
+}
+
+.call-btn {
+  background-color: #D9F45F;
+  color: #000; /* black text looks better with yellow background */
+}
+
+.call-btn .btn-icon {
+  filter: none; /* keep original color or remove if needed */
+}
+@media (max-width: 768px) {
+  .text-right {
+    text-align: center !important;
+  }
+
+  .custom-btn {
+    margin: 8px auto !important; /* centers buttons */
+    display: inline-flex;
+  }
+}
+@media (max-width: 1024px) {
+  .custom-btn {
+    margin: 8px 6px !important; /* more breathing room */
+  }
+}
