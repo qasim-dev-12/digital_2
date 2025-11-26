@@ -133,6 +133,8 @@
   line-height: 24px;
   font-weight: 700;
   color: var(--theme-color-white);
+   height: calc(24px * 3); /* FORCE EXACT 3 LINES HEIGHT */
+  overflow: hidden; 
 }
 .project-details__social {
   position: relative;

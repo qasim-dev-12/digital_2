@@ -65,28 +65,29 @@ const ProjectDetails: React.FC<ProjectDetailsProps> = ({industry}) => {
   console.log("Industry in ProjectDetails:", industry);
   return (
   <>
-  <section className="project-details pt-120 pb-120">
+  <section className="project-details pt-80 pb-120">
     
     <div className="container">
+      <h4 className='text-center text-lg mb-4'>{industry?.title}</h4>
       <div className="project-details__top">
         <div className="project-details__img"><img src={industry?.image} alt="Image" /></div>
         <div className="project-details__details-box">
           <ul className="list-unstyled project-details__details-list">
             <li>
               <p className="project-details__client">Industry Focus</p>
-              <h6 className="project-details__name">{industry?.industryInfo?.industryFocus}</h6>
+              <h6 className="project-details__name leading-6 !w-[72px] overflow-hidden break-words w-full min-w-0">{industry?.industryInfo?.industryFocus}</h6>
             </li>
             <li>
               <p className="project-details__client">Service Category</p>
-              <h6 className="project-details__name">{industry?.industryInfo?.serviceCategory}</h6>
+              <h6 className="project-details__name leading-6 !w-[72px] overflow-hidden break-words w-full min-w-0">{industry?.industryInfo?.serviceCategory}</h6>
             </li>
             <li>
               <p className="project-details__client">Region</p>
-              <h6 className="project-details__name">{industry?.industryInfo?.region}</h6>
+              <h6 className="project-details__name leading-6 !w-[72px] overflow-hidden break-words w-full min-w-0">{industry?.industryInfo?.region}</h6>
             </li>
             <li>
               <p className="project-details__client"> Objective</p>
-              <h6 className="project-details__name">{industry?.industryInfo?.objective}</h6>
+              <h6 className="project-details__name leading-6 !w-[72px] overflow-hidden break-words w-full min-w-0">{industry?.industryInfo?.objective}</h6>
             </li>
           </ul>
         </div>
