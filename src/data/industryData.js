@@ -531,7 +531,7 @@ Our approach is designed for car care centers, detailing studios, repair garages
   slug: "logistics-transport",
 
   // Main Banner Image
-  image: "/assets/images/resource/10- Logistics-top.png",
+  image: "/assets/images/resource/10-Logistics-top.png",
 
   // Side Images (placeholders — replace when final images are ready)
   img_1: "/assets/images/resource/logistics-side1.png",
