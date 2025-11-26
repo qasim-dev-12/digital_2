@@ -22552,7 +22552,7 @@ Page Title
 .project-details__details-list li {
   position: relative;
   display: block;
-  padding: 12px 0;
+  padding: 4px 0;
   max-width: 25%;
   width: 100%;
   margin-bottom: 40px;
@@ -22571,7 +22571,7 @@ Page Title
 .project-details__details-list li:after {
   position: absolute;
   top: 0;
-  right: 2px;
+  right: 45px;
   width: 1px;
   height: 88px;
   content: "";
@@ -22611,6 +22611,15 @@ Page Title
   /* FIXED 3-line height */
   height: calc(24px * 3);             /* 3 lines */
   overflow: hidden;  
+   height: calc(24px * 1);  /* 72px */
+  line-height: 24px;
+  overflow: visible;       /* show overflowing text (not clipped) */
+
+  /* allow normal wrapping and word breaks */
+  display: block;
+  white-space: normal;
+  word-break: break-word;
+  width: 200px;
 }
 
 .project-details__social {
