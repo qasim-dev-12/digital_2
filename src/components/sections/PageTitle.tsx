@@ -7,29 +7,62 @@ interface PageTitleProps {
     img_Main?: string;
     title?: string;
   };
+   industry?: Industry;
+  
+}
+export interface IndustryInfo {
+  industryFocus?: string;
+  serviceCategory?: string;
+  region?: string;
+  objective?: string;
 }
 
-const PageTitle: React.FC<PageTitleProps> = ({ service,pageName }) => {
+export interface Industry {
+  title?: string;
+  slug?: string;
+  image?: string;
+  img_Main?: string;
+  img_1?: string;
+  img_2?: string;
+
+  industryInfo?: IndustryInfo;
+
+  aboutTitle?: string;
+  overview?: string;
+  overview1?: string;
+  overview2?: string;
+  description_below_img?: string;
+  benefitsBlock?:{ title?: string; 
+    fullText?: string;
+    points?: string[]
+  };
+  // optional gallery - URLs
+  gallery?: string[];
+
+  // optional workflow / extras
+  workflow?: Array<{ step?: number; title?: string; text?: string }>;
+}
+
+export interface ProjectDetailsProps {
+  // make industry optional to avoid TS errors before router is ready
+  industry?: Industry | null;
+}
+
+
+const PageTitle: React.FC<PageTitleProps> = ({ service,pageName,industry }) => {
   return (
-    <section
-      className="page-title"
-    style={{
+   <section
+  className="page-title page-title-with-overlay"
+  style={{
     backgroundImage: `url(${service?.img_Main ?? "/assets/images/background/about-banner.png"})`,
   }}
-      // style={{ backgroundImage: 'url(assets/images/background/about-banner.png)' }}
-    >
-      <div>
-        <div className="title-outer text-center">
-          <h1 className="title">{service?.title}</h1>
-          {/* <ul className="page-breadcrumb">
-            <li>
-              <Link href="/">Home</Link>
-            </li>
-            <li>{pageName}</li>
-          </ul> */}
-        </div>
-      </div>
-    </section>
+>
+  <div className="overlay-content">
+    <h1 className="page-heading">
+      {industry?.title ?? service?.title}
+    </h1>
+  </div>
+</section>
   );
 };
 

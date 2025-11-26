@@ -49,7 +49,7 @@ function ProjectDetailsPage() {
     return (
         <>
             <Layout>
-                <PageTitle pageName="Portfolio Details" />
+                <PageTitle pageName="Portfolio Details" industry={industry}/>
                 <ProjectDetails industry={industry} />
             </Layout>
         </>
