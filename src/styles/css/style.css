@@ -24137,18 +24137,79 @@ textarea:-webkit-autofill:focus {
 .call-btn .btn-icon {
   filter: none; /* keep original color or remove if needed */
 }
-@media (max-width: 768px) {
-  .text-right {
-    text-align: center !important;
+
+
+.icon-circle {
+  width: 34px;             /* badge size */
+  height: 34px;
+  min-width: 34px;         /* keep circle from shrinking */
+  border-radius: 50%;
+  background: #25D366;     /* whatsapp green */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+/* Keep buttons in the same line even on small screens */
+@media (max-width: 480px) {
+  .button-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 10px !important;
+    flex-wrap: nowrap !important; /* prevents stacking */
   }
 
   .custom-btn {
-    margin: 8px auto !important; /* centers buttons */
-    display: inline-flex;
+    width: auto !important;       /* do not stretch full width */
+    min-width: 130px;             /* keep readable size */
+    padding: 10px 16px;
+    flex-shrink: 1;               /* allow shrinking to fit */
+  }
+
+  .icon-circle,
+  .btn-icon {
+    width: 20px;
+    height: 20px;
   }
 }
-@media (max-width: 1024px) {
-  .custom-btn {
-    margin: 8px 6px !important; /* more breathing room */
+/* Force side-by-side on very small screens (down to 320px) */
+@media (max-width: 351px) {
+  .button-wrapper {
+    display: flex !important;
+    justify-content: center !important;
+    gap: 8px !important;
+    flex-wrap: nowrap !important;    /* prevent stacking */
+    align-items: center !important;
+    padding: 6px 10px;
   }
+
+  .custom-btn {
+    flex: 0 1 auto !important;       /* allow shrinking but prefer content width */
+    min-width: 110px !important;     /* smallest readable min width */
+    max-width: calc(50% - 10px) !important; /* take up to half the row */
+    padding: 8px 10px !important;    /* reduce internal padding */
+    font-size: 13px !important;      /* reduce text size slightly */
+    border-radius: 10px !important;  /* keep pill shape but smaller */
+    white-space: nowrap !important;  /* prevent text wrap */
+  }
+
+  .btn-icon, .icon-circle {
+    width: 18px !important;
+    height: 18px !important;
+  }
+
+  /* If you used images that were forced to be white by filter earlier, keep them consistent */
+  .whatsapp-btn .btn-icon { filter: none !important; }
+  .call-btn .btn-icon { filter: brightness(0) invert(1) !important; }
+}
+
+/* Final fallback for extremely tiny screens (<= 300px) — still try to keep side-by-side */
+@media (max-width: 300px) {
+  .custom-btn {
+    min-width: 90px !important;
+    font-size: 12px !important;
+    padding: 7px 8px !important;
+  }
+
+  .button-wrapper { gap: 6px !important; }
 }

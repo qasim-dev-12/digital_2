@@ -214,12 +214,7 @@ function Service() {
               <span className='border bg-red-400 border-green ml-10 p-20  '>Whatsapp Now</span>
              </Link>  */}
              
-        <Link
-  href="https://api.whatsapp.com/send/?phone=971522367120"
-  className="flex items-center gap-2 px-4 py-4 bg-[#25D366] text-white uppercase tracking-wide leading-none transition-all duration-500 font-[Avenir] animate-wobble wobble-btn inline-block"
->
- <Image src="/assets/images/whastapp.png" alt="hello" width={230} height={170} />
-</Link>
+           
 
 
 
@@ -227,6 +222,23 @@ function Service() {
            
               
             </div>
+             <div className='text-center mt-20'>
+  <Link
+    href="https://api.whatsapp.com/send/?phone=971522367120"
+    className="custom-btn whatsapp-btn wobble-btn"
+  >
+    <img src="/assets/images/new-50.png" alt="hello" className="btn-icon " />
+    <span>WhatsApp Us</span>
+  </Link>
+
+  <Link
+    href="tel:+971522367120"
+    className="custom-btn call-btn wobble-btn"
+  >
+    <img src="/assets/images/phone-call.png" alt="Call Us" className="btn-icon" />
+    <span>Call Us</span>
+  </Link>
+</div>
            
 
           </div>

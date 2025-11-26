@@ -81,13 +81,13 @@ export default function Section1() {
 
                     </div> */}
 
-                    <div className='text-right'>
+                    <div className='text-center mt-20'>
   <Link
     href="https://api.whatsapp.com/send/?phone=971522367120"
     className="custom-btn whatsapp-btn wobble-btn"
   >
-    <img src="/assets/images/whatsapp-1.png" alt="hello" className="btn-icon " />
-    <span>Chat on WhatsApp</span>
+    <img src="/assets/images/new-50.png" alt="hello" className="btn-icon " />
+    <span>WhatsApp Us</span>
   </Link>
 
   <Link

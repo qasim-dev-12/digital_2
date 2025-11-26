@@ -335,7 +335,8 @@ const Pricing = () => {
                   <h4 className="title">{item.title}</h4>
                   <div className="price-box">
                     <h4 className="price">
-                      <sup>د.إ</sup>
+                      <sup>AED</sup>
+                      
                       {item.price}
                     </h4>
                     <span className="validaty">/month</span>
@@ -375,7 +376,7 @@ const Pricing = () => {
                   <h4 className="title mx-auto">{item.title}</h4>
                   <div className="price-box">
                     <h4 className="price">
-                      <sup>د.إ</sup>
+                     <sup>AED</sup>
                       {item.price}
                     </h4>
                     <span className="validaty">/month</span>
@@ -415,7 +416,7 @@ const Pricing = () => {
                   <h4 className="title">{item.title}</h4>
                   <div className="price-box">
                     <h4 className="price">
-                      <sup>د.إ</sup>
+                     <sup>AED</sup>
                       {item.price}
                     </h4>
                     <span className="validaty">/month</span>
@@ -455,7 +456,7 @@ const Pricing = () => {
                   <h4 className="title">{item.title}</h4>
                   <div className="price-box">
                     <h4 className="price">
-                      <sup>د.إ</sup>
+                      <sup>AED</sup>
                       {item.price}
                     </h4>
                     <span className="validaty">/month</span>
@@ -495,11 +496,7 @@ const Pricing = () => {
                   <h4 className="title">{item.title}</h4>
                   <div className="price-box">
                     <h4 className="price">
-                      <sup
->د.إ
-
-
-                      </sup>
+                     <sup>AED</sup>
                       {item.price}
                     </h4>
                     <span className="validaty">/month</span>
