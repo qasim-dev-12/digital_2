@@ -24213,3 +24213,122 @@ textarea:-webkit-autofill:focus {
 
   .button-wrapper { gap: 6px !important; }
 }
+/* Make the row behave as a flex grid so columns in the same row match height */
+.pricing-section-three .row {
+  display: flex;
+  flex-wrap: wrap;         /* allow wrapping to next line */
+  margin-left: -15px;      /* optional spacing fixes if using bootstrap gutters */
+  margin-right: -15px;
+}
+
+/* Ensure each column participates in the flex layout and preserves responsive breakpoints */
+.pricing-section-three .col-lg-4,
+.pricing-section-three .col-md-6,
+.pricing-section-three .col-sm-12 {
+  display: flex;           /* <-- important: so the column can stretch its child */
+  padding-left: 15px;      /* match gutters */
+  padding-right: 15px;
+  margin-bottom: 30px;     /* vertical spacing between rows */
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* keep previous responsive widths (if you rely on Bootstrap, remove width overrides).
+   If using Bootstrap, you can remove the width:100% and rely on its grid classes. */
+
+/* Make the card stretch to fill the column height */
+.pricing-block-three {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;            /* fill the column container (so siblings align) */
+  box-sizing: border-box;
+}
+
+/* Inner area should also be column flex so we can push the button to the bottom */
+.pricing-block-three .inner-box {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;          /* allow inner box to grow and fill the card */
+  padding: 24px;           /* adjust spacing as needed */
+}
+
+/* Make the features area scroll if it gets very long (optional)
+   and ensure the CTA is anchored to the bottom */
+.pricing-block-three .features {
+  margin-top: 12px;
+  padding-left: 18px;
+  padding-right: 6px;
+  flex: 1 1 auto;          /* allow features to grow and push button down */
+  overflow: auto;          /* keeps very long lists from breaking layout */
+}
+
+/* Anchor button area to the bottom so all buttons line up */
+.pricing-block-three .btn-box {
+  margin-top: 16px;        /* spacing from features */
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center; /* or flex-start depending on layout */
+}
+
+/* If you want equal height cards but let content naturally determine row height,
+   ensure child images don't force extra height */
+.pricing-block-three img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Small responsive tweak: preserve bootstrap layout behavior */
+@media (min-width: 992px) {
+  .pricing-section-three .col-lg-4 { width: 33.3333%; }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .pricing-section-three .col-md-6 { width: 50%; }
+}
+@media (max-width: 767.98px) {
+  .pricing-section-three .col-sm-12 { width: 100%; }
+}
+/* Wrapper that holds image + overlay title */
+.image-with-title {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+
+/* Image styling */
+.image-with-title img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+/* Centered overlay title */
+.project-image-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%;                       /* fits nicely on mobile */
+  text-align: center;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding: 10px 14px;
+  line-height: 1.3;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(4px);
+}
+/* Mobile adjustments */
+@media (max-width: 576px) {
+  .project-image-title {
+    font-size: 0.65rem !important;     /* smaller text */
+    padding: 6px 10px !important;      /* smaller background box */
+    width: 70% !important;             /* better fit */
+    border-radius: 6px !important;     /* smaller rounded corners */
+    line-height: 1.2 !important;
+  }
+}

@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import NavLinks from '../navigation/NavLinks';
 import MobileMenu from '../navigation/MobileMenu';
+import { useState } from 'react';
 
 interface HeaderProps {
   handleOpen: () => void;
@@ -11,6 +12,7 @@ interface HeaderProps {
 }
 
 const Header: React.FC<HeaderProps> = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll }) => {
+    const [sidebarOpen, setSidebarOpen] = useState(true);
   return (
     <header className={`main-header header-style-one ${scroll ? "fixed-header" : ""} ${searchToggle ? "moblie-search-active" : ""}`}>
         <div className="outer-box">
@@ -63,7 +65,7 @@ const Header: React.FC<HeaderProps> = ({ handleOpen, handleRemove, searchToggle,
                     </div>
                 </div>
                 <ul className="navigation clearfix">
-                    <MobileMenu />
+                    <MobileMenu onClose={handleRemove} />
                 </ul>
                 <ul className="contact-list-one">
                     <li>
@@ -73,7 +75,30 @@ const Header: React.FC<HeaderProps> = ({ handleOpen, handleRemove, searchToggle,
                             <Link href="mailto:info@staytop.ae">info@staytop.ae</Link>
                         </div>
                     </li>
+                    
                 </ul>
+                <ul>
+                    <li>
+                         <div className='text-center mb-10'>
+  <Link
+    href="https://api.whatsapp.com/send/?phone=971522367120"
+    className="custom-btn whatsapp-btn wobble-btn"
+  >
+    <img src="/assets/images/new-50.png" alt="hello" className="btn-icon " />
+    <span>WhatsApp Us</span>
+  </Link>
+
+  <Link
+    href="tel:+971522367120"
+    className="custom-btn call-btn wobble-btn"
+  >
+    <img src="/assets/images/phone-call.png" alt="Call Us" className="btn-icon" />
+    <span>Call Us</span>
+  </Link>
+</div>
+                    </li>
+                </ul>
+                
                 <ul className="social-links flex items-center gap-4">
   <li>
     <Link href="https://www.facebook.com/staytopmedia" aria-label="Facebook">

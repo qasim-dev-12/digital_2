@@ -68,9 +68,17 @@ const ProjectDetails: React.FC<ProjectDetailsProps> = ({industry}) => {
   <section className="project-details pt-80 pb-120">
     
     <div className="container">
-      <h4 className='text-center text-lg mb-4'>{industry?.title}</h4>
+      {/* <h4 className='text-center text-lg mb-4'>{industry?.title}</h4> */}
       <div className="project-details__top">
-        <div className="project-details__img"><img src={industry?.image} alt="Image" /></div>
+         <div className="project-details__img image-with-title">
+          <img src={industry?.image} alt={industry?.title || "Image"} />
+
+          {/* overlay title centered on image */}
+          {industry?.title && (
+            <h4 className="project-image-title">{industry.title}</h4>
+          )}
+        </div>
+        {/* <div className="project-details__img"><img src={industry?.image} alt="Image" /></div> */}
         <div className="project-details__details-box">
           <ul className="list-unstyled project-details__details-list">
             <li>
