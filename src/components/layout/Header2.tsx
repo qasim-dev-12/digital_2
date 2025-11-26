@@ -15,7 +15,7 @@ const Header2: React.FC<HeaderProps> = ({ handleOpen, handleRemove, searchToggle
 
     return (
         <>
-        <header className={`main-header header-style-one header-transparent ${scroll ? "fixed-header" : ""} ${searchToggle ? "moblie-search-active" : ""}`}>
+        <header className={`main-header header-style-one header-transparent fixed-header  ${scroll ? "fixed-header" : ""} ${searchToggle ? "moblie-search-active" : ""}`}>
             <div className="outer-box">
                 <div className="header-lower">
                     <div className="inner-container">

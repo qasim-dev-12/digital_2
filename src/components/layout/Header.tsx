@@ -116,7 +116,7 @@ const Header: React.FC<HeaderProps> = ({ handleOpen, handleRemove, searchToggle,
                 </form>
             </div>
         </div>
-        <div className={`sticky-header ${scroll ? "fixed-header animated slideInDown" : ""}`}>
+        <div className={`sticky-header fixed-header animated slideInDown`}>
             <div className="auto-container">
                 <div className="inner-container">
                     <div className="logo">
