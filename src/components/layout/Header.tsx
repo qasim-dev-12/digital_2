@@ -77,9 +77,9 @@ const Header: React.FC<HeaderProps> = ({ handleOpen, handleRemove, searchToggle,
                     </li>
                     
                 </ul>
-                <ul>
-                    <li>
-                         <div className='text-center mb-10'>
+                
+                    
+                         <div className='text-center mb-10 d-flex'>
   <Link
     href="https://api.whatsapp.com/send/?phone=971522367120"
     className="custom-btn whatsapp-btn wobble-btn"
@@ -96,8 +96,8 @@ const Header: React.FC<HeaderProps> = ({ handleOpen, handleRemove, searchToggle,
     <span>Call Us</span>
   </Link>
 </div>
-                    </li>
-                </ul>
+                    
+                
                 
                 <ul className="social-links flex items-center gap-4">
   <li>

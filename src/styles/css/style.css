@@ -24173,7 +24173,7 @@ textarea:-webkit-autofill:focus {
   }
 }
 /* Force side-by-side on very small screens (down to 320px) */
-@media (max-width: 351px) {
+@media (max-width: 1024px) {
   .button-wrapper {
     display: flex !important;
     justify-content: center !important;
