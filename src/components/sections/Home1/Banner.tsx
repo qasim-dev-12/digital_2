@@ -35,8 +35,17 @@ export default function Section1() {
         loop={true}
   >
     <SwiperSlide>
-       <figure className="image-1 anim-fade-move" data-fade-from="right"><img src="assets/images/banner/digi-banner.png" alt="Image" /></figure>
-    </SwiperSlide>
+        <figure className="image-1 anim-fade-move" data-fade-from="right">
+          <Image
+            src="/assets/images/banner/digi-banner.png"
+            alt="Digital Banner"
+            width={1920}
+            height={800}
+            priority     // <— THIS PRELOADS THE HERO IMAGE
+            className="w-full h-auto object-cover"
+          />
+        </figure>
+      </SwiperSlide>
 
     <SwiperSlide>
         <figure className="image-1 anim-fade-move" data-fade-from="right"><img src="assets/images/banner/google-banner.png" alt="Image" /></figure>
