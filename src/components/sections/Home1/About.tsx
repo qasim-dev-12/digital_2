@@ -8,7 +8,7 @@ export default function Section2() {
     <section className="about-section-six">
       <div className="anim-icons">
         <div className="image-1 anim-fade-move" data-fade-from="right">
-          <img src="assets/images/icons/theme-icon29.png" alt="" />
+          <img src="assets/images/icons/ST Logo watermark (3).png" alt="" />
         </div>
         <div className="image-2 tm-gsap-img-parallax" data-fade-from="right">
           <img src="assets/images/icons/theme-icon30.png" alt="" />
