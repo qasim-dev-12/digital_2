@@ -141,6 +141,8 @@ const Footer: React.FC = ()=> {
                       <li><Link href="/industries">Industries</Link></li>
                       <li><Link href="/pricing">Pricing</Link></li>
                       <li><Link href="/contact">Contact Us</Link></li>
+                      <li><Link href="/privacy-policy">Privacy Policy</Link></li>
+                      <li><Link href="/terms-of-service">Terms of Service</Link></li>
                     </ul>
                   </div>
                 </div>
