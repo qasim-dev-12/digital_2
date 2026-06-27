@@ -129,7 +129,7 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
                     <div className="icon"><span className="fal fa-phone-plus"></span></div>
                     <div className="text ms-3">
                       <h4>Have any questions?</h4>
-                      <a href="tel:+971522367120"> +971 56 744 2268</a>
+                      <a href="tel:+971567442268"> +971 56 744 2268</a>
                     </div>
                   </li>
                   <li className="d-flex align-items-center mb-4">

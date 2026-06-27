@@ -209,7 +209,7 @@ function Service() {
               <h4 className='text-center'>Unlock more traffic & sales — get started today.</h4>
             
                 
-             {/* <Link href="https://api.whatsapp.com/send/?phone=971522367120" className='text-center' target="_blank" rel="noopener noreferrer">
+             {/* <Link href="https://api.whatsapp.com/send/?phone=971567442268" className='text-center' target="_blank" rel="noopener noreferrer">
              
               <span className='border bg-red-400 border-green ml-10 p-20  '>Whatsapp Now</span>
              </Link>  */}
@@ -224,7 +224,7 @@ function Service() {
             </div>
              <div className='text-center mt-20'>
   <Link
-    href="https://api.whatsapp.com/send/?phone=971522367120"
+    href="https://api.whatsapp.com/send/?phone=971567442268"
     className="custom-btn whatsapp-btn wobble-btn"
   >
     <img src="/assets/images/new-50.png" alt="hello" className="btn-icon " />
@@ -232,7 +232,7 @@ function Service() {
   </Link>
 
   <Link
-    href="tel:+971522367120"
+    href="tel:+971567442268"
     className="custom-btn call-btn wobble-btn"
   >
     <img src="/assets/images/phone-call.png" alt="Call Us" className="btn-icon" />

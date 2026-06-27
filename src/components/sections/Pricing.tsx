@@ -351,7 +351,7 @@ const Pricing = () => {
                   <div className="btn-box">
                 <Link
   className="theme-btn btn-style-one dark-bg hover-dark"
-  href="https://api.whatsapp.com/send/?phone=971522367120"
+  href="https://api.whatsapp.com/send/?phone=971567442268"
   aria-label="WhatsApp"
 >
   <span className="btn-title">Choose Plan</span>
@@ -391,7 +391,7 @@ const Pricing = () => {
                   <div className="btn-box">
                    <Link
   className="theme-btn btn-style-one dark-bg hover-dark"
-  href="https://api.whatsapp.com/send/?phone=971522367120"
+  href="https://api.whatsapp.com/send/?phone=971567442268"
   aria-label="WhatsApp"
 >
   <span className="btn-title">Choose Plan</span>
@@ -431,7 +431,7 @@ const Pricing = () => {
                   <div className="btn-box">
                   <Link
   className="theme-btn btn-style-one dark-bg hover-dark"
-  href="https://api.whatsapp.com/send/?phone=971522367120"
+  href="https://api.whatsapp.com/send/?phone=971567442268"
   aria-label="WhatsApp"
 >
   <span className="btn-title">Choose Plan</span>
@@ -471,7 +471,7 @@ const Pricing = () => {
                   <div className="btn-box">
                    <Link
   className="theme-btn btn-style-one dark-bg hover-dark"
-  href="https://api.whatsapp.com/send/?phone=971522367120"
+  href="https://api.whatsapp.com/send/?phone=971567442268"
   aria-label="WhatsApp"
 >
   <span className="btn-title">Choose Plan</span>
@@ -511,7 +511,7 @@ const Pricing = () => {
                   <div className="btn-box">
                   <Link
   className="theme-btn btn-style-one dark-bg hover-dark"
-  href="https://api.whatsapp.com/send/?phone=971522367120"
+  href="https://api.whatsapp.com/send/?phone=971567442268"
   aria-label="WhatsApp"
 >
   <span className="btn-title">Choose Plan</span>

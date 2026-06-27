@@ -75,13 +75,13 @@ export default function Section1() {
                     </div>
                     {/* <div className='text-right'>
                          <Link
-  href="https://api.whatsapp.com/send/?phone=971522367120"
+  href="https://api.whatsapp.com/send/?phone=971567442268"
   className="flex items-center gap-2 px-4 py-4 bg-[#25D366] text-white uppercase tracking-wide leading-none transition-all duration-500 font-[Avenir] animate-wobble wobble-btn inline-block"
 >
  <Image src="/assets/images/whastapp.png" alt="hello" width={230} height={170} />
 </Link>
 <Link
-  href="tel:+971522367120"
+  href="tel:+971567442268"
   className="call-us-btn flex items-center gap-2 px-4 py-4 bg-[#25D366] text-white uppercase tracking-wide leading-none transition-all duration-500 font-[Avenir] animate-wobble wobble-btn inline-block"
 >
   <img src="/assets/images/phone-call.png" alt="Call Us" className="call-icon" />
@@ -92,7 +92,7 @@ export default function Section1() {
 
                     <div className='text-center mt-20'>
   <Link
-    href="https://api.whatsapp.com/send/?phone=971522367120"
+    href="https://api.whatsapp.com/send/?phone=971567442268"
     className="custom-btn whatsapp-btn wobble-btn"
   >
     <img src="/assets/images/new-50.png" alt="hello" className="btn-icon " />
@@ -100,7 +100,7 @@ export default function Section1() {
   </Link>
 
   <Link
-    href="tel:+971522367120"
+    href="tel:+971567442268"
     className="custom-btn call-btn wobble-btn"
   >
     <img src="/assets/images/phone-call.png" alt="Call Us" className="btn-icon" />

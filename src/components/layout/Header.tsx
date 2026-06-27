@@ -81,7 +81,7 @@ const Header: React.FC<HeaderProps> = ({ handleOpen, handleRemove, searchToggle,
                     
                          <div className='text-center mb-10 d-flex'>
   <Link
-    href="https://api.whatsapp.com/send/?phone=971522367120"
+    href="https://api.whatsapp.com/send/?phone=971567442268"
     className="custom-btn whatsapp-btn wobble-btn"
   >
     <img src="/assets/images/new-50.png" alt="hello" className="btn-icon " />
@@ -89,7 +89,7 @@ const Header: React.FC<HeaderProps> = ({ handleOpen, handleRemove, searchToggle,
   </Link>
 
   <Link
-    href="tel:+971522367120"
+    href="tel:+971567442268"
     className="custom-btn call-btn wobble-btn"
   >
     <img src="/assets/images/phone-call.png" alt="Call Us" className="btn-icon" />
