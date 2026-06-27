@@ -91,7 +91,7 @@ const ServiceDetails: React.FC<ServiceDetailsProps>  = ({service}) => {
 									</div>
 									<div className="help-contact">
 										<p>Need help? Talk to an expert</p>
-										<a href="tel:+971 52 236 7120">+971 52 236 7120</a>
+										<a href="tel:+971567442268">+971 56 744 2268</a>
 									</div>
 								</div>
 								<div className="sidebar-widget service-sidebar-single mt-4">

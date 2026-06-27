@@ -129,7 +129,7 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
                     <div className="icon"><span className="fal fa-phone-plus"></span></div>
                     <div className="text ms-3">
                       <h4>Have any questions?</h4>
-                      <a href="tel:+971522367120"> +971 52 236 7120</a>
+                      <a href="tel:+971522367120"> +971 56 744 2268</a>
                     </div>
                   </li>
                   <li className="d-flex align-items-center mb-4">
@@ -143,7 +143,7 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
                     <div className="icon"><span className="fal fa-location-arrow"></span></div>
                     <div className="text ms-3">
                       <h4>Visit anytime</h4>
-                      <span>Dubai, United Arab Emirates </span>
+                      <span>ACCICO Business Park, Office 503, Deira, Dubai, U.A.E</span>
                     </div>
                   </li>
                 </ul>

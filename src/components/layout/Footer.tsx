@@ -239,7 +239,7 @@ const Footer: React.FC = ()=> {
                       <h5 className="widget-title">Address</h5>
                       <div className="widget-content">
                         <div className="text">
-                          Dubai , United Arab Emirates <br className="d-none d-lg-block" />
+                          ACCICO Business Park, Office 503, Deira, Dubai, U.A.E <br className="d-none d-lg-block" />
                         </div>
                       </div>
                     </div>
@@ -248,7 +248,7 @@ const Footer: React.FC = ()=> {
                       <div className="widget-content">
                         <div className="text">
                           info@staytop.ae<br className="d-none d-lg-block" />
-                          +971 52 236 7120
+                          +971 56 744 2268
                         </div>
                       </div>
                     </div>

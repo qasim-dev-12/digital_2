@@ -84,9 +84,9 @@ export default function TermsOfService() {
                                 <h4 className="sub-title" style={{ marginTop: 30, marginBottom: 10 }}>13. Contact Us</h4>
                                 <div className="text mb-20">
                                     Staytop Media<br />
-                                    Dubai, United Arab Emirates<br />
+                                    ACCICO Business Park, Office 503, Deira, Dubai, U.A.E<br />
                                     Email: <a href="mailto:info@staytop.ae">info@staytop.ae</a><br />
-                                    Phone: +971 52 236 7120
+                                    Phone: +971 56 744 2268
                                 </div>
 
                             </div>
